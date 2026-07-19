@@ -1,0 +1,1037 @@
+[
+  {
+    "page_no": 71,
+    "words": [
+      {
+        "id": "c06_p71_w001",
+        "word": "pressure",
+        "difficulty": "Medium",
+        "meaning": "Force used to influence others' decisions.",
+        "medium": {
+          "pronunciation": "PRESH-er",
+          "simple_explanation": "Using persuasion or force to influence someone's decisions.",
+          "funny_explanation": "It's like when your mom gives you 'The Look' until you finally agree to clean your room.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Pressure groups try to convince the government to change certain laws."
+            },
+            {
+              "type": "funny",
+              "text": "My cat puts extreme pressure on me to share my tuna sandwich by staring into my soul."
+            }
+          ],
+          "synonyms": [
+            "persuasion"
+          ],
+          "antonyms": [
+            "peace"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w002",
+        "word": "movements",
+        "difficulty": "Medium",
+        "meaning": "Groups working for a shared social goal.",
+        "medium": {
+          "pronunciation": "MOOV-muhnts",
+          "simple_explanation": "Groups of people working together over time to achieve a specific social or political goal.",
+          "funny_explanation": "Like a massive, real-life group chat where everyone actually agrees to get off the couch and change the world.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Environmental movements work hard to protect our oceans from pollution."
+            },
+            {
+              "type": "funny",
+              "text": "The 'No Homework on Fridays' movement was sadly shut down by the principal."
+            }
+          ],
+          "synonyms": [
+            "campaigns"
+          ],
+          "antonyms": [
+            "stagnation"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w003",
+        "word": "exert",
+        "difficulty": "Hard",
+        "meaning": "To put forth effort or use power.",
+        "hard": {
+          "why_it_is_given_in_book": "The author uses this to describe how pressure groups put effort and power into the political system to get results.",
+          "pronunciation": "Ex-urt",
+          "simple_explanation": "To use power, influence, or effort to make something happen.",
+          "funny_explanation": "It's like when you use all your might to 'exert' pressure on the last bit of toothpaste in the tube to make it come out.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Pressure groups exert influence on the government to change laws."
+            },
+            {
+              "type": "funny",
+              "text": "I had to exert all my brainpower just to remember where I hid my secret stash of cookies."
+            }
+          ],
+          "synonyms": [
+            "Apply"
+          ],
+          "antonyms": [
+            "Idle"
+          ],
+          "real_world_analogy": "A weightlifter using all their strength to lift a heavy barbell."
+        }
+      },
+      {
+        "id": "c06_p71_w004",
+        "word": "influence",
+        "difficulty": "Medium",
+        "meaning": "Power to affect how others act.",
+        "medium": {
+          "pronunciation": "IN-floo-ens",
+          "simple_explanation": "The power to change how someone thinks, acts, or makes decisions.",
+          "funny_explanation": "It's that magical power your best friend has to convince you that neon orange pants are actually a good idea.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Social media can have a huge influence on what people choose to buy."
+            },
+            {
+              "type": "funny",
+              "text": "The smell of fresh pizza has a strange influence over my ability to focus on math."
+            }
+          ],
+          "synonyms": [
+            "impact"
+          ],
+          "antonyms": [
+            "weakness"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w005",
+        "word": "politics",
+        "difficulty": "Medium",
+        "meaning": "Activities related to governing a country.",
+        "medium": {
+          "pronunciation": "POL-uh-tiks",
+          "simple_explanation": "The activities and debates involved in running a country or a local government.",
+          "funny_explanation": "Basically a giant game of 'Who Gets to Hold the TV Remote,' but for the entire country.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Many people join groups to get involved in local politics and help their town."
+            },
+            {
+              "type": "funny",
+              "text": "Deciding who gets the last slice of cake involves some very serious family politics."
+            }
+          ],
+          "synonyms": [
+            "government"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p71_w006",
+        "word": "describe",
+        "difficulty": "Medium",
+        "meaning": "To give details about something in words.",
+        "medium": {
+          "pronunciation": "dih-SKRYB",
+          "simple_explanation": "To give a detailed account or picture of something using words.",
+          "funny_explanation": "What you have to do when you try to tell your friends about the 'massive' spider in your room that was actually the size of a grain of rice.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The textbook asks us to describe how a pressure group works."
+            },
+            {
+              "type": "funny",
+              "text": "It is hard to describe the taste of water, but we all know when it tastes 'crispy' at 3 AM."
+            }
+          ],
+          "synonyms": [
+            "explain"
+          ],
+          "antonyms": [
+            "hide"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w007",
+        "word": "forms",
+        "difficulty": "Easy",
+        "meaning": "Different types or kinds of something."
+      },
+      {
+        "id": "c06_p71_w008",
+        "word": "relationship",
+        "difficulty": "Medium",
+        "meaning": "Way in which two things are connected.",
+        "medium": {
+          "pronunciation": "re-LAY-shun-ship",
+          "simple_explanation": "The way in which two or more people, groups, or things are connected.",
+          "funny_explanation": "Like the complicated bond between a student and their alarm clock—it's mostly just loud noises and resentment.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The relationship between voters and leaders is very important in a democracy."
+            },
+            {
+              "type": "funny",
+              "text": "My relationship with my bed is very serious; we spend at least eight hours together every night."
+            }
+          ],
+          "synonyms": [
+            "connection"
+          ],
+          "antonyms": [
+            "separation"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w009",
+        "word": "explain",
+        "difficulty": "Medium",
+        "meaning": "To make something clear with details.",
+        "medium": {
+          "pronunciation": "ek-SPLAYN",
+          "simple_explanation": "To make something clear or easy to understand by providing more details.",
+          "funny_explanation": "What you have to do when you're caught with cookie crumbs on your face and your mom asks where the cookies went.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Can you explain the main goal of this political party?"
+            },
+            {
+              "type": "funny",
+              "text": "Try to explain to a cat why it can't sit on your laptop while you're working."
+            }
+          ],
+          "synonyms": [
+            "clarify"
+          ],
+          "antonyms": [
+            "confuse"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w010",
+        "word": "activities",
+        "difficulty": "Medium",
+        "meaning": "Things people do to achieve a goal.",
+        "medium": {
+          "pronunciation": "ak-TIV-uh-teez",
+          "simple_explanation": "Things that people do, especially for a particular purpose or for fun.",
+          "funny_explanation": "For some people, this means sports; for me, it usually means professional-level snacking.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The group's activities included holding rallies and writing letters to the mayor."
+            },
+            {
+              "type": "funny",
+              "text": "My weekend activities mostly involve looking for my phone while I'm holding it."
+            }
+          ],
+          "synonyms": [
+            "actions"
+          ],
+          "antonyms": [
+            "idleness"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w011",
+        "word": "functioning",
+        "difficulty": "Medium",
+        "meaning": "Working or operating in a certain way.",
+        "medium": {
+          "pronunciation": "FUNK-shun-ing",
+          "simple_explanation": "Working or operating in the correct or proper way.",
+          "funny_explanation": "How your brain is supposed to work during a test, but usually, it just plays the 'Baby Shark' song on repeat.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "A fair election is necessary for the proper functioning of a democracy."
+            },
+            {
+              "type": "funny",
+              "text": "My brain stops functioning the moment I see a 'Pull' sign on a 'Push' door."
+            }
+          ],
+          "synonyms": [
+            "operating"
+          ],
+          "antonyms": [
+            "failing"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w012",
+        "word": "democratic",
+        "difficulty": "Hard",
+        "meaning": "System where people vote for their leaders.",
+        "hard": {
+          "why_it_is_given_in_book": "This word is used to describe a government system where power is shared and people have a say.",
+          "pronunciation": "Dem-o-krat-ik",
+          "simple_explanation": "A system where everyone has a right to vote or share their opinion in decision-making.",
+          "funny_explanation": "Imagine a household where the kids get to vote on whether dinner is broccoli or pizza—that's a democratic kitchen!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "In a democratic government, people have the right to express their views."
+            },
+            {
+              "type": "funny",
+              "text": "Our club is democratic; we even voted on whether the mascot should be a dragon or a taco."
+            }
+          ],
+          "synonyms": [
+            "Representative"
+          ],
+          "antonyms": [
+            "Dictatorial"
+          ],
+          "real_world_analogy": "A classroom where students vote on which game to play during recess."
+        }
+      },
+      {
+        "id": "c06_p71_w013",
+        "word": "examples",
+        "difficulty": "Easy",
+        "meaning": "Things that show what others are like."
+      },
+      {
+        "id": "c06_p71_w014",
+        "word": "difference",
+        "difficulty": "Easy",
+        "meaning": "Way in which things are not alike."
+      },
+      {
+        "id": "c06_p71_w015",
+        "word": "organisations",
+        "difficulty": "Medium",
+        "meaning": "Groups formed for a specific purpose.",
+        "medium": {
+          "pronunciation": "or-gan-eye-ZAY-shuns",
+          "simple_explanation": "Groups of people who join together to achieve a shared goal.",
+          "funny_explanation": "Like a school club, but with more serious meetings and slightly fewer juice boxes.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Many international organisations work to provide clean water to villages."
+            },
+            {
+              "type": "funny",
+              "text": "I’m starting an organisation for people who walk into a room and immediately forget why."
+            }
+          ],
+          "synonyms": [
+            "associations"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p71_w016",
+        "word": "undertake",
+        "difficulty": "Hard",
+        "meaning": "To start a task or take responsibility.",
+        "hard": {
+          "why_it_is_given_in_book": "It describes the act of organizations starting or taking responsibility for specific tasks or projects.",
+          "pronunciation": "Un-der-take",
+          "simple_explanation": "To commit yourself to a task or begin a project.",
+          "funny_explanation": "It's like when you 'undertake' the mission of cleaning your room, even though you know it's going to be a long journey.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The group decided to undertake a protest to protect the park."
+            },
+            {
+              "type": "funny",
+              "text": "I shall undertake the dangerous task of asking my brother to share his chocolate."
+            }
+          ],
+          "synonyms": [
+            "Attempt"
+          ],
+          "antonyms": [
+            "Avoid"
+          ],
+          "real_world_analogy": "A knight accepting a quest from a king."
+        }
+      },
+      {
+        "id": "c06_p71_w017",
+        "word": "promote",
+        "difficulty": "Medium",
+        "meaning": "To help something grow or succeed.",
+        "medium": {
+          "pronunciation": "pruh-MOHT",
+          "simple_explanation": "To support or encourage something so that it becomes more popular or successful.",
+          "funny_explanation": "Like when you tell everyone your dog is a 'genius' just because he finally stopped chasing his own tail.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The posters were put up to promote the school's recycling program."
+            },
+            {
+              "type": "funny",
+              "text": "I am here to promote the idea that naps should be a mandatory school subject."
+            }
+          ],
+          "synonyms": [
+            "support"
+          ],
+          "antonyms": [
+            "discourage"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w018",
+        "word": "interests",
+        "difficulty": "Medium",
+        "meaning": "Things that provide advantage to a group.",
+        "medium": {
+          "pronunciation": "IN-truh-stS",
+          "simple_explanation": "The things that a person or group cares about or wants to protect.",
+          "funny_explanation": "Usually, my primary interests involve chocolate and avoiding any form of cardio.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Sectional groups focus on the interests of a specific group of workers."
+            },
+            {
+              "type": "funny",
+              "text": "It is in my best interests not to tell my sister I accidentally broke her headphones."
+            }
+          ],
+          "synonyms": [
+            "concerns"
+          ],
+          "antonyms": [
+            "indifference"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w019",
+        "word": "specific",
+        "difficulty": "Medium",
+        "meaning": "Relating clearly to one thing only.",
+        "medium": {
+          "pronunciation": "spuh-SIF-ik",
+          "simple_explanation": "Relating to one particular thing rather than being general.",
+          "funny_explanation": "When your mom says 'Clean your room,' she means specific things, like the laundry mountain under your bed.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The lawyer asked the witness a very specific question about the time of the event."
+            },
+            {
+              "type": "funny",
+              "text": "I have a specific talent for always finding the one shopping cart with a squeaky wheel."
+            }
+          ],
+          "synonyms": [
+            "precise"
+          ],
+          "antonyms": [
+            "vague"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w020",
+        "word": "social",
+        "difficulty": "Easy",
+        "meaning": "Relating to people living in communities."
+      },
+      {
+        "id": "c06_p71_w021",
+        "word": "sections",
+        "difficulty": "Easy",
+        "meaning": "Parts or groups within a larger whole."
+      },
+      {
+        "id": "c06_p71_w022",
+        "word": "workers",
+        "difficulty": "Easy",
+        "meaning": "People who do a job for pay."
+      },
+      {
+        "id": "c06_p71_w023",
+        "word": "employees",
+        "difficulty": "Medium",
+        "meaning": "People who work for another person.",
+        "medium": {
+          "pronunciation": "em-PLOY-eez",
+          "simple_explanation": "People who are paid to work for a company or another person.",
+          "funny_explanation": "Human beings who trade their free time for money so they can buy things they are too tired to use.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The employees at the factory went on strike to ask for better pay."
+            },
+            {
+              "type": "funny",
+              "text": "If I were one of Santa's employees, I'd probably get fired for 'sampling' too many cookies."
+            }
+          ],
+          "synonyms": [
+            "workers"
+          ],
+          "antonyms": [
+            "employers"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w024",
+        "word": "teachers",
+        "difficulty": "Easy",
+        "meaning": "People who help others to learn."
+      },
+      {
+        "id": "c06_p71_w025",
+        "word": "lawyers",
+        "difficulty": "Easy",
+        "meaning": "People who give legal advice and help."
+      },
+      {
+        "id": "c06_p71_w026",
+        "word": "special",
+        "difficulty": "Easy",
+        "meaning": "Better or different from what is usual."
+      },
+      {
+        "id": "c06_p71_w027",
+        "word": "feature",
+        "difficulty": "Medium",
+        "meaning": "An important part of something.",
+        "medium": {
+          "pronunciation": "FEE-cher",
+          "simple_explanation": "A distinctive part or quality of something.",
+          "funny_explanation": "Like the 'silent mode' on your phone—the most important feature when you're supposed to be studying.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "One important feature of a pressure group is that they don't try to win elections."
+            },
+            {
+              "type": "funny",
+              "text": "My best physical feature is definitely my ability to wiggle my ears when I'm nervous."
+            }
+          ],
+          "synonyms": [
+            "characteristic"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p71_w028",
+        "word": "distinguishes",
+        "difficulty": "Hard",
+        "meaning": "Shows the difference between two things.",
+        "hard": {
+          "why_it_is_given_in_book": "The text asks what specific feature makes a pressure group different from a political party.",
+          "pronunciation": "Dis-ting-gwish-ez",
+          "simple_explanation": "To recognize or point out the difference between two things.",
+          "funny_explanation": "It's what allows you to tell the difference between your twin cousins, even if they wear the same hat.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The way they seek power is what distinguishes a party from a group."
+            },
+            {
+              "type": "funny",
+              "text": "The loud 'Moo' is what distinguishes the cow from the very quiet sheep."
+            }
+          ],
+          "synonyms": [
+            "Differentiates"
+          ],
+          "antonyms": [
+            "Confuses"
+          ],
+          "real_world_analogy": "A referee blowing a whistle to show the difference between a fair play and a foul."
+        }
+      },
+      {
+        "id": "c06_p71_w029",
+        "word": "stances",
+        "difficulty": "Hard",
+        "meaning": "Public opinions or positions on issues.",
+        "hard": {
+          "why_it_is_given_in_book": "It refers to the public opinions or positions that political parties take on certain issues.",
+          "pronunciation": "Stan-sez",
+          "simple_explanation": "A person's or group's public attitude or position on a specific matter.",
+          "funny_explanation": "It's like standing with your arms crossed and saying, 'I officially believe cats are better than dogs!'",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Parties take political stances to win the support of voters."
+            },
+            {
+              "type": "funny",
+              "text": "My stance on ice cream is that it should be eaten at every meal."
+            }
+          ],
+          "synonyms": [
+            "Positions"
+          ],
+          "antonyms": [
+            "Indifference"
+          ],
+          "real_world_analogy": "A goalkeeper standing in the center of the net to show they are ready to block any ball."
+        }
+      },
+      {
+        "id": "c06_p71_w030",
+        "word": "bother",
+        "difficulty": "Easy",
+        "meaning": "To make an effort to do something."
+      },
+      {
+        "id": "c06_p71_w031",
+        "word": "issues",
+        "difficulty": "Medium",
+        "meaning": "Important subjects people discuss or argue.",
+        "medium": {
+          "pronunciation": "ISH-ooz",
+          "simple_explanation": "Important topics or problems that people are debating or trying to solve.",
+          "funny_explanation": "Like the ongoing 'issue' of why the internet always cuts out right when the movie gets good.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The two political parties disagreed on many social issues."
+            },
+            {
+              "type": "funny",
+              "text": "I have major issues with anyone who puts pineapple on pizza."
+            }
+          ],
+          "synonyms": [
+            "matters"
+          ],
+          "antonyms": [
+            "solutions"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w032",
+        "word": "confined",
+        "difficulty": "Hard",
+        "meaning": "Limited to a small or specific area.",
+        "hard": {
+          "why_it_is_given_in_book": "The text uses this to say that pressure groups sometimes only involve a small, specific group of people.",
+          "pronunciation": "Kun-fined",
+          "simple_explanation": "Kept within a certain area or limited to a small number.",
+          "funny_explanation": "Like when your younger sibling is 'confined' to the playpen so they don't draw on the walls.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Some pressure groups are confined to workers of a single factory."
+            },
+            {
+              "type": "funny",
+              "text": "I was confined to my bed because I had the sniffles and the 'lazies'."
+            }
+          ],
+          "synonyms": [
+            "Restricted"
+          ],
+          "antonyms": [
+            "Free"
+          ],
+          "real_world_analogy": "A bird in a cage compared to a bird flying in the sky."
+        }
+      },
+      {
+        "id": "c06_p71_w033",
+        "word": "involve",
+        "difficulty": "Easy",
+        "meaning": "To include as a necessary part."
+      },
+      {
+        "id": "c06_p71_w034",
+        "word": "larger",
+        "difficulty": "Easy",
+        "meaning": "Greater in size or amount."
+      },
+      {
+        "id": "c06_p71_w035",
+        "word": "number",
+        "difficulty": "Easy",
+        "meaning": "A sum of people or things."
+      },
+      {
+        "id": "c06_p71_w036",
+        "word": "seek",
+        "difficulty": "Easy",
+        "meaning": "To try to find or get something."
+      },
+      {
+        "id": "c06_p71_w037",
+        "word": "power",
+        "difficulty": "Medium",
+        "meaning": "The ability to control people or events.",
+        "medium": {
+          "pronunciation": "POW-er",
+          "simple_explanation": "The ability or right to control people or things.",
+          "funny_explanation": "The absolute authority you feel when you're the only one in the house who knows where the TV remote is.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Political parties fight to win elections so they can gain power in government."
+            },
+            {
+              "type": "funny",
+              "text": "I wish I had the power to make my homework finish itself while I sleep."
+            }
+          ],
+          "synonyms": [
+            "authority"
+          ],
+          "antonyms": [
+            "weakness"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w038",
+        "word": "mobilise",
+        "difficulty": "Hard",
+        "meaning": "To organize people for a purpose.",
+        "hard": {
+          "why_it_is_given_in_book": "It refers to getting people together and ready for action to achieve a political goal.",
+          "pronunciation": "Moh-bi-lyze",
+          "simple_explanation": "To organize and encourage a group of people to take action.",
+          "funny_explanation": "It's like a general shouting 'Avengers Assemble!' to get everyone off the couch and into the fight.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Political parties work hard to mobilise voters before an election."
+            },
+            {
+              "type": "funny",
+              "text": "We need to mobilise the neighborhood kids if we want to build the world's biggest snowman."
+            }
+          ],
+          "synonyms": [
+            "Assemble"
+          ],
+          "antonyms": [
+            "Disperse"
+          ],
+          "real_world_analogy": "A school fire drill that gets everyone out of the building in an organized way."
+        }
+      },
+      {
+        "id": "c06_p71_w039",
+        "word": "match",
+        "difficulty": "Easy",
+        "meaning": "To find things that go together."
+      },
+      {
+        "id": "c06_p71_w040",
+        "word": "struggles",
+        "difficulty": "Medium",
+        "meaning": "Long, hard efforts to achieve something.",
+        "medium": {
+          "pronunciation": "STRUHG-uhlz",
+          "simple_explanation": "Great efforts to overcome difficulties or to achieve something hard.",
+          "funny_explanation": "The epic daily battle between you and your warm, cozy blanket every single morning.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The history books are full of the struggles people faced to win their freedom."
+            },
+            {
+              "type": "funny",
+              "text": "The struggle of trying to look cool while accidentally slipping on a banana peel is real."
+            }
+          ],
+          "synonyms": [
+            "battles"
+          ],
+          "antonyms": [
+            "ease"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w041",
+        "word": "select",
+        "difficulty": "Easy",
+        "meaning": "To choose from a group."
+      },
+      {
+        "id": "c06_p71_w042",
+        "word": "correct",
+        "difficulty": "Easy",
+        "meaning": "Right and without any mistakes."
+      },
+      {
+        "id": "c06_p71_w043",
+        "word": "answer",
+        "difficulty": "Easy",
+        "meaning": "A solution to a question."
+      },
+      {
+        "id": "c06_p71_w044",
+        "word": "codes",
+        "difficulty": "Easy",
+        "meaning": "Letters or numbers used for identifying."
+      },
+      {
+        "id": "c06_p71_w045",
+        "word": "given",
+        "difficulty": "Easy",
+        "meaning": "Provided or stated in a list."
+      },
+      {
+        "id": "c06_p71_w046",
+        "word": "below",
+        "difficulty": "Easy",
+        "meaning": "Lower down on a page."
+      },
+      {
+        "id": "c06_p71_w047",
+        "word": "lists",
+        "difficulty": "Easy",
+        "meaning": "Series of items written one after another."
+      },
+      {
+        "id": "c06_p71_w048",
+        "word": "particular",
+        "difficulty": "Medium",
+        "meaning": "Relating to one specific thing.",
+        "medium": {
+          "pronunciation": "par-TIK-yoo-ler",
+          "simple_explanation": "Referring to one specific person, group, or thing out of many.",
+          "funny_explanation": "Like that one particular french fry at the bottom of the bag that somehow tastes better than all the others.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "This group represents the interests of a particular group of farmers."
+            },
+            {
+              "type": "funny",
+              "text": "I am very particular about which socks I wear; they must both be the same level of fuzzy."
+            }
+          ],
+          "synonyms": [
+            "specific"
+          ],
+          "antonyms": [
+            "general"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w049",
+        "word": "common",
+        "difficulty": "Medium",
+        "meaning": "Shared by or belonging to many.",
+        "medium": {
+          "pronunciation": "KOM-un",
+          "simple_explanation": "Shared by or belonging to everyone in a group.",
+          "funny_explanation": "It's common knowledge that if you drop your toast, it will always land butter-side down on the rug.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The neighbors worked together for the common good of the community."
+            },
+            {
+              "type": "funny",
+              "text": "Having a messy room is a common trait among people who say 'I'll do it later.'"
+            }
+          ],
+          "synonyms": [
+            "shared"
+          ],
+          "antonyms": [
+            "rare"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w050",
+        "word": "launched",
+        "difficulty": "Medium",
+        "meaning": "Started a new activity or plan.",
+        "medium": {
+          "pronunciation": "LAWNCH-d",
+          "simple_explanation": "Started or set a new activity or project in motion.",
+          "funny_explanation": "Like when you 'launch' yourself into the kitchen because you heard a bag of chips opening.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The activists launched a huge protest to save the local park."
+            },
+            {
+              "type": "funny",
+              "text": "I launched a mission to find my lost shoe, but I ended up finding three old pens and a sock instead."
+            }
+          ],
+          "synonyms": [
+            "started"
+          ],
+          "antonyms": [
+            "finished"
+          ]
+        }
+      },
+      {
+        "id": "c06_p71_w051",
+        "word": "resolution",
+        "difficulty": "Hard",
+        "meaning": "A firm decision to solve a problem.",
+        "hard": {
+          "why_it_is_given_in_book": "The author talks about groups working towards the resolution (solving) of social problems.",
+          "pronunciation": "Rez-o-loo-shun",
+          "simple_explanation": "The act of finding an answer or solution to a conflict or problem.",
+          "funny_explanation": "The glorious moment when you and your friend finally agree on which movie to watch after arguing for an hour.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The resolution of the dispute required many meetings."
+            },
+            {
+              "type": "funny",
+              "text": "The resolution to my hunger was a very large peanut butter sandwich."
+            }
+          ],
+          "synonyms": [
+            "Solution"
+          ],
+          "antonyms": [
+            "Conflict"
+          ],
+          "real_world_analogy": "The final click when the last piece of a jigsaw puzzle fits perfectly."
+        }
+      },
+      {
+        "id": "c06_p71_w052",
+        "word": "organisational",
+        "difficulty": "Hard",
+        "meaning": "Related to how a group is set up.",
+        "hard": {
+          "why_it_is_given_in_book": "Used to describe how a group is arranged or managed to function properly.",
+          "pronunciation": "Or-gan-i-zay-shun-al",
+          "simple_explanation": "Relating to how a group or business is set up and structured.",
+          "funny_explanation": "It's the difference between a messy pile of LEGOs and a shelf where every brick is sorted by color and size.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The movement lacked an organisational structure but was still powerful."
+            },
+            {
+              "type": "funny",
+              "text": "My organisational skills are so good that even my socks have their own assigned seats."
+            }
+          ],
+          "synonyms": [
+            "Managerial"
+          ],
+          "antonyms": [
+            "Chaotic"
+          ],
+          "real_world_analogy": "A school timetable that tells every teacher and student exactly where they need to be."
+        }
+      },
+      {
+        "id": "c06_p71_w053",
+        "word": "structure",
+        "difficulty": "Hard",
+        "meaning": "The way parts of something are arranged.",
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the 'skeleton' or framework of an organization that keeps it organized.",
+          "pronunciation": "Struk-chur",
+          "simple_explanation": "The way in which parts of a system are arranged or put together.",
+          "funny_explanation": "Think of it as the bones inside your body; without structure, you'd just be a blob of human-flavored jelly on the floor.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "A political party has a very formal structure with leaders and members."
+            },
+            {
+              "type": "funny",
+              "text": "My sandcastle's structure was great until a giant wave decided to sit on it."
+            }
+          ],
+          "synonyms": [
+            "Framework"
+          ],
+          "antonyms": [
+            "Disorganization"
+          ],
+          "real_world_analogy": "The wooden frame of a house that holds up the walls and roof."
+        }
+      },
+      {
+        "id": "c06_p71_w054",
+        "word": "view",
+        "difficulty": "Easy",
+        "meaning": "A way of thinking about something."
+      },
+      {
+        "id": "c06_p71_w055",
+        "word": "win",
+        "difficulty": "Easy",
+        "meaning": "To be successful in a competition."
+      },
+      {
+        "id": "c06_p71_w056",
+        "word": "sectional",
+        "difficulty": "Hard",
+        "meaning": "Relating to only one part of society.",
+        "hard": {
+          "why_it_is_given_in_book": "This word specifies groups that represent only a particular 'section' or portion of society, like teachers or lawyers.",
+          "pronunciation": "Sek-shun-al",
+          "simple_explanation": "Relating to only one part or section of a larger group.",
+          "funny_explanation": "Like a club that only allows people who like pineapple on pizza—it only cares about that one 'section' of eaters.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Sectional interest groups fight for the rights of specific workers."
+            },
+            {
+              "type": "funny",
+              "text": "I have a sectional interest in the toy aisle; I don't care about the boring vegetable section."
+            }
+          ],
+          "synonyms": [
+            "Fractional"
+          ],
+          "antonyms": [
+            "Universal"
+          ],
+          "real_world_analogy": "A single slice of an orange compared to the whole fruit."
+        }
+      },
+      {
+        "id": "c06_p71_w057",
+        "word": "public",
+        "difficulty": "Easy",
+        "meaning": "Related to all people in a community."
+      }
+    ]
+  }
+]
