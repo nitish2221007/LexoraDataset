@@ -1,1036 +1,895 @@
 [
   {
-    "page_no": 71,
+    "page_no": 73,
     "words": [
       {
-        "id": "c06_p71_w001",
-        "word": "pressure",
+        "id": "c06_p73_w001",
+        "word": "Petroleum",
         "difficulty": "Medium",
-        "meaning": "Force used to influence others' decisions.",
+        "meaning": "A thick dark oil found under the ground.",
         "medium": {
-          "pronunciation": "PRESH-er",
-          "simple_explanation": "Using persuasion or force to influence someone's decisions.",
-          "funny_explanation": "It's like when your mom gives you 'The Look' until you finally agree to clean your room.",
+          "pronunciation": "Puh-tro-lee-um",
+          "simple_explanation": "A thick, dark liquid found deep underground that we use to make fuel and many other products.",
+          "funny_explanation": "Think of it as Earth's ancient, gooey 'dinosaur juice' that powers your car and makes your plastic toys.",
           "examples": [
             {
               "type": "normal",
-              "text": "Pressure groups try to convince the government to change certain laws."
+              "text": "Petroleum is extracted from deep wells before it is turned into gasoline."
             },
             {
               "type": "funny",
-              "text": "My cat puts extreme pressure on me to share my tuna sandwich by staring into my soul."
+              "text": "Without petroleum, your bus would just be a very large, heavy lawn ornament."
             }
           ],
           "synonyms": [
-            "persuasion"
-          ],
-          "antonyms": [
-            "peace"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w002",
-        "word": "movements",
-        "difficulty": "Medium",
-        "meaning": "Groups working for a shared social goal.",
-        "medium": {
-          "pronunciation": "MOOV-muhnts",
-          "simple_explanation": "Groups of people working together over time to achieve a specific social or political goal.",
-          "funny_explanation": "Like a massive, real-life group chat where everyone actually agrees to get off the couch and change the world.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Environmental movements work hard to protect our oceans from pollution."
-            },
-            {
-              "type": "funny",
-              "text": "The 'No Homework on Fridays' movement was sadly shut down by the principal."
-            }
-          ],
-          "synonyms": [
-            "campaigns"
-          ],
-          "antonyms": [
-            "stagnation"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w003",
-        "word": "exert",
-        "difficulty": "Hard",
-        "meaning": "To put forth effort or use power.",
-        "hard": {
-          "why_it_is_given_in_book": "The author uses this to describe how pressure groups put effort and power into the political system to get results.",
-          "pronunciation": "Ex-urt",
-          "simple_explanation": "To use power, influence, or effort to make something happen.",
-          "funny_explanation": "It's like when you use all your might to 'exert' pressure on the last bit of toothpaste in the tube to make it come out.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Pressure groups exert influence on the government to change laws."
-            },
-            {
-              "type": "funny",
-              "text": "I had to exert all my brainpower just to remember where I hid my secret stash of cookies."
-            }
-          ],
-          "synonyms": [
-            "Apply"
-          ],
-          "antonyms": [
-            "Idle"
-          ],
-          "real_world_analogy": "A weightlifter using all their strength to lift a heavy barbell."
-        }
-      },
-      {
-        "id": "c06_p71_w004",
-        "word": "influence",
-        "difficulty": "Medium",
-        "meaning": "Power to affect how others act.",
-        "medium": {
-          "pronunciation": "IN-floo-ens",
-          "simple_explanation": "The power to change how someone thinks, acts, or makes decisions.",
-          "funny_explanation": "It's that magical power your best friend has to convince you that neon orange pants are actually a good idea.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Social media can have a huge influence on what people choose to buy."
-            },
-            {
-              "type": "funny",
-              "text": "The smell of fresh pizza has a strange influence over my ability to focus on math."
-            }
-          ],
-          "synonyms": [
-            "impact"
-          ],
-          "antonyms": [
-            "weakness"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w005",
-        "word": "politics",
-        "difficulty": "Medium",
-        "meaning": "Activities related to governing a country.",
-        "medium": {
-          "pronunciation": "POL-uh-tiks",
-          "simple_explanation": "The activities and debates involved in running a country or a local government.",
-          "funny_explanation": "Basically a giant game of 'Who Gets to Hold the TV Remote,' but for the entire country.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Many people join groups to get involved in local politics and help their town."
-            },
-            {
-              "type": "funny",
-              "text": "Deciding who gets the last slice of cake involves some very serious family politics."
-            }
-          ],
-          "synonyms": [
-            "government"
+            "Crude oil"
           ],
           "antonyms": null
         }
       },
       {
-        "id": "c06_p71_w006",
-        "word": "describe",
-        "difficulty": "Medium",
-        "meaning": "To give details about something in words.",
-        "medium": {
-          "pronunciation": "dih-SKRYB",
-          "simple_explanation": "To give a detailed account or picture of something using words.",
-          "funny_explanation": "What you have to do when you try to tell your friends about the 'massive' spider in your room that was actually the size of a grain of rice.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The textbook asks us to describe how a pressure group works."
-            },
-            {
-              "type": "funny",
-              "text": "It is hard to describe the taste of water, but we all know when it tastes 'crispy' at 3 AM."
-            }
-          ],
-          "synonyms": [
-            "explain"
-          ],
-          "antonyms": [
-            "hide"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w007",
-        "word": "forms",
+        "id": "c06_p73_w002",
+        "word": "Mixture",
         "difficulty": "Easy",
-        "meaning": "Different types or kinds of something."
+        "meaning": "Two or more different things put together."
       },
       {
-        "id": "c06_p71_w008",
-        "word": "relationship",
-        "difficulty": "Medium",
-        "meaning": "Way in which two things are connected.",
-        "medium": {
-          "pronunciation": "re-LAY-shun-ship",
-          "simple_explanation": "The way in which two or more people, groups, or things are connected.",
-          "funny_explanation": "Like the complicated bond between a student and their alarm clock—it's mostly just loud noises and resentment.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The relationship between voters and leaders is very important in a democracy."
-            },
-            {
-              "type": "funny",
-              "text": "My relationship with my bed is very serious; we spend at least eight hours together every night."
-            }
-          ],
-          "synonyms": [
-            "connection"
-          ],
-          "antonyms": [
-            "separation"
-          ]
-        }
+        "id": "c06_p73_w003",
+        "word": "Process",
+        "difficulty": "Easy",
+        "meaning": "A series of steps to do something."
       },
       {
-        "id": "c06_p71_w009",
-        "word": "explain",
-        "difficulty": "Medium",
-        "meaning": "To make something clear with details.",
-        "medium": {
-          "pronunciation": "ek-SPLAYN",
-          "simple_explanation": "To make something clear or easy to understand by providing more details.",
-          "funny_explanation": "What you have to do when you're caught with cookie crumbs on your face and your mom asks where the cookies went.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Can you explain the main goal of this political party?"
-            },
-            {
-              "type": "funny",
-              "text": "Try to explain to a cat why it can't sit on your laptop while you're working."
-            }
-          ],
-          "synonyms": [
-            "clarify"
-          ],
-          "antonyms": [
-            "confuse"
-          ]
-        }
+        "id": "c06_p73_w004",
+        "word": "Various",
+        "difficulty": "Easy",
+        "meaning": "Many different types of something."
       },
       {
-        "id": "c06_p71_w010",
-        "word": "activities",
-        "difficulty": "Medium",
-        "meaning": "Things people do to achieve a goal.",
-        "medium": {
-          "pronunciation": "ak-TIV-uh-teez",
-          "simple_explanation": "Things that people do, especially for a particular purpose or for fun.",
-          "funny_explanation": "For some people, this means sports; for me, it usually means professional-level snacking.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The group's activities included holding rallies and writing letters to the mayor."
-            },
-            {
-              "type": "funny",
-              "text": "My weekend activities mostly involve looking for my phone while I'm holding it."
-            }
-          ],
-          "synonyms": [
-            "actions"
-          ],
-          "antonyms": [
-            "idleness"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w011",
-        "word": "functioning",
-        "difficulty": "Medium",
-        "meaning": "Working or operating in a certain way.",
-        "medium": {
-          "pronunciation": "FUNK-shun-ing",
-          "simple_explanation": "Working or operating in the correct or proper way.",
-          "funny_explanation": "How your brain is supposed to work during a test, but usually, it just plays the 'Baby Shark' song on repeat.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "A fair election is necessary for the proper functioning of a democracy."
-            },
-            {
-              "type": "funny",
-              "text": "My brain stops functioning the moment I see a 'Pull' sign on a 'Push' door."
-            }
-          ],
-          "synonyms": [
-            "operating"
-          ],
-          "antonyms": [
-            "failing"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w012",
-        "word": "democratic",
+        "id": "c06_p73_w005",
+        "word": "Constituents",
         "difficulty": "Hard",
-        "meaning": "System where people vote for their leaders.",
+        "meaning": "Parts that make up a whole thing.",
         "hard": {
-          "why_it_is_given_in_book": "This word is used to describe a government system where power is shared and people have a say.",
-          "pronunciation": "Dem-o-krat-ik",
-          "simple_explanation": "A system where everyone has a right to vote or share their opinion in decision-making.",
-          "funny_explanation": "Imagine a household where the kids get to vote on whether dinner is broccoli or pizza—that's a democratic kitchen!",
+          "why_it_is_given_in_book": "The author uses this term to describe the various individual components or ingredients that make up the complex mixture of petroleum.",
+          "pronunciation": "Con-stit-yoo-ents",
+          "simple_explanation": "The basic parts or ingredients that combine to form a whole substance.",
+          "funny_explanation": "Think of them as the 'squad members' of a mixture. You can't have a boy band without the individual singers, and you can't have petroleum without its constituents!",
           "examples": [
             {
               "type": "normal",
-              "text": "In a democratic government, people have the right to express their views."
+              "text": "Petrol, diesel, and paraffin wax are some of the constituents of petroleum."
             },
             {
               "type": "funny",
-              "text": "Our club is democratic; we even voted on whether the mascot should be a dragon or a taco."
+              "text": "The constituents of my favorite sandwich are bread, cheese, and a suspicious amount of pickles."
             }
           ],
           "synonyms": [
-            "Representative"
+            "Components"
           ],
           "antonyms": [
-            "Dictatorial"
+            "Whole"
           ],
-          "real_world_analogy": "A classroom where students vote on which game to play during recess."
+          "real_world_analogy": "Ingredients in a cake recipe; flour, eggs, and sugar are the constituents of the cake."
         }
       },
       {
-        "id": "c06_p71_w013",
-        "word": "examples",
-        "difficulty": "Easy",
-        "meaning": "Things that show what others are like."
-      },
-      {
-        "id": "c06_p71_w014",
-        "word": "difference",
-        "difficulty": "Easy",
-        "meaning": "Way in which things are not alike."
-      },
-      {
-        "id": "c06_p71_w015",
-        "word": "organisations",
+        "id": "c06_p73_w006",
+        "word": "Separating",
         "difficulty": "Medium",
-        "meaning": "Groups formed for a specific purpose.",
+        "meaning": "Keeping different things apart from each other.",
         "medium": {
-          "pronunciation": "or-gan-eye-ZAY-shuns",
-          "simple_explanation": "Groups of people who join together to achieve a shared goal.",
-          "funny_explanation": "Like a school club, but with more serious meetings and slightly fewer juice boxes.",
+          "pronunciation": "Sep-uh-ray-ting",
+          "simple_explanation": "The process of pulling different parts of a mixture away from each other.",
+          "funny_explanation": "Like when you spend ten minutes picking the onions out of your burger because they aren't invited to the party.",
           "examples": [
             {
               "type": "normal",
-              "text": "Many international organisations work to provide clean water to villages."
+              "text": "Scientists use heat for separating the different liquids found in oil."
             },
             {
               "type": "funny",
-              "text": "I’m starting an organisation for people who walk into a room and immediately forget why."
+              "text": "Separating my laundry is easy; I just make a 'clean' pile and a 'maybe-clean' pile."
             }
           ],
           "synonyms": [
-            "associations"
+            "Dividing"
+          ],
+          "antonyms": [
+            "Mixing"
+          ]
+        }
+      },
+      {
+        "id": "c06_p73_w007",
+        "word": "Fractions",
+        "difficulty": "Hard",
+        "meaning": "Smaller parts of a large mixture.",
+        "hard": {
+          "why_it_is_given_in_book": "Introduced to explain the different groups of liquids collected at different temperatures during the refining of petroleum.",
+          "pronunciation": "Frac-shuns",
+          "simple_explanation": "The different parts or groups separated from a mixture based on their boiling points.",
+          "funny_explanation": "In the world of oil, fractions aren't just scary math homework; they are the different 'slices' of the giant petroleum pie that get separated so they can do their own jobs.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The various fractions of petroleum are separated in a tall tower called a fractionating column."
+            },
+            {
+              "type": "funny",
+              "text": "When we split the pizza, the 'pineapple-hater' fraction moved to the other side of the room."
+            }
+          ],
+          "synonyms": [
+            "Portions"
+          ],
+          "antonyms": [
+            "Totals"
+          ],
+          "real_world_analogy": "Sorting a big bag of mixed candy into groups of chocolates, gummies, and lollipops."
+        }
+      },
+      {
+        "id": "c06_p73_w008",
+        "word": "Refining",
+        "difficulty": "Medium",
+        "meaning": "The process of making a substance pure.",
+        "medium": {
+          "pronunciation": "Ree-fine-ing",
+          "simple_explanation": "The industrial process of cleaning a raw material and breaking it down into useful parts.",
+          "funny_explanation": "It's like taking a muddy potato and turning it into clean, crispy french fries.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Refining oil allows us to get helpful things like jet fuel and wax."
+            },
+            {
+              "type": "funny",
+              "text": "I am currently refining my dance moves, which mostly involves trying not to trip over my own feet."
+            }
+          ],
+          "synonyms": [
+            "Purifying"
+          ],
+          "antonyms": [
+            "Contaminating"
+          ]
+        }
+      },
+      {
+        "id": "c06_p73_w009",
+        "word": "Refinery",
+        "difficulty": "Medium",
+        "meaning": "A factory where crude oil is cleaned.",
+        "medium": {
+          "pronunciation": "Ree-fine-uh-ree",
+          "simple_explanation": "A large factory where raw materials like crude oil are processed and turned into products.",
+          "funny_explanation": "A giant industrial kitchen where the 'chef' cooks up gasoline, plastic, and asphalt instead of soup.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The refinery near the coast processes thousands of barrels of oil every day."
+            },
+            {
+              "type": "funny",
+              "text": "The refinery is so big it looks like a playground built for giant robots."
+            }
+          ],
+          "synonyms": [
+            "Processing plant"
           ],
           "antonyms": null
         }
       },
       {
-        "id": "c06_p71_w016",
-        "word": "undertake",
-        "difficulty": "Hard",
-        "meaning": "To start a task or take responsibility.",
-        "hard": {
-          "why_it_is_given_in_book": "It describes the act of organizations starting or taking responsibility for specific tasks or projects.",
-          "pronunciation": "Un-der-take",
-          "simple_explanation": "To commit yourself to a task or begin a project.",
-          "funny_explanation": "It's like when you 'undertake' the mission of cleaning your room, even though you know it's going to be a long journey.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The group decided to undertake a protest to protect the park."
-            },
-            {
-              "type": "funny",
-              "text": "I shall undertake the dangerous task of asking my brother to share his chocolate."
-            }
-          ],
-          "synonyms": [
-            "Attempt"
-          ],
-          "antonyms": [
-            "Avoid"
-          ],
-          "real_world_analogy": "A knight accepting a quest from a king."
-        }
-      },
-      {
-        "id": "c06_p71_w017",
-        "word": "promote",
+        "id": "c06_p73_w010",
+        "word": "Substances",
         "difficulty": "Medium",
-        "meaning": "To help something grow or succeed.",
+        "meaning": "Different types of materials or matter.",
         "medium": {
-          "pronunciation": "pruh-MOHT",
-          "simple_explanation": "To support or encourage something so that it becomes more popular or successful.",
-          "funny_explanation": "Like when you tell everyone your dog is a 'genius' just because he finally stopped chasing his own tail.",
+          "pronunciation": "Sub-stan-sez",
+          "simple_explanation": "Different types of matter or materials that have specific properties.",
+          "funny_explanation": "Basically just a fancy science word for 'stuff'—whether it's slime, gold, or pizza sauce.",
           "examples": [
             {
               "type": "normal",
-              "text": "The posters were put up to promote the school's recycling program."
+              "text": "Crude oil contains many different substances that must be sorted out."
             },
             {
               "type": "funny",
-              "text": "I am here to promote the idea that naps should be a mandatory school subject."
+              "text": "There are some very mysterious green substances growing in the back of my school locker."
             }
           ],
           "synonyms": [
-            "support"
-          ],
-          "antonyms": [
-            "discourage"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w018",
-        "word": "interests",
-        "difficulty": "Medium",
-        "meaning": "Things that provide advantage to a group.",
-        "medium": {
-          "pronunciation": "IN-truh-stS",
-          "simple_explanation": "The things that a person or group cares about or wants to protect.",
-          "funny_explanation": "Usually, my primary interests involve chocolate and avoiding any form of cardio.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Sectional groups focus on the interests of a specific group of workers."
-            },
-            {
-              "type": "funny",
-              "text": "It is in my best interests not to tell my sister I accidentally broke her headphones."
-            }
-          ],
-          "synonyms": [
-            "concerns"
-          ],
-          "antonyms": [
-            "indifference"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w019",
-        "word": "specific",
-        "difficulty": "Medium",
-        "meaning": "Relating clearly to one thing only.",
-        "medium": {
-          "pronunciation": "spuh-SIF-ik",
-          "simple_explanation": "Relating to one particular thing rather than being general.",
-          "funny_explanation": "When your mom says 'Clean your room,' she means specific things, like the laundry mountain under your bed.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The lawyer asked the witness a very specific question about the time of the event."
-            },
-            {
-              "type": "funny",
-              "text": "I have a specific talent for always finding the one shopping cart with a squeaky wheel."
-            }
-          ],
-          "synonyms": [
-            "precise"
-          ],
-          "antonyms": [
-            "vague"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w020",
-        "word": "social",
-        "difficulty": "Easy",
-        "meaning": "Relating to people living in communities."
-      },
-      {
-        "id": "c06_p71_w021",
-        "word": "sections",
-        "difficulty": "Easy",
-        "meaning": "Parts or groups within a larger whole."
-      },
-      {
-        "id": "c06_p71_w022",
-        "word": "workers",
-        "difficulty": "Easy",
-        "meaning": "People who do a job for pay."
-      },
-      {
-        "id": "c06_p71_w023",
-        "word": "employees",
-        "difficulty": "Medium",
-        "meaning": "People who work for another person.",
-        "medium": {
-          "pronunciation": "em-PLOY-eez",
-          "simple_explanation": "People who are paid to work for a company or another person.",
-          "funny_explanation": "Human beings who trade their free time for money so they can buy things they are too tired to use.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The employees at the factory went on strike to ask for better pay."
-            },
-            {
-              "type": "funny",
-              "text": "If I were one of Santa's employees, I'd probably get fired for 'sampling' too many cookies."
-            }
-          ],
-          "synonyms": [
-            "workers"
-          ],
-          "antonyms": [
-            "employers"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w024",
-        "word": "teachers",
-        "difficulty": "Easy",
-        "meaning": "People who help others to learn."
-      },
-      {
-        "id": "c06_p71_w025",
-        "word": "lawyers",
-        "difficulty": "Easy",
-        "meaning": "People who give legal advice and help."
-      },
-      {
-        "id": "c06_p71_w026",
-        "word": "special",
-        "difficulty": "Easy",
-        "meaning": "Better or different from what is usual."
-      },
-      {
-        "id": "c06_p71_w027",
-        "word": "feature",
-        "difficulty": "Medium",
-        "meaning": "An important part of something.",
-        "medium": {
-          "pronunciation": "FEE-cher",
-          "simple_explanation": "A distinctive part or quality of something.",
-          "funny_explanation": "Like the 'silent mode' on your phone—the most important feature when you're supposed to be studying.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "One important feature of a pressure group is that they don't try to win elections."
-            },
-            {
-              "type": "funny",
-              "text": "My best physical feature is definitely my ability to wiggle my ears when I'm nervous."
-            }
-          ],
-          "synonyms": [
-            "characteristic"
+            "Materials"
           ],
           "antonyms": null
         }
       },
       {
-        "id": "c06_p71_w028",
-        "word": "distinguishes",
-        "difficulty": "Hard",
-        "meaning": "Shows the difference between two things.",
-        "hard": {
-          "why_it_is_given_in_book": "The text asks what specific feature makes a pressure group different from a political party.",
-          "pronunciation": "Dis-ting-gwish-ez",
-          "simple_explanation": "To recognize or point out the difference between two things.",
-          "funny_explanation": "It's what allows you to tell the difference between your twin cousins, even if they wear the same hat.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The way they seek power is what distinguishes a party from a group."
-            },
-            {
-              "type": "funny",
-              "text": "The loud 'Moo' is what distinguishes the cow from the very quiet sheep."
-            }
-          ],
-          "synonyms": [
-            "Differentiates"
-          ],
-          "antonyms": [
-            "Confuses"
-          ],
-          "real_world_analogy": "A referee blowing a whistle to show the difference between a fair play and a foul."
-        }
-      },
-      {
-        "id": "c06_p71_w029",
-        "word": "stances",
-        "difficulty": "Hard",
-        "meaning": "Public opinions or positions on issues.",
-        "hard": {
-          "why_it_is_given_in_book": "It refers to the public opinions or positions that political parties take on certain issues.",
-          "pronunciation": "Stan-sez",
-          "simple_explanation": "A person's or group's public attitude or position on a specific matter.",
-          "funny_explanation": "It's like standing with your arms crossed and saying, 'I officially believe cats are better than dogs!'",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Parties take political stances to win the support of voters."
-            },
-            {
-              "type": "funny",
-              "text": "My stance on ice cream is that it should be eaten at every meal."
-            }
-          ],
-          "synonyms": [
-            "Positions"
-          ],
-          "antonyms": [
-            "Indifference"
-          ],
-          "real_world_analogy": "A goalkeeper standing in the center of the net to show they are ready to block any ball."
-        }
-      },
-      {
-        "id": "c06_p71_w030",
-        "word": "bother",
+        "id": "c06_p73_w011",
+        "word": "Natural",
         "difficulty": "Easy",
-        "meaning": "To make an effort to do something."
+        "meaning": "Something found in nature, not man-made."
       },
       {
-        "id": "c06_p71_w031",
-        "word": "issues",
-        "difficulty": "Medium",
-        "meaning": "Important subjects people discuss or argue.",
-        "medium": {
-          "pronunciation": "ISH-ooz",
-          "simple_explanation": "Important topics or problems that people are debating or trying to solve.",
-          "funny_explanation": "Like the ongoing 'issue' of why the internet always cuts out right when the movie gets good.",
+        "id": "c06_p73_w012",
+        "word": "Gas",
+        "difficulty": "Easy",
+        "meaning": "A substance like air that flows freely."
+      },
+      {
+        "id": "c06_p73_w013",
+        "word": "Petrochemicals",
+        "difficulty": "Hard",
+        "meaning": "Chemicals made from petroleum or natural gas.",
+        "hard": {
+          "why_it_is_given_in_book": "The book introduces this to show the massive industrial importance of petroleum in making everyday chemicals.",
+          "pronunciation": "Pet-roh-chem-i-kals",
+          "simple_explanation": "Chemical substances derived from petroleum or natural gas.",
+          "funny_explanation": "These are the 'superhero' chemicals born from oily parents. They transform from gooey black sludge into everything from your toothbrush to your bright t-shirt!",
           "examples": [
             {
               "type": "normal",
-              "text": "The two political parties disagreed on many social issues."
+              "text": "Petrochemicals are used to manufacture a wide range of useful substances like plastics and fibers."
             },
             {
               "type": "funny",
-              "text": "I have major issues with anyone who puts pineapple on pizza."
+              "text": "I told my mom my plastic toy was basically a pet, because it's made from petrochemicals!"
             }
           ],
           "synonyms": [
-            "matters"
+            "Oil-derivatives"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "Like using LEGO bricks to build totally different things; petroleum is the brick, and petrochemicals are the cool things you build with them."
+        }
+      },
+      {
+        "id": "c06_p73_w014",
+        "word": "Detergents",
+        "difficulty": "Hard",
+        "meaning": "Soap-like substances used for cleaning.",
+        "hard": {
+          "why_it_is_given_in_book": "Mentioned as one of the many commercial products made using petrochemicals.",
+          "pronunciation": "De-ter-jents",
+          "simple_explanation": "Powerful cleaning agents that can remove dirt and grease even in hard water.",
+          "funny_explanation": "Detergents are like tiny soldiers with magnets that grab onto grease and drag it away from your clothes while you're not looking.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Many modern detergents are synthesized from petroleum products."
+            },
+            {
+              "type": "funny",
+              "text": "If it weren't for detergents, I'd still be wearing the chocolate sauce from last year's birthday party."
+            }
+          ],
+          "synonyms": [
+            "Cleansers"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "A bulldozer for dirt; it doesn't just ask the dirt to leave, it forces it out."
+        }
+      },
+      {
+        "id": "c06_p73_w015",
+        "word": "Fibres",
+        "difficulty": "Medium",
+        "meaning": "Thin threads used to make cloth.",
+        "medium": {
+          "pronunciation": "Fy-berz",
+          "simple_explanation": "Thin, thread-like strands that can be spun into cloth or rope.",
+          "funny_explanation": "Tiny microscopic hairs that team up to become the sweater you're wearing right now.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Synthetic fibres are often made from chemicals found in oil."
+            },
+            {
+              "type": "funny",
+              "text": "My cat leaves so many fibres on the couch that the sofa is basically 40% feline now."
+            }
+          ],
+          "synonyms": [
+            "Threads"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p73_w016",
+        "word": "Polyester",
+        "difficulty": "Hard",
+        "meaning": "A strong man-made cloth material.",
+        "hard": {
+          "why_it_is_given_in_book": "Listed as a synthetic fiber made from petrochemicals to illustrate petroleum's role in the textile industry.",
+          "pronunciation": "Pol-ee-es-ter",
+          "simple_explanation": "A strong, wrinkle-resistant synthetic fabric made from plastic-like chemicals.",
+          "funny_explanation": "It's basically wearable plastic! Polyester is the reason your sports jersey doesn't turn into a crumpled mess even if you leave it at the bottom of your gym bag for a week.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Polyester is often blended with cotton to make durable clothing."
+            },
+            {
+              "type": "funny",
+              "text": "My polyester shirt is so shiny and smooth that even spilled juice just slides right off like a water slide."
+            }
+          ],
+          "synonyms": [
+            "Synthetic-fiber"
           ],
           "antonyms": [
-            "solutions"
+            "Natural-fiber"
+          ],
+          "real_world_analogy": "A spider's web made of plastic; it's thin, light, but very hard to break."
+        }
+      },
+      {
+        "id": "c06_p73_w017",
+        "word": "Nylon",
+        "difficulty": "Medium",
+        "meaning": "A strong, thin man-made material.",
+        "medium": {
+          "pronunciation": "Ny-lon",
+          "simple_explanation": "A strong, man-made material used for making clothes, ropes, and brushes.",
+          "funny_explanation": "The material responsible for that 'swish-swish' sound your track pants make when you run.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The bristles on your toothbrush are usually made of nylon."
+            },
+            {
+              "type": "funny",
+              "text": "If humans lived in the ocean, we'd probably wear nylon suits to stay fast and slippery."
+            }
+          ],
+          "synonyms": [
+            "Synthetic fabric"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p73_w018",
+        "word": "Acrylic",
+        "difficulty": "Hard",
+        "meaning": "A man-made fibre that feels like wool.",
+        "hard": {
+          "why_it_is_given_in_book": "Used to describe another type of synthetic fiber that resembles wool, showing the diversity of petroleum products.",
+          "pronunciation": "Uh-kril-ik",
+          "simple_explanation": "A synthetic fiber that is soft, warm, and feels like wool.",
+          "funny_explanation": "Acrylic is the 'imposter wool.' It looks like it came from a fluffy sheep, but it actually came from a science lab!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Acrylic blankets are popular because they are lightweight and provide warmth."
+            },
+            {
+              "type": "funny",
+              "text": "My sweater is 100% acrylic, which means no sheep were bothered, but I'm still as warm as a toasted muffin."
+            }
+          ],
+          "synonyms": [
+            "Faux-wool"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "Artificial grass; it looks and feels like the real thing but is actually made of chemicals."
+        }
+      },
+      {
+        "id": "c06_p73_w019",
+        "word": "Polythene",
+        "difficulty": "Hard",
+        "meaning": "A common type of plastic material.",
+        "hard": {
+          "why_it_is_given_in_book": "Mentioned as a very common plastic produced from petroleum, familiar to students in daily life.",
+          "pronunciation": "Pol-ee-theen",
+          "simple_explanation": "The most common type of plastic, used mainly for packaging and bags.",
+          "funny_explanation": "The world's most famous plastic! It’s the 'crinkly' stuff that makes up your grocery bags and sandwich wraps.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Polythene bags are widely used but can be harmful to the environment if not recycled."
+            },
+            {
+              "type": "funny",
+              "text": "I tried to count how many polythene bags we had under the sink, but I lost count at a million."
+            }
+          ],
+          "synonyms": [
+            "Polyethylene"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "A thin skin for objects; it wraps them up and keeps them safe from water."
+        }
+      },
+      {
+        "id": "c06_p73_w020",
+        "word": "Plastics",
+        "difficulty": "Medium",
+        "meaning": "Materials that can be shaped into objects.",
+        "medium": {
+          "pronunciation": "Plas-tiks",
+          "simple_explanation": "Lightweight, durable materials that can be molded into almost any shape.",
+          "funny_explanation": "The amazing stuff that can be a soft soda bottle one day and a hard Lego brick the next.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Many plastics are manufactured using ingredients from petroleum."
+            },
+            {
+              "type": "funny",
+              "text": "The world is so full of plastics that even the toy fish are made of it."
+            }
+          ],
+          "synonyms": [
+            "Polymers"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p73_w021",
+        "word": "Hydrogen",
+        "difficulty": "Hard",
+        "meaning": "A very light gas found in nature.",
+        "hard": {
+          "why_it_is_given_in_book": "The author explains that hydrogen gas obtained from natural gas is used to produce fertilizers like urea.",
+          "pronunciation": "Hy-dro-jen",
+          "simple_explanation": "A colorless, odorless, highly flammable gas; the lightest chemical element.",
+          "funny_explanation": "The 'baby' of the periodic table! It’s the lightest element and loves to bond with everyone. It's so light that if you had a balloon of it, it would try to fly to the moon.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Hydrogen gas is used in the manufacture of fertilizers to help crops grow."
+            },
+            {
+              "type": "funny",
+              "text": "If humans could breathe hydrogen and talk, we'd probably sound like squeaky squirrels!"
+            }
+          ],
+          "synonyms": [
+            "H2"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "The fuel for stars; the Sun is basically a giant ball of hydrogen having a very loud party."
+        }
+      },
+      {
+        "id": "c06_p73_w022",
+        "word": "Fertilizers",
+        "difficulty": "Medium",
+        "meaning": "Substances added to soil to help plants.",
+        "medium": {
+          "pronunciation": "Fur-tuh-ly-zerz",
+          "simple_explanation": "Chemicals or natural substances added to soil to help plants grow big and healthy.",
+          "funny_explanation": "Vitamins for plants that often smell like a farm's bathroom but make tomatoes huge.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers use fertilizers to make sure they grow enough food for everyone."
+            },
+            {
+              "type": "funny",
+              "text": "I tried giving my plastic plant some fertilizers, but it still refused to grow."
+            }
+          ],
+          "synonyms": [
+            "Plant food"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c06_p73_w023",
+        "word": "Commercial",
+        "difficulty": "Medium",
+        "meaning": "Related to buying and selling for profit.",
+        "medium": {
+          "pronunciation": "Kuh-mur-shul",
+          "simple_explanation": "Relating to the buying and selling of goods to make a profit.",
+          "funny_explanation": "Anything done for the 'big bucks'—like a lemonade stand that actually makes money.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Petroleum has great commercial value because it is used in so many industries."
+            },
+            {
+              "type": "funny",
+              "text": "My dog has no commercial skills; he keeps trying to buy treats with belly rubs."
+            }
+          ],
+          "synonyms": [
+            "Business"
+          ],
+          "antonyms": [
+            "Private"
           ]
         }
       },
       {
-        "id": "c06_p71_w032",
-        "word": "confined",
-        "difficulty": "Hard",
-        "meaning": "Limited to a small or specific area.",
-        "hard": {
-          "why_it_is_given_in_book": "The text uses this to say that pressure groups sometimes only involve a small, specific group of people.",
-          "pronunciation": "Kun-fined",
-          "simple_explanation": "Kept within a certain area or limited to a small number.",
-          "funny_explanation": "Like when your younger sibling is 'confined' to the playpen so they don't draw on the walls.",
+        "id": "c06_p73_w024",
+        "word": "Importance",
+        "difficulty": "Easy",
+        "meaning": "The state of being very useful."
+      },
+      {
+        "id": "c06_p73_w025",
+        "word": "Gold",
+        "difficulty": "Easy",
+        "meaning": "A very valuable yellow metal."
+      },
+      {
+        "id": "c06_p73_w026",
+        "word": "Petrol",
+        "difficulty": "Easy",
+        "meaning": "Fuel used for cars and light vehicles."
+      },
+      {
+        "id": "c06_p73_w027",
+        "word": "Diesel",
+        "difficulty": "Easy",
+        "meaning": "Fuel used for heavy vehicles like trucks."
+      },
+      {
+        "id": "c06_p73_w028",
+        "word": "Kerosene",
+        "difficulty": "Medium",
+        "meaning": "Fuel used for lamps and stoves.",
+        "medium": {
+          "pronunciation": "Keh-ruh-seen",
+          "simple_explanation": "A type of fuel oil used in lamps and jet engines.",
+          "funny_explanation": "The liquid that helps planes fly high and keeps old-fashioned lanterns glowing.",
           "examples": [
             {
               "type": "normal",
-              "text": "Some pressure groups are confined to workers of a single factory."
+              "text": "Before electricity was common, people burned kerosene for light."
             },
             {
               "type": "funny",
-              "text": "I was confined to my bed because I had the sniffles and the 'lazies'."
+              "text": "You wouldn't want to mistake kerosene for lemonade; your stomach is not a jet engine."
             }
           ],
           "synonyms": [
-            "Restricted"
+            "Paraffin"
           ],
-          "antonyms": [
-            "Free"
-          ],
-          "real_world_analogy": "A bird in a cage compared to a bird flying in the sky."
+          "antonyms": null
         }
       },
       {
-        "id": "c06_p71_w033",
-        "word": "involve",
-        "difficulty": "Easy",
-        "meaning": "To include as a necessary part."
-      },
-      {
-        "id": "c06_p71_w034",
-        "word": "larger",
-        "difficulty": "Easy",
-        "meaning": "Greater in size or amount."
-      },
-      {
-        "id": "c06_p71_w035",
-        "word": "number",
-        "difficulty": "Easy",
-        "meaning": "A sum of people or things."
-      },
-      {
-        "id": "c06_p71_w036",
-        "word": "seek",
-        "difficulty": "Easy",
-        "meaning": "To try to find or get something."
-      },
-      {
-        "id": "c06_p71_w037",
-        "word": "power",
-        "difficulty": "Medium",
-        "meaning": "The ability to control people or events.",
-        "medium": {
-          "pronunciation": "POW-er",
-          "simple_explanation": "The ability or right to control people or things.",
-          "funny_explanation": "The absolute authority you feel when you're the only one in the house who knows where the TV remote is.",
+        "id": "c06_p73_w029",
+        "word": "Lubricating",
+        "difficulty": "Hard",
+        "meaning": "Making parts move smoothly by using oil.",
+        "hard": {
+          "why_it_is_given_in_book": "Introduced in the context of 'lubricating oil,' one of the key fractions of petroleum used for machinery.",
+          "pronunciation": "Loo-bri-kay-ting",
+          "simple_explanation": "Applying a substance to reduce friction between moving surfaces.",
+          "funny_explanation": "Imagine trying to slide down a slide made of sandpaper—ouch! Lubricating is like putting butter on that slide so you zoom down at light speed.",
           "examples": [
             {
               "type": "normal",
-              "text": "Political parties fight to win elections so they can gain power in government."
+              "text": "Lubricating oil is essential for keeping car engines running smoothly."
             },
             {
               "type": "funny",
-              "text": "I wish I had the power to make my homework finish itself while I sleep."
+              "text": "I tried lubricating the squeaky door hinge with leftover pizza grease. It worked, but now the house smells like pepperoni."
             }
           ],
           "synonyms": [
-            "authority"
+            "Greasing"
           ],
           "antonyms": [
-            "weakness"
+            "Roughening"
+          ],
+          "real_world_analogy": "Oil on a squeaky bicycle chain; it stops the 'screaming' and makes pedaling easy."
+        }
+      },
+      {
+        "id": "c06_p73_w030",
+        "word": "Paraffin",
+        "difficulty": "Hard",
+        "meaning": "A type of wax used for candles.",
+        "hard": {
+          "why_it_is_given_in_book": "Describes a specific wax obtained from petroleum used in candles and medical ointments.",
+          "pronunciation": "Pa-ruh-fin",
+          "simple_explanation": "A white, colorless solid wax made from petroleum.",
+          "funny_explanation": "It's the stuff that makes candles melt and ointments feel slippery on your skin. It's like the quiet, waxy cousin of petrol.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Paraffin wax is used to make candles, vaseline, and shoe polish."
+            },
+            {
+              "type": "funny",
+              "text": "My birthday candles are made of paraffin, which is technically 'old dinosaur juice' if you think about it."
+            }
+          ],
+          "synonyms": [
+            "Waxy-solid"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "A crayon's texture; that smooth, slightly greasy feeling is very similar to paraffin."
+        }
+      },
+      {
+        "id": "c06_p73_w031",
+        "word": "Wax",
+        "difficulty": "Easy",
+        "meaning": "A solid substance used to make candles."
+      },
+      {
+        "id": "c06_p73_w032",
+        "word": "Bitumen",
+        "difficulty": "Hard",
+        "meaning": "A black substance used to make roads.",
+        "hard": {
+          "why_it_is_given_in_book": "Identified as the petroleum product that has replaced coal tar for surfacing roads.",
+          "pronunciation": "Bit-yoo-men",
+          "simple_explanation": "A thick, black, sticky form of petroleum used for road surfacing and roofing.",
+          "funny_explanation": "The 'road glue.' It’s the thick, dark sludge that smells like a construction site and holds the stones together so you don't drive on dirt.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Bitumen is preferred over coal tar for making long-lasting road surfaces."
+            },
+            {
+              "type": "funny",
+              "text": "Don't step on fresh bitumen with your new sneakers, or you'll become part of the road forever!"
+            }
+          ],
+          "synonyms": [
+            "Asphalt"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "Super-thick molasses or honey, but black and used for building things instead of eating."
+        }
+      },
+      {
+        "id": "c06_p73_w033",
+        "word": "Liquid",
+        "difficulty": "Easy",
+        "meaning": "Something that flows like water."
+      },
+      {
+        "id": "c06_p73_w034",
+        "word": "Dark",
+        "difficulty": "Easy",
+        "meaning": "Having very little light or color."
+      },
+      {
+        "id": "c06_p73_w035",
+        "word": "Oily",
+        "difficulty": "Easy",
+        "meaning": "Feeling like or covered in oil."
+      },
+      {
+        "id": "c06_p73_w036",
+        "word": "Unpleasant",
+        "difficulty": "Medium",
+        "meaning": "Not nice or not enjoyable.",
+        "medium": {
+          "pronunciation": "Un-plez-unt",
+          "simple_explanation": "Something that is not nice, enjoyable, or comfortable.",
+          "funny_explanation": "The exact feeling of stepping in a cold puddle while wearing only socks.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Crude oil has an unpleasant odor that is very strong."
+            },
+            {
+              "type": "funny",
+              "text": "The smell of my brother's gym bag is truly unpleasant."
+            }
+          ],
+          "synonyms": [
+            "Nasty"
+          ],
+          "antonyms": [
+            "Pleasant"
           ]
         }
       },
       {
-        "id": "c06_p71_w038",
-        "word": "mobilise",
+        "id": "c06_p73_w037",
+        "word": "Odour",
         "difficulty": "Hard",
-        "meaning": "To organize people for a purpose.",
+        "meaning": "A strong smell, usually a bad one.",
         "hard": {
-          "why_it_is_given_in_book": "It refers to getting people together and ready for action to achieve a political goal.",
-          "pronunciation": "Moh-bi-lyze",
-          "simple_explanation": "To organize and encourage a group of people to take action.",
-          "funny_explanation": "It's like a general shouting 'Avengers Assemble!' to get everyone off the couch and into the fight.",
+          "why_it_is_given_in_book": "Used to describe the characteristic (and often unpleasant) smell of petroleum and its constituents.",
+          "pronunciation": "Oh-der",
+          "simple_explanation": "A distinctive smell, especially an unpleasant one.",
+          "funny_explanation": "A fancy word for 'stink.' While a perfume has a fragrance, a wet dog or a petrol pump has an odour.",
           "examples": [
             {
               "type": "normal",
-              "text": "Political parties work hard to mobilise voters before an election."
+              "text": "Petroleum has a very strong and unpleasant odour."
             },
             {
               "type": "funny",
-              "text": "We need to mobilise the neighborhood kids if we want to build the world's biggest snowman."
+              "text": "My brother's gym socks have an odour that could probably be classified as a chemical weapon."
             }
           ],
           "synonyms": [
-            "Assemble"
+            "Scent"
           ],
           "antonyms": [
-            "Disperse"
+            "Odourlessness"
           ],
-          "real_world_analogy": "A school fire drill that gets everyone out of the building in an organized way."
+          "real_world_analogy": "An invisible cloud of information that tells your nose exactly what's nearby."
         }
       },
       {
-        "id": "c06_p71_w039",
-        "word": "match",
+        "id": "c06_p73_w038",
+        "word": "Useful",
         "difficulty": "Easy",
-        "meaning": "To find things that go together."
+        "meaning": "Something that helps to do a task."
       },
       {
-        "id": "c06_p71_w040",
-        "word": "struggles",
+        "id": "c06_p73_w039",
+        "word": "Obtained",
         "difficulty": "Medium",
-        "meaning": "Long, hard efforts to achieve something.",
+        "meaning": "To get something from a source.",
         "medium": {
-          "pronunciation": "STRUHG-uhlz",
-          "simple_explanation": "Great efforts to overcome difficulties or to achieve something hard.",
-          "funny_explanation": "The epic daily battle between you and your warm, cozy blanket every single morning.",
+          "pronunciation": "Ub-taynd",
+          "simple_explanation": "To get or acquire something, especially through effort or a specific process.",
+          "funny_explanation": "Like when you finally 'obtain' the high score after playing the same level for three hours.",
           "examples": [
             {
               "type": "normal",
-              "text": "The history books are full of the struggles people faced to win their freedom."
+              "text": "Useful chemicals are obtained from petroleum during refining."
             },
             {
               "type": "funny",
-              "text": "The struggle of trying to look cool while accidentally slipping on a banana peel is real."
+              "text": "I have obtained the secret password to the Wi-Fi; I am now unstoppable."
             }
           ],
           "synonyms": [
-            "battles"
+            "Acquired"
           ],
           "antonyms": [
-            "ease"
+            "Lost"
           ]
         }
       },
       {
-        "id": "c06_p71_w041",
-        "word": "select",
-        "difficulty": "Easy",
-        "meaning": "To choose from a group."
-      },
-      {
-        "id": "c06_p71_w042",
-        "word": "correct",
-        "difficulty": "Easy",
-        "meaning": "Right and without any mistakes."
-      },
-      {
-        "id": "c06_p71_w043",
-        "word": "answer",
-        "difficulty": "Easy",
-        "meaning": "A solution to a question."
-      },
-      {
-        "id": "c06_p71_w044",
-        "word": "codes",
-        "difficulty": "Easy",
-        "meaning": "Letters or numbers used for identifying."
-      },
-      {
-        "id": "c06_p71_w045",
-        "word": "given",
-        "difficulty": "Easy",
-        "meaning": "Provided or stated in a list."
-      },
-      {
-        "id": "c06_p71_w046",
-        "word": "below",
-        "difficulty": "Easy",
-        "meaning": "Lower down on a page."
-      },
-      {
-        "id": "c06_p71_w047",
-        "word": "lists",
-        "difficulty": "Easy",
-        "meaning": "Series of items written one after another."
-      },
-      {
-        "id": "c06_p71_w048",
-        "word": "particular",
+        "id": "c06_p73_w040",
+        "word": "Manufacture",
         "difficulty": "Medium",
-        "meaning": "Relating to one specific thing.",
+        "meaning": "To make something in a factory.",
         "medium": {
-          "pronunciation": "par-TIK-yoo-ler",
-          "simple_explanation": "Referring to one specific person, group, or thing out of many.",
-          "funny_explanation": "Like that one particular french fry at the bottom of the bag that somehow tastes better than all the others.",
+          "pronunciation": "Man-yoo-fak-cher",
+          "simple_explanation": "To make something on a large scale using machinery in a factory.",
+          "funny_explanation": "A fancy word for 'making stuff' with giant robots and conveyor belts.",
           "examples": [
             {
               "type": "normal",
-              "text": "This group represents the interests of a particular group of farmers."
+              "text": "The company uses oil to manufacture plastic containers."
             },
             {
               "type": "funny",
-              "text": "I am very particular about which socks I wear; they must both be the same level of fuzzy."
+              "text": "I wish I could manufacture 100% correct answers during my math test."
             }
           ],
           "synonyms": [
-            "specific"
+            "Produce"
           ],
           "antonyms": [
-            "general"
+            "Destroy"
           ]
         }
       },
       {
-        "id": "c06_p71_w049",
-        "word": "common",
+        "id": "c06_p73_w041",
+        "word": "Urea",
         "difficulty": "Medium",
-        "meaning": "Shared by or belonging to many.",
+        "meaning": "A chemical used as a plant fertilizer.",
         "medium": {
-          "pronunciation": "KOM-un",
-          "simple_explanation": "Shared by or belonging to everyone in a group.",
-          "funny_explanation": "It's common knowledge that if you drop your toast, it will always land butter-side down on the rug.",
+          "pronunciation": "Yoo-ree-uh",
+          "simple_explanation": "A chemical compound used in fertilizers to provide nitrogen for plants.",
+          "funny_explanation": "It's a chemical found in pee, but scientists make it in labs to help corn grow big and tall.",
           "examples": [
             {
               "type": "normal",
-              "text": "The neighbors worked together for the common good of the community."
+              "text": "Urea is an important ingredient in many agricultural fertilizers."
             },
             {
               "type": "funny",
-              "text": "Having a messy room is a common trait among people who say 'I'll do it later.'"
+              "text": "The plants were so happy with the urea that they practically threw a garden party."
             }
           ],
           "synonyms": [
-            "shared"
+            "Carbamide"
           ],
-          "antonyms": [
-            "rare"
-          ]
+          "antonyms": null
         }
       },
       {
-        "id": "c06_p71_w050",
-        "word": "launched",
-        "difficulty": "Medium",
-        "meaning": "Started a new activity or plan.",
-        "medium": {
-          "pronunciation": "LAWNCH-d",
-          "simple_explanation": "Started or set a new activity or project in motion.",
-          "funny_explanation": "Like when you 'launch' yourself into the kitchen because you heard a bag of chips opening.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The activists launched a huge protest to save the local park."
-            },
-            {
-              "type": "funny",
-              "text": "I launched a mission to find my lost shoe, but I ended up finding three old pens and a sock instead."
-            }
-          ],
-          "synonyms": [
-            "started"
-          ],
-          "antonyms": [
-            "finished"
-          ]
-        }
-      },
-      {
-        "id": "c06_p71_w051",
-        "word": "resolution",
-        "difficulty": "Hard",
-        "meaning": "A firm decision to solve a problem.",
-        "hard": {
-          "why_it_is_given_in_book": "The author talks about groups working towards the resolution (solving) of social problems.",
-          "pronunciation": "Rez-o-loo-shun",
-          "simple_explanation": "The act of finding an answer or solution to a conflict or problem.",
-          "funny_explanation": "The glorious moment when you and your friend finally agree on which movie to watch after arguing for an hour.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The resolution of the dispute required many meetings."
-            },
-            {
-              "type": "funny",
-              "text": "The resolution to my hunger was a very large peanut butter sandwich."
-            }
-          ],
-          "synonyms": [
-            "Solution"
-          ],
-          "antonyms": [
-            "Conflict"
-          ],
-          "real_world_analogy": "The final click when the last piece of a jigsaw puzzle fits perfectly."
-        }
-      },
-      {
-        "id": "c06_p71_w052",
-        "word": "organisational",
-        "difficulty": "Hard",
-        "meaning": "Related to how a group is set up.",
-        "hard": {
-          "why_it_is_given_in_book": "Used to describe how a group is arranged or managed to function properly.",
-          "pronunciation": "Or-gan-i-zay-shun-al",
-          "simple_explanation": "Relating to how a group or business is set up and structured.",
-          "funny_explanation": "It's the difference between a messy pile of LEGOs and a shelf where every brick is sorted by color and size.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "The movement lacked an organisational structure but was still powerful."
-            },
-            {
-              "type": "funny",
-              "text": "My organisational skills are so good that even my socks have their own assigned seats."
-            }
-          ],
-          "synonyms": [
-            "Managerial"
-          ],
-          "antonyms": [
-            "Chaotic"
-          ],
-          "real_world_analogy": "A school timetable that tells every teacher and student exactly where they need to be."
-        }
-      },
-      {
-        "id": "c06_p71_w053",
-        "word": "structure",
-        "difficulty": "Hard",
-        "meaning": "The way parts of something are arranged.",
-        "hard": {
-          "why_it_is_given_in_book": "Refers to the 'skeleton' or framework of an organization that keeps it organized.",
-          "pronunciation": "Struk-chur",
-          "simple_explanation": "The way in which parts of a system are arranged or put together.",
-          "funny_explanation": "Think of it as the bones inside your body; without structure, you'd just be a blob of human-flavored jelly on the floor.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "A political party has a very formal structure with leaders and members."
-            },
-            {
-              "type": "funny",
-              "text": "My sandcastle's structure was great until a giant wave decided to sit on it."
-            }
-          ],
-          "synonyms": [
-            "Framework"
-          ],
-          "antonyms": [
-            "Disorganization"
-          ],
-          "real_world_analogy": "The wooden frame of a house that holds up the walls and roof."
-        }
-      },
-      {
-        "id": "c06_p71_w054",
-        "word": "view",
+        "id": "c06_p73_w042",
+        "word": "Surface",
         "difficulty": "Easy",
-        "meaning": "A way of thinking about something."
+        "meaning": "The top layer of something."
       },
       {
-        "id": "c06_p71_w055",
-        "word": "win",
+        "id": "c06_p73_w043",
+        "word": "Layers",
         "difficulty": "Easy",
-        "meaning": "To be successful in a competition."
+        "meaning": "One thickness of a material on another."
       },
       {
-        "id": "c06_p71_w056",
-        "word": "sectional",
-        "difficulty": "Hard",
-        "meaning": "Relating to only one part of society.",
-        "hard": {
-          "why_it_is_given_in_book": "This word specifies groups that represent only a particular 'section' or portion of society, like teachers or lawyers.",
-          "pronunciation": "Sek-shun-al",
-          "simple_explanation": "Relating to only one part or section of a larger group.",
-          "funny_explanation": "Like a club that only allows people who like pineapple on pizza—it only cares about that one 'section' of eaters.",
-          "examples": [
-            {
-              "type": "normal",
-              "text": "Sectional interest groups fight for the rights of specific workers."
-            },
-            {
-              "type": "funny",
-              "text": "I have a sectional interest in the toy aisle; I don't care about the boring vegetable section."
-            }
-          ],
-          "synonyms": [
-            "Fractional"
-          ],
-          "antonyms": [
-            "Universal"
-          ],
-          "real_world_analogy": "A single slice of an orange compared to the whole fruit."
-        }
-      },
-      {
-        "id": "c06_p71_w057",
-        "word": "public",
+        "id": "c06_p73_w044",
+        "word": "Sand",
         "difficulty": "Easy",
-        "meaning": "Related to all people in a community."
+        "meaning": "Tiny grains of crushed rock."
+      },
+      {
+        "id": "c06_p73_w045",
+        "word": "Clay",
+        "difficulty": "Easy",
+        "meaning": "Sticky earth used for making pots."
+      },
+      {
+        "id": "c06_p73_w046",
+        "word": "Fuel",
+        "difficulty": "Easy",
+        "meaning": "Material burned to produce energy."
+      },
+      {
+        "id": "c06_p73_w047",
+        "word": "Heavy",
+        "difficulty": "Easy",
+        "meaning": "Something that weighs a lot."
+      },
+      {
+        "id": "c06_p73_w048",
+        "word": "Light",
+        "difficulty": "Easy",
+        "meaning": "Something that does not weigh much."
+      },
+      {
+        "id": "c06_p73_w049",
+        "word": "Road",
+        "difficulty": "Easy",
+        "meaning": "A hard path for cars to travel."
+      },
+      {
+        "id": "c06_p73_w050",
+        "word": "Paint",
+        "difficulty": "Easy",
+        "meaning": "Colored liquid used to cover surfaces."
+      },
+      {
+        "id": "c06_p73_w051",
+        "word": "Water",
+        "difficulty": "Easy",
+        "meaning": "A clear liquid we drink to live."
+      },
+      {
+        "id": "c06_p73_w052",
+        "word": "Large",
+        "difficulty": "Easy",
+        "meaning": "Very big in size or amount."
+      },
+      {
+        "id": "c06_p73_w053",
+        "word": "Table",
+        "difficulty": "Easy",
+        "meaning": "Information arranged in rows and columns."
+      },
+      {
+        "id": "c06_p73_w054",
+        "word": "Showing",
+        "difficulty": "Easy",
+        "meaning": "Letting someone see or understand something."
+      },
+      {
+        "id": "c06_p73_w055",
+        "word": "Uses",
+        "difficulty": "Easy",
+        "meaning": "Ways in which something can be used."
       }
     ]
   }
