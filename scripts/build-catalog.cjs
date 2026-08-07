@@ -3,6 +3,7 @@ const path = require('path');
 
 const datasetDir = path.join(__dirname, '..', 'dataset');
 const outputDir = path.join(__dirname, '..', 'public');
+const publicDatasetDir = path.join(outputDir, 'dataset');
 const outputFile = path.join(outputDir, 'dataset-manifest.json');
 
 const subjectTitles = {
@@ -43,6 +44,26 @@ const manifest = {
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
+
+// Copy directory recursively to ensure dist/ contains all public/dataset files for production hosting
+function copyDirRecursive(src, dest) {
+  if (!fs.existsSync(dest)) {
+    fs.mkdirSync(dest, { recursive: true });
+  }
+  const entries = fs.readdirSync(src, { withFileTypes: true });
+  for (const entry of entries) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.isDirectory()) {
+      copyDirRecursive(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+}
+
+console.log('Copying dataset files to public/dataset for production bundling...');
+copyDirRecursive(datasetDir, publicDatasetDir);
 
 function scanDir(dir) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
