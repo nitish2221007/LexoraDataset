@@ -1,0 +1,1273 @@
+[
+  {
+    "page_no": 25,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p25_monarchy",
+        "word": "Monarchy",
+        "difficulty": "Medium",
+        "meaning": "Form of government with a monarch (king or queen) at the head.",
+        "hindi_meaning": "राजतंत्र / राजा का शासन",
+        "medium": {
+          "pronunciation": "Mon-ar-chy",
+          "simple_explanation": "Government ruled by a king or queen.",
+          "funny_explanation": "One crown to rule them all, no elections required!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was an absolute monarchy before the revolution."
+            }
+          ],
+          "synonyms": [
+            "kingdom",
+            "royalty",
+            "sovereignty"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p25_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 26,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p26_monarchy",
+        "word": "Monarchy",
+        "difficulty": "Medium",
+        "meaning": "Form of government with a monarch (king or queen) at the head.",
+        "hindi_meaning": "राजतंत्र / राजा का शासन",
+        "medium": {
+          "pronunciation": "Mon-ar-chy",
+          "simple_explanation": "Government ruled by a king or queen.",
+          "funny_explanation": "One crown to rule them all, no elections required!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was an absolute monarchy before the revolution."
+            }
+          ],
+          "synonyms": [
+            "kingdom",
+            "royalty",
+            "sovereignty"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p26_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p26_clergy",
+        "word": "Clergy",
+        "difficulty": "Medium",
+        "meaning": "The body of all people ordained for religious duties in the Church.",
+        "hindi_meaning": "पादरी वर्ग / धर्मगुरु",
+        "medium": {
+          "pronunciation": "Cler-gy",
+          "simple_explanation": "Religious officials like priests and bishops.",
+          "funny_explanation": "The holy leaders who owned huge church lands.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The clergy formed the First Estate in France."
+            }
+          ],
+          "synonyms": [
+            "priesthood",
+            "ministers",
+            "ecclesiastics"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p26_guillotine",
+        "word": "Guillotine",
+        "difficulty": "Hard",
+        "meaning": "A machine with a heavy blade used for beheading people.",
+        "hindi_meaning": "गिलोटिन (सिर कलम करने की मशीन)",
+        "medium": {
+          "pronunciation": "Guil-lo-tine",
+          "simple_explanation": "A execution device with a falling heavy blade.",
+          "funny_explanation": "The scary haircut machine of the French Terror.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "King Louis XVI was executed by guillotine."
+            }
+          ],
+          "synonyms": [
+            "execution device",
+            "decapitator"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p26_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p26_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 27,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p27_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p27_fraternity",
+        "word": "Fraternity",
+        "difficulty": "Easy",
+        "meaning": "A group of people sharing a common profession or interest; brotherhood.",
+        "hindi_meaning": "बंधुत्व / भाईचारा"
+      }
+    ]
+  },
+  {
+    "page_no": 28,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p28_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 29,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p29_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p29_suffrage",
+        "word": "Suffrage",
+        "difficulty": "Easy",
+        "meaning": "The right to vote in political elections.",
+        "hindi_meaning": "मताधिकार"
+      }
+    ]
+  },
+  {
+    "page_no": 30,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p30_sovereignty",
+        "word": "Sovereignty",
+        "difficulty": "Hard",
+        "meaning": "Supreme power or authority over a state or territory.",
+        "hindi_meaning": "संप्रभुता / सर्वोच्च सत्ता",
+        "medium": {
+          "pronunciation": "Sov-ereign-ty",
+          "simple_explanation": "Complete independent control of a country.",
+          "funny_explanation": "Being the boss of your own land with no outside orders.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "National sovereignty resides in the nation."
+            }
+          ],
+          "synonyms": [
+            "autonomy",
+            "independence",
+            "supreme power"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 31,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p31_emancipation",
+        "word": "Emancipation",
+        "difficulty": "Hard",
+        "meaning": "The fact or process of being set free from legal, social, or political restrictions.",
+        "hindi_meaning": "मुक्ति / स्वतंत्रता",
+        "medium": {
+          "pronunciation": "E-man-ci-pa-tion",
+          "simple_explanation": "Setting people free from slavery or bondage.",
+          "funny_explanation": "Unlocking the chains for total freedom!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The emancipation of slaves was decreed in 1794."
+            }
+          ],
+          "synonyms": [
+            "liberation",
+            "freedom",
+            "release"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 32,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p32_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 33,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p33_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p33_feudal",
+        "word": "Feudal",
+        "difficulty": "Hard",
+        "meaning": "Relating to the system of social and land ownership in medieval Europe.",
+        "hindi_meaning": "सामंती / ज़मींदारी प्रथा",
+        "medium": {
+          "pronunciation": "Feu-dal",
+          "simple_explanation": "Landlords holding power over peasant workers.",
+          "funny_explanation": "Pay rent in crops or work for the lord for free.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The National Assembly abolished the feudal system."
+            }
+          ],
+          "synonyms": [
+            "manorial",
+            "seigneurial"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 34,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p34_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 35,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p35_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p35_aristocracy",
+        "word": "Aristocracy",
+        "difficulty": "Hard",
+        "meaning": "The highest class in certain societies, typically holding hereditary titles and office.",
+        "hindi_meaning": "अभिजात वर्ग / कुलीन वर्ग",
+        "medium": {
+          "pronunciation": "Ar-is-toc-ra-cy",
+          "simple_explanation": "Rich nobility and high-born families.",
+          "funny_explanation": "The fancy VIP club of history.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The aristocracy enjoyed many tax privileges."
+            }
+          ],
+          "synonyms": [
+            "nobility",
+            "gentry",
+            "elite"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 36,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p36_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p36_privilege",
+        "word": "Privilege",
+        "difficulty": "Easy",
+        "meaning": "A special right, advantage, or immunity granted only to a particular person or group.",
+        "hindi_meaning": "विशेषाधिकार / सुविधा"
+      },
+      {
+        "id": "class_9_history_chapter_2_p36_franchise",
+        "word": "Franchise",
+        "difficulty": "Medium",
+        "meaning": "The right to vote in public political elections.",
+        "hindi_meaning": "मताधिकार / वोट देने का अधिकार",
+        "medium": {
+          "pronunciation": "Fran-chise",
+          "simple_explanation": "Legal right of citizens to vote.",
+          "funny_explanation": "Your official power ticket to choose the government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Universal adult franchise gives every adult one vote."
+            }
+          ],
+          "synonyms": [
+            "suffrage",
+            "voting right"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p36_judiciary",
+        "word": "Judiciary",
+        "difficulty": "Easy",
+        "meaning": "The judicial authorities of a country; judges and court system collectively.",
+        "hindi_meaning": "न्यायपालिका / अदालतें"
+      },
+      {
+        "id": "class_9_history_chapter_2_p36_unemployment",
+        "word": "Unemployment",
+        "difficulty": "Medium",
+        "meaning": "The state of not having a job despite actively seeking work.",
+        "hindi_meaning": "बेरोज़गारी",
+        "medium": {
+          "pronunciation": "Un-em-ploy-ment",
+          "simple_explanation": "Wanting a job but not being able to find one.",
+          "funny_explanation": "Ready to work, but no job openings available.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Disguised unemployment is common in agriculture."
+            }
+          ],
+          "synonyms": [
+            "joblessness",
+            "idleness"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 37,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p37_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p37_aristocracy",
+        "word": "Aristocracy",
+        "difficulty": "Hard",
+        "meaning": "The highest class in certain societies, typically holding hereditary titles and office.",
+        "hindi_meaning": "अभिजात वर्ग / कुलीन वर्ग",
+        "medium": {
+          "pronunciation": "Ar-is-toc-ra-cy",
+          "simple_explanation": "Rich nobility and high-born families.",
+          "funny_explanation": "The fancy VIP club of history.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The aristocracy enjoyed many tax privileges."
+            }
+          ],
+          "synonyms": [
+            "nobility",
+            "gentry",
+            "elite"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p37_privilege",
+        "word": "Privilege",
+        "difficulty": "Easy",
+        "meaning": "A special right, advantage, or immunity granted only to a particular person or group.",
+        "hindi_meaning": "विशेषाधिकार / सुविधा"
+      },
+      {
+        "id": "class_9_history_chapter_2_p37_capital",
+        "word": "Capital",
+        "difficulty": "Medium",
+        "meaning": "Wealth in the form of money or assets owned by a person or organization.",
+        "hindi_meaning": "पूंजी / मूलधन",
+        "medium": {
+          "pronunciation": "Cap-i-tal",
+          "simple_explanation": "Money, tools, or buildings needed for business.",
+          "funny_explanation": "The coins and machinery that make the factory run!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers need working capital to buy seeds."
+            }
+          ],
+          "synonyms": [
+            "investment",
+            "funds",
+            "assets"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 38,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p38_capital",
+        "word": "Capital",
+        "difficulty": "Medium",
+        "meaning": "Wealth in the form of money or assets owned by a person or organization.",
+        "hindi_meaning": "पूंजी / मूलधन",
+        "medium": {
+          "pronunciation": "Cap-i-tal",
+          "simple_explanation": "Money, tools, or buildings needed for business.",
+          "funny_explanation": "The coins and machinery that make the factory run!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers need working capital to buy seeds."
+            }
+          ],
+          "synonyms": [
+            "investment",
+            "funds",
+            "assets"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 39,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p39_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 40,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p40_monarchy",
+        "word": "Monarchy",
+        "difficulty": "Medium",
+        "meaning": "Form of government with a monarch (king or queen) at the head.",
+        "hindi_meaning": "राजतंत्र / राजा का शासन",
+        "medium": {
+          "pronunciation": "Mon-ar-chy",
+          "simple_explanation": "Government ruled by a king or queen.",
+          "funny_explanation": "One crown to rule them all, no elections required!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was an absolute monarchy before the revolution."
+            }
+          ],
+          "synonyms": [
+            "kingdom",
+            "royalty",
+            "sovereignty"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p40_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 41,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p41_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p41_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      },
+      {
+        "id": "class_9_history_chapter_2_p41_unemployment",
+        "word": "Unemployment",
+        "difficulty": "Medium",
+        "meaning": "The state of not having a job despite actively seeking work.",
+        "hindi_meaning": "बेरोज़गारी",
+        "medium": {
+          "pronunciation": "Un-em-ploy-ment",
+          "simple_explanation": "Wanting a job but not being able to find one.",
+          "funny_explanation": "Ready to work, but no job openings available.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Disguised unemployment is common in agriculture."
+            }
+          ],
+          "synonyms": [
+            "joblessness",
+            "idleness"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 42,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p42_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p42_autocracy",
+        "word": "Autocracy",
+        "difficulty": "Hard",
+        "meaning": "A system of government by one person with absolute power.",
+        "hindi_meaning": "एकतंत्र / तानाशाही",
+        "medium": {
+          "pronunciation": "Au-toc-ra-cy",
+          "simple_explanation": "Rule by one single dictator.",
+          "funny_explanation": "One person gets all the remote control buttons.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Citizens suffered under absolute autocracy."
+            }
+          ],
+          "synonyms": [
+            "dictatorship",
+            "despotism",
+            "tyranny"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 43,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p43_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p43_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 44,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p44_autocracy",
+        "word": "Autocracy",
+        "difficulty": "Hard",
+        "meaning": "A system of government by one person with absolute power.",
+        "hindi_meaning": "एकतंत्र / तानाशाही",
+        "medium": {
+          "pronunciation": "Au-toc-ra-cy",
+          "simple_explanation": "Rule by one single dictator.",
+          "funny_explanation": "One person gets all the remote control buttons.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Citizens suffered under absolute autocracy."
+            }
+          ],
+          "synonyms": [
+            "dictatorship",
+            "despotism",
+            "tyranny"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 45,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p45_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p45_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p45_capital",
+        "word": "Capital",
+        "difficulty": "Medium",
+        "meaning": "Wealth in the form of money or assets owned by a person or organization.",
+        "hindi_meaning": "पूंजी / मूलधन",
+        "medium": {
+          "pronunciation": "Cap-i-tal",
+          "simple_explanation": "Money, tools, or buildings needed for business.",
+          "funny_explanation": "The coins and machinery that make the factory run!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers need working capital to buy seeds."
+            }
+          ],
+          "synonyms": [
+            "investment",
+            "funds",
+            "assets"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 46,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p46_monarchy",
+        "word": "Monarchy",
+        "difficulty": "Medium",
+        "meaning": "Form of government with a monarch (king or queen) at the head.",
+        "hindi_meaning": "राजतंत्र / राजा का शासन",
+        "medium": {
+          "pronunciation": "Mon-ar-chy",
+          "simple_explanation": "Government ruled by a king or queen.",
+          "funny_explanation": "One crown to rule them all, no elections required!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was an absolute monarchy before the revolution."
+            }
+          ],
+          "synonyms": [
+            "kingdom",
+            "royalty",
+            "sovereignty"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p46_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p46_suffrage",
+        "word": "Suffrage",
+        "difficulty": "Easy",
+        "meaning": "The right to vote in political elections.",
+        "hindi_meaning": "मताधिकार"
+      }
+    ]
+  },
+  {
+    "page_no": 47,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p47_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 48,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p48_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 49,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p49_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p49_aristocracy",
+        "word": "Aristocracy",
+        "difficulty": "Hard",
+        "meaning": "The highest class in certain societies, typically holding hereditary titles and office.",
+        "hindi_meaning": "अभिजात वर्ग / कुलीन वर्ग",
+        "medium": {
+          "pronunciation": "Ar-is-toc-ra-cy",
+          "simple_explanation": "Rich nobility and high-born families.",
+          "funny_explanation": "The fancy VIP club of history.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The aristocracy enjoyed many tax privileges."
+            }
+          ],
+          "synonyms": [
+            "nobility",
+            "gentry",
+            "elite"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 50,
+    "words": [
+      {
+        "id": "class_9_history_chapter_2_p50_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p50_manor",
+        "word": "Manor",
+        "difficulty": "Medium",
+        "meaning": "A unit of land, originally a feudal lordship consisting of a lord's house and lands.",
+        "hindi_meaning": "जागीर / हवेली-क्षेत्र",
+        "medium": {
+          "pronunciation": "Man-or",
+          "simple_explanation": "A lord's large estate house and farm.",
+          "funny_explanation": "The original mega-mansion with surrounding farms.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Peasants attacked the chateaux and manors."
+            }
+          ],
+          "synonyms": [
+            "estate",
+            "domain",
+            "hall"
+          ]
+        }
+      },
+      {
+        "id": "class_9_history_chapter_2_p50_autocracy",
+        "word": "Autocracy",
+        "difficulty": "Hard",
+        "meaning": "A system of government by one person with absolute power.",
+        "hindi_meaning": "एकतंत्र / तानाशाही",
+        "medium": {
+          "pronunciation": "Au-toc-ra-cy",
+          "simple_explanation": "Rule by one single dictator.",
+          "funny_explanation": "One person gets all the remote control buttons.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Citizens suffered under absolute autocracy."
+            }
+          ],
+          "synonyms": [
+            "dictatorship",
+            "despotism",
+            "tyranny"
+          ]
+        }
+      }
+    ]
+  }
+]

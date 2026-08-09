@@ -1,0 +1,89 @@
+[
+  {
+    "page_no": 63,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_6_p63_unemployment",
+        "word": "Unemployment",
+        "difficulty": "Medium",
+        "meaning": "The state of not having a job despite actively seeking work.",
+        "hindi_meaning": "बेरोज़गारी",
+        "medium": {
+          "pronunciation": "Un-em-ploy-ment",
+          "simple_explanation": "Wanting a job but not being able to find one.",
+          "funny_explanation": "Ready to work, but no job openings available.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Disguised unemployment is common in agriculture."
+            }
+          ],
+          "synonyms": [
+            "joblessness",
+            "idleness"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_6_p63_poverty",
+        "word": "Poverty",
+        "difficulty": "Easy",
+        "meaning": "The state of being extremely poor, lacking basic necessities.",
+        "hindi_meaning": "गरीबी / निर्धनता"
+      }
+    ]
+  },
+  {
+    "page_no": 65,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_6_p65_glacier",
+        "word": "Glacier",
+        "difficulty": "Easy",
+        "meaning": "A slowly moving mass or river of ice formed by snow accumulation.",
+        "hindi_meaning": "हिमनद / ग्लेशियर"
+      },
+      {
+        "id": "class_9_geography_chapter_6_p65_alluvial",
+        "word": "Alluvial",
+        "difficulty": "Medium",
+        "meaning": "Relating to or derived from alluvium (clay, silt, sand) deposited by flowing water.",
+        "hindi_meaning": "जलोढ़ मिट्टी",
+        "medium": {
+          "pronunciation": "Al-lu-vi-al",
+          "simple_explanation": "Fertile river silt soil.",
+          "funny_explanation": "Super-rich muddy soil gift from mountain rivers.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Northern plains consist of fertile alluvial soil."
+            }
+          ],
+          "synonyms": [
+            "silty",
+            "clayey"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 66,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_6_p66_subcontinent",
+        "word": "Subcontinent",
+        "difficulty": "Easy",
+        "meaning": "A large, distinguishable part of a continent.",
+        "hindi_meaning": "उपमहाद्वीप"
+      },
+      {
+        "id": "class_9_geography_chapter_6_p66_monsoon",
+        "word": "Monsoon",
+        "difficulty": "Easy",
+        "meaning": "A seasonal prevailing wind in South Asia bringing rain.",
+        "hindi_meaning": "मानसूनी हवाएं / वर्षा ऋतु"
+      }
+    ]
+  }
+]

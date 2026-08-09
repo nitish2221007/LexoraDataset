@@ -101,6 +101,7 @@ function scanDir(dir) {
               id: w.id,
               word: w.word,
               meaning: w.meaning || '',
+              hindi_meaning: w.hindi_meaning || '',
               difficulty: w.difficulty || 'Medium',
               classId,
               subjectId,

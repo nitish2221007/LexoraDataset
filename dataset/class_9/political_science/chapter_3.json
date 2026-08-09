@@ -1,0 +1,963 @@
+[
+  {
+    "page_no": 37,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p37_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p37_franchise",
+        "word": "Franchise",
+        "difficulty": "Medium",
+        "meaning": "The right to vote in public political elections.",
+        "hindi_meaning": "मताधिकार / वोट देने का अधिकार",
+        "medium": {
+          "pronunciation": "Fran-chise",
+          "simple_explanation": "Legal right of citizens to vote.",
+          "funny_explanation": "Your official power ticket to choose the government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Universal adult franchise gives every adult one vote."
+            }
+          ],
+          "synonyms": [
+            "suffrage",
+            "voting right"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 38,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p38_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p38_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p38_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p38_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p38_franchise",
+        "word": "Franchise",
+        "difficulty": "Medium",
+        "meaning": "The right to vote in public political elections.",
+        "hindi_meaning": "मताधिकार / वोट देने का अधिकार",
+        "medium": {
+          "pronunciation": "Fran-chise",
+          "simple_explanation": "Legal right of citizens to vote.",
+          "funny_explanation": "Your official power ticket to choose the government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Universal adult franchise gives every adult one vote."
+            }
+          ],
+          "synonyms": [
+            "suffrage",
+            "voting right"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 39,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p39_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p39_emancipation",
+        "word": "Emancipation",
+        "difficulty": "Hard",
+        "meaning": "The fact or process of being set free from legal, social, or political restrictions.",
+        "hindi_meaning": "मुक्ति / स्वतंत्रता",
+        "medium": {
+          "pronunciation": "E-man-ci-pa-tion",
+          "simple_explanation": "Setting people free from slavery or bondage.",
+          "funny_explanation": "Unlocking the chains for total freedom!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The emancipation of slaves was decreed in 1794."
+            }
+          ],
+          "synonyms": [
+            "liberation",
+            "freedom",
+            "release"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p39_franchise",
+        "word": "Franchise",
+        "difficulty": "Medium",
+        "meaning": "The right to vote in public political elections.",
+        "hindi_meaning": "मताधिकार / वोट देने का अधिकार",
+        "medium": {
+          "pronunciation": "Fran-chise",
+          "simple_explanation": "Legal right of citizens to vote.",
+          "funny_explanation": "Your official power ticket to choose the government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Universal adult franchise gives every adult one vote."
+            }
+          ],
+          "synonyms": [
+            "suffrage",
+            "voting right"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p39_preamble",
+        "word": "Preamble",
+        "difficulty": "Medium",
+        "meaning": "A preliminary or introductory statement in a constitution stating its principles.",
+        "hindi_meaning": "प्रस्तावना / उद्देश्यिका",
+        "medium": {
+          "pronunciation": "Pre-am-ble",
+          "simple_explanation": "The opening introductory page of the Constitution.",
+          "funny_explanation": "The trailer and summary of the whole Constitution.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble outlines the core values of India."
+            }
+          ],
+          "synonyms": [
+            "introduction",
+            "preface"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 40,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p40_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p40_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 41,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p41_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p41_poverty",
+        "word": "Poverty",
+        "difficulty": "Easy",
+        "meaning": "The state of being extremely poor, lacking basic necessities.",
+        "hindi_meaning": "गरीबी / निर्धनता"
+      }
+    ]
+  },
+  {
+    "page_no": 42,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p42_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p42_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p42_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p42_preamble",
+        "word": "Preamble",
+        "difficulty": "Medium",
+        "meaning": "A preliminary or introductory statement in a constitution stating its principles.",
+        "hindi_meaning": "प्रस्तावना / उद्देश्यिका",
+        "medium": {
+          "pronunciation": "Pre-am-ble",
+          "simple_explanation": "The opening introductory page of the Constitution.",
+          "funny_explanation": "The trailer and summary of the whole Constitution.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble outlines the core values of India."
+            }
+          ],
+          "synonyms": [
+            "introduction",
+            "preface"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 43,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p43_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p43_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p43_fraternity",
+        "word": "Fraternity",
+        "difficulty": "Easy",
+        "meaning": "A group of people sharing a common profession or interest; brotherhood.",
+        "hindi_meaning": "बंधुत्व / भाईचारा"
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p43_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p43_secular",
+        "word": "Secular",
+        "difficulty": "Medium",
+        "meaning": "Not connected with religious or spiritual matters; official neutrality to religion.",
+        "hindi_meaning": "धर्मनिरपेक्ष",
+        "medium": {
+          "pronunciation": "Sec-u-lar",
+          "simple_explanation": "Government treats all religions equally.",
+          "funny_explanation": "No official state religion, all beliefs respected.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble declares India to be a secular state."
+            }
+          ],
+          "synonyms": [
+            "non-religious",
+            "neutral"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p43_preamble",
+        "word": "Preamble",
+        "difficulty": "Medium",
+        "meaning": "A preliminary or introductory statement in a constitution stating its principles.",
+        "hindi_meaning": "प्रस्तावना / उद्देश्यिका",
+        "medium": {
+          "pronunciation": "Pre-am-ble",
+          "simple_explanation": "The opening introductory page of the Constitution.",
+          "funny_explanation": "The trailer and summary of the whole Constitution.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble outlines the core values of India."
+            }
+          ],
+          "synonyms": [
+            "introduction",
+            "preface"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 44,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p44_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p44_preamble",
+        "word": "Preamble",
+        "difficulty": "Medium",
+        "meaning": "A preliminary or introductory statement in a constitution stating its principles.",
+        "hindi_meaning": "प्रस्तावना / उद्देश्यिका",
+        "medium": {
+          "pronunciation": "Pre-am-ble",
+          "simple_explanation": "The opening introductory page of the Constitution.",
+          "funny_explanation": "The trailer and summary of the whole Constitution.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble outlines the core values of India."
+            }
+          ],
+          "synonyms": [
+            "introduction",
+            "preface"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 45,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p45_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p45_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p45_fraternity",
+        "word": "Fraternity",
+        "difficulty": "Easy",
+        "meaning": "A group of people sharing a common profession or interest; brotherhood.",
+        "hindi_meaning": "बंधुत्व / भाईचारा"
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p45_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p45_secular",
+        "word": "Secular",
+        "difficulty": "Medium",
+        "meaning": "Not connected with religious or spiritual matters; official neutrality to religion.",
+        "hindi_meaning": "धर्मनिरपेक्ष",
+        "medium": {
+          "pronunciation": "Sec-u-lar",
+          "simple_explanation": "Government treats all religions equally.",
+          "funny_explanation": "No official state religion, all beliefs respected.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble declares India to be a secular state."
+            }
+          ],
+          "synonyms": [
+            "non-religious",
+            "neutral"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 46,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p46_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p46_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 48,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p48_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 50,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p50_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 51,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p51_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 53,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p53_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 54,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p54_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p54_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_political_science_chapter_3_p54_franchise",
+        "word": "Franchise",
+        "difficulty": "Medium",
+        "meaning": "The right to vote in public political elections.",
+        "hindi_meaning": "मताधिकार / वोट देने का अधिकार",
+        "medium": {
+          "pronunciation": "Fran-chise",
+          "simple_explanation": "Legal right of citizens to vote.",
+          "funny_explanation": "Your official power ticket to choose the government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Universal adult franchise gives every adult one vote."
+            }
+          ],
+          "synonyms": [
+            "suffrage",
+            "voting right"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 56,
+    "words": [
+      {
+        "id": "class_9_political_science_chapter_3_p56_democracy",
+        "word": "Democracy",
+        "difficulty": "Medium",
+        "meaning": "A system of government by the whole population through elected representatives.",
+        "hindi_meaning": "लोकतंत्र / प्रजातंत्र",
+        "medium": {
+          "pronunciation": "De-moc-ra-cy",
+          "simple_explanation": "Rule of the people, by the people, for the people.",
+          "funny_explanation": "Voting for leaders instead of taking orders from kings!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is the world's largest democracy."
+            }
+          ],
+          "synonyms": [
+            "republic",
+            "popular government"
+          ]
+        }
+      }
+    ]
+  }
+]

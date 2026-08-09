@@ -1,0 +1,362 @@
+[
+  {
+    "page_no": 2,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p2_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      }
+    ]
+  },
+  {
+    "page_no": 6,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p6_republic",
+        "word": "Republic",
+        "difficulty": "Medium",
+        "meaning": "A state in which supreme power is held by the people and their elected representatives.",
+        "hindi_meaning": "गणतंत्र / जन-राज्य",
+        "medium": {
+          "pronunciation": "Re-pub-lic",
+          "simple_explanation": "Country ruled by elected leaders, not a king.",
+          "funny_explanation": "No kings allowed, voters run the show!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "France was declared a republic in 1792."
+            }
+          ],
+          "synonyms": [
+            "democracy",
+            "self-government"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p6_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p6_fraternity",
+        "word": "Fraternity",
+        "difficulty": "Easy",
+        "meaning": "A group of people sharing a common profession or interest; brotherhood.",
+        "hindi_meaning": "बंधुत्व / भाईचारा"
+      },
+      {
+        "id": "class_9_economics_chapter_1_p6_secular",
+        "word": "Secular",
+        "difficulty": "Medium",
+        "meaning": "Not connected with religious or spiritual matters; official neutrality to religion.",
+        "hindi_meaning": "धर्मनिरपेक्ष",
+        "medium": {
+          "pronunciation": "Sec-u-lar",
+          "simple_explanation": "Government treats all religions equally.",
+          "funny_explanation": "No official state religion, all beliefs respected.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble declares India to be a secular state."
+            }
+          ],
+          "synonyms": [
+            "non-religious",
+            "neutral"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p6_preamble",
+        "word": "Preamble",
+        "difficulty": "Medium",
+        "meaning": "A preliminary or introductory statement in a constitution stating its principles.",
+        "hindi_meaning": "प्रस्तावना / उद्देश्यिका",
+        "medium": {
+          "pronunciation": "Pre-am-ble",
+          "simple_explanation": "The opening introductory page of the Constitution.",
+          "funny_explanation": "The trailer and summary of the whole Constitution.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Preamble outlines the core values of India."
+            }
+          ],
+          "synonyms": [
+            "introduction",
+            "preface"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 8,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p8_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 9,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p9_poverty",
+        "word": "Poverty",
+        "difficulty": "Easy",
+        "meaning": "The state of being extremely poor, lacking basic necessities.",
+        "hindi_meaning": "गरीबी / निर्धनता"
+      }
+    ]
+  },
+  {
+    "page_no": 10,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p10_constitution",
+        "word": "Constitution",
+        "difficulty": "Medium",
+        "meaning": "A body of fundamental principles according to which a state is governed.",
+        "hindi_meaning": "संविधान / देश का कानून",
+        "medium": {
+          "pronunciation": "Con-sti-tu-tion",
+          "simple_explanation": "The supreme rulebook of a country.",
+          "funny_explanation": "The ultimate cheat-sheet for running a government.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Assembly drafted the National Constitution in 1791."
+            }
+          ],
+          "synonyms": [
+            "charter",
+            "code of laws"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p10_sovereignty",
+        "word": "Sovereignty",
+        "difficulty": "Hard",
+        "meaning": "Supreme power or authority over a state or territory.",
+        "hindi_meaning": "संप्रभुता / सर्वोच्च सत्ता",
+        "medium": {
+          "pronunciation": "Sov-ereign-ty",
+          "simple_explanation": "Complete independent control of a country.",
+          "funny_explanation": "Being the boss of your own land with no outside orders.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "National sovereignty resides in the nation."
+            }
+          ],
+          "synonyms": [
+            "autonomy",
+            "independence",
+            "supreme power"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 11,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p11_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      }
+    ]
+  },
+  {
+    "page_no": 12,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p12_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      },
+      {
+        "id": "class_9_economics_chapter_1_p12_capital",
+        "word": "Capital",
+        "difficulty": "Medium",
+        "meaning": "Wealth in the form of money or assets owned by a person or organization.",
+        "hindi_meaning": "पूंजी / मूलधन",
+        "medium": {
+          "pronunciation": "Cap-i-tal",
+          "simple_explanation": "Money, tools, or buildings needed for business.",
+          "funny_explanation": "The coins and machinery that make the factory run!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers need working capital to buy seeds."
+            }
+          ],
+          "synonyms": [
+            "investment",
+            "funds",
+            "assets"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p12_livelihood",
+        "word": "Livelihood",
+        "difficulty": "Easy",
+        "meaning": "A means of securing the necessities of life.",
+        "hindi_meaning": "जीविका / रोज़गार"
+      }
+    ]
+  },
+  {
+    "page_no": 13,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p13_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      }
+    ]
+  },
+  {
+    "page_no": 14,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p14_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p14_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      }
+    ]
+  },
+  {
+    "page_no": 15,
+    "words": [
+      {
+        "id": "class_9_economics_chapter_1_p15_revolution",
+        "word": "Revolution",
+        "difficulty": "Medium",
+        "meaning": "A forcible overthrow of a government or social order in favour of a new system.",
+        "hindi_meaning": "क्रांति / बड़ा बदलाव",
+        "medium": {
+          "pronunciation": "Rev-o-lu-tion",
+          "simple_explanation": "A huge change when people fight for new rules.",
+          "funny_explanation": "Flipping the script when everyone gets tired of the old bosses.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The French Revolution began in 1789."
+            }
+          ],
+          "synonyms": [
+            "rebellion",
+            "uprising",
+            "revolt"
+          ]
+        }
+      },
+      {
+        "id": "class_9_economics_chapter_1_p15_production",
+        "word": "Production",
+        "difficulty": "Easy",
+        "meaning": "The action of manufacturing or making components or goods from raw materials.",
+        "hindi_meaning": "उत्पादन"
+      },
+      {
+        "id": "class_9_economics_chapter_1_p15_capital",
+        "word": "Capital",
+        "difficulty": "Medium",
+        "meaning": "Wealth in the form of money or assets owned by a person or organization.",
+        "hindi_meaning": "पूंजी / मूलधन",
+        "medium": {
+          "pronunciation": "Cap-i-tal",
+          "simple_explanation": "Money, tools, or buildings needed for business.",
+          "funny_explanation": "The coins and machinery that make the factory run!",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Farmers need working capital to buy seeds."
+            }
+          ],
+          "synonyms": [
+            "investment",
+            "funds",
+            "assets"
+          ]
+        }
+      }
+    ]
+  }
+]

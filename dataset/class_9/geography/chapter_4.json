@@ -1,0 +1,305 @@
+[
+  {
+    "page_no": 27,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p27_subcontinent",
+        "word": "Subcontinent",
+        "difficulty": "Easy",
+        "meaning": "A large, distinguishable part of a continent.",
+        "hindi_meaning": "उपमहाद्वीप"
+      }
+    ]
+  },
+  {
+    "page_no": 28,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p28_glacier",
+        "word": "Glacier",
+        "difficulty": "Easy",
+        "meaning": "A slowly moving mass or river of ice formed by snow accumulation.",
+        "hindi_meaning": "हिमनद / ग्लेशियर"
+      }
+    ]
+  },
+  {
+    "page_no": 30,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p30_tributary",
+        "word": "Tributary",
+        "difficulty": "Medium",
+        "meaning": "A river or stream flowing into a larger river or lake.",
+        "hindi_meaning": "सहायक नदी",
+        "medium": {
+          "pronunciation": "Trib-u-ta-ry",
+          "simple_explanation": "Smaller river feeding into a big main river.",
+          "funny_explanation": "The side streams that join the main water party.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Yamuna is the major tributary of the Ganga."
+            }
+          ],
+          "synonyms": [
+            "feeder",
+            "branch"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p30_distributary",
+        "word": "Distributary",
+        "difficulty": "Hard",
+        "meaning": "A branch of a river that does not return to the main stream after leaving it.",
+        "hindi_meaning": "वितरिका नदी",
+        "medium": {
+          "pronunciation": "Dis-trib-u-ta-ry",
+          "simple_explanation": "River branch breaking off near the ocean delta.",
+          "funny_explanation": "River branches saying goodbye before entering the sea.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Hooghly is a distributary of the Ganga."
+            }
+          ],
+          "synonyms": [
+            "river branch",
+            "outlet"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p30_glacier",
+        "word": "Glacier",
+        "difficulty": "Easy",
+        "meaning": "A slowly moving mass or river of ice formed by snow accumulation.",
+        "hindi_meaning": "हिमनद / ग्लेशियर"
+      }
+    ]
+  },
+  {
+    "page_no": 31,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p31_peninsula",
+        "word": "Peninsula",
+        "difficulty": "Medium",
+        "meaning": "A piece of land almost surrounded by water or projecting out into a body of water.",
+        "hindi_meaning": "प्रायद्वीप",
+        "medium": {
+          "pronunciation": "Pen-in-su-la",
+          "simple_explanation": "Land surrounded by water on 3 sides.",
+          "funny_explanation": "A land finger poking into the sea.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Southern India forms a huge peninsula."
+            }
+          ],
+          "synonyms": [
+            "promontory",
+            "headland"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 32,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p32_glacier",
+        "word": "Glacier",
+        "difficulty": "Easy",
+        "meaning": "A slowly moving mass or river of ice formed by snow accumulation.",
+        "hindi_meaning": "हिमनद / ग्लेशियर"
+      }
+    ]
+  },
+  {
+    "page_no": 33,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p33_livelihood",
+        "word": "Livelihood",
+        "difficulty": "Easy",
+        "meaning": "A means of securing the necessities of life.",
+        "hindi_meaning": "जीविका / रोज़गार"
+      }
+    ]
+  },
+  {
+    "page_no": 35,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p35_tributary",
+        "word": "Tributary",
+        "difficulty": "Medium",
+        "meaning": "A river or stream flowing into a larger river or lake.",
+        "hindi_meaning": "सहायक नदी",
+        "medium": {
+          "pronunciation": "Trib-u-ta-ry",
+          "simple_explanation": "Smaller river feeding into a big main river.",
+          "funny_explanation": "The side streams that join the main water party.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Yamuna is the major tributary of the Ganga."
+            }
+          ],
+          "synonyms": [
+            "feeder",
+            "branch"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p35_glacier",
+        "word": "Glacier",
+        "difficulty": "Easy",
+        "meaning": "A slowly moving mass or river of ice formed by snow accumulation.",
+        "hindi_meaning": "हिमनद / ग्लेशियर"
+      }
+    ]
+  },
+  {
+    "page_no": 36,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p36_monsoon",
+        "word": "Monsoon",
+        "difficulty": "Easy",
+        "meaning": "A seasonal prevailing wind in South Asia bringing rain.",
+        "hindi_meaning": "मानसूनी हवाएं / वर्षा ऋतु"
+      }
+    ]
+  },
+  {
+    "page_no": 37,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p37_latitude",
+        "word": "Latitude",
+        "difficulty": "Medium",
+        "meaning": "The angular distance of a place north or south of the earth's equator.",
+        "hindi_meaning": "अक्षांश",
+        "medium": {
+          "pronunciation": "Lat-i-tude",
+          "simple_explanation": "Horizontal lines around the globe.",
+          "funny_explanation": "Flat-itude lines lying down East to West.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India lies entirely in the Northern Hemisphere latitude."
+            }
+          ],
+          "synonyms": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p37_subcontinent",
+        "word": "Subcontinent",
+        "difficulty": "Easy",
+        "meaning": "A large, distinguishable part of a continent.",
+        "hindi_meaning": "उपमहाद्वीप"
+      }
+    ]
+  },
+  {
+    "page_no": 38,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p38_subcontinent",
+        "word": "Subcontinent",
+        "difficulty": "Easy",
+        "meaning": "A large, distinguishable part of a continent.",
+        "hindi_meaning": "उपमहाद्वीप"
+      },
+      {
+        "id": "class_9_geography_chapter_4_p38_monsoon",
+        "word": "Monsoon",
+        "difficulty": "Easy",
+        "meaning": "A seasonal prevailing wind in South Asia bringing rain.",
+        "hindi_meaning": "मानसूनी हवाएं / वर्षा ऋतु"
+      }
+    ]
+  },
+  {
+    "page_no": 39,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p39_monsoon",
+        "word": "Monsoon",
+        "difficulty": "Easy",
+        "meaning": "A seasonal prevailing wind in South Asia bringing rain.",
+        "hindi_meaning": "मानसूनी हवाएं / वर्षा ऋतु"
+      }
+    ]
+  },
+  {
+    "page_no": 40,
+    "words": [
+      {
+        "id": "class_9_geography_chapter_4_p40_latitude",
+        "word": "Latitude",
+        "difficulty": "Medium",
+        "meaning": "The angular distance of a place north or south of the earth's equator.",
+        "hindi_meaning": "अक्षांश",
+        "medium": {
+          "pronunciation": "Lat-i-tude",
+          "simple_explanation": "Horizontal lines around the globe.",
+          "funny_explanation": "Flat-itude lines lying down East to West.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India lies entirely in the Northern Hemisphere latitude."
+            }
+          ],
+          "synonyms": [
+            "parallel"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p40_subcontinent",
+        "word": "Subcontinent",
+        "difficulty": "Easy",
+        "meaning": "A large, distinguishable part of a continent.",
+        "hindi_meaning": "उपमहाद्वीप"
+      },
+      {
+        "id": "class_9_geography_chapter_4_p40_peninsula",
+        "word": "Peninsula",
+        "difficulty": "Medium",
+        "meaning": "A piece of land almost surrounded by water or projecting out into a body of water.",
+        "hindi_meaning": "प्रायद्वीप",
+        "medium": {
+          "pronunciation": "Pen-in-su-la",
+          "simple_explanation": "Land surrounded by water on 3 sides.",
+          "funny_explanation": "A land finger poking into the sea.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Southern India forms a huge peninsula."
+            }
+          ],
+          "synonyms": [
+            "promontory",
+            "headland"
+          ]
+        }
+      },
+      {
+        "id": "class_9_geography_chapter_4_p40_monsoon",
+        "word": "Monsoon",
+        "difficulty": "Easy",
+        "meaning": "A seasonal prevailing wind in South Asia bringing rain.",
+        "hindi_meaning": "मानसूनी हवाएं / वर्षा ऋतु"
+      }
+    ]
+  }
+]

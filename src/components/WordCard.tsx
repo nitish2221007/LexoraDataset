@@ -174,15 +174,29 @@ export const WordCard: React.FC<WordCardProps> = ({
       </div>
 
       {/* Primary Meaning */}
-      <p className={`mt-1.5 leading-relaxed ${
-        isPaper
-          ? 'font-handwriting text-xl sm:text-2xl text-[#0F172A] dark:text-amber-100 font-semibold'
-          : effectiveIsOpen
-          ? 'font-sans text-[#F0F7F4] font-medium text-base sm:text-lg'
-          : 'font-sans text-slate-800 dark:text-slate-200 text-sm sm:text-base'
-      }`}>
-        {word.meaning}
-      </p>
+      <div className="mt-1.5 space-y-1">
+        <p className={`leading-relaxed ${
+          isPaper
+            ? 'font-handwriting text-xl sm:text-2xl text-[#0F172A] dark:text-amber-100 font-semibold'
+            : effectiveIsOpen
+            ? 'font-sans text-[#F0F7F4] font-medium text-base sm:text-lg'
+            : 'font-sans text-slate-800 dark:text-slate-200 text-sm sm:text-base'
+        }`}>
+          {word.meaning}
+        </p>
+
+        {word.hindi_meaning && (
+          <p className={`text-xs sm:text-sm font-sans font-medium ${
+            isPaper
+              ? 'text-[#475569] dark:text-amber-300/80 font-handwriting text-lg'
+              : effectiveIsOpen
+              ? 'text-[#C2E0D4]'
+              : 'text-emerald-700 dark:text-emerald-400'
+          }`}>
+            <span className="font-bold opacity-80">Hindi:</span> {word.hindi_meaning}
+          </p>
+        )}
+      </div>
 
       {/* Expandable Extra Info Detail Section (Accordion) */}
       {effectiveIsOpen && (

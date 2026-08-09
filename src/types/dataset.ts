@@ -17,6 +17,7 @@ export interface WordItem {
   word: string;
   difficulty?: 'Easy' | 'Medium' | 'Hard' | string;
   meaning: string;
+  hindi_meaning?: string;
   medium?: MediumDetail;
 }
 
@@ -55,6 +56,7 @@ export interface IndexedWord {
   id: string;
   word: string;
   meaning: string;
+  hindi_meaning?: string;
   difficulty: string;
   classId: string;
   subjectId: string;
