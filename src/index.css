@@ -9,6 +9,24 @@
   }
 }
 
+.font-handwriting {
+  font-family: 'Caveat', 'Kalam', cursive, sans-serif;
+}
+
+.paper-notebook-container {
+  background-color: #FDFBF5;
+  background-image: linear-gradient(rgba(147, 197, 253, 0.3) 1px, transparent 1px);
+  background-size: 100% 2.2rem;
+  border-left: 3px solid #FCA5A5;
+}
+
+.dark .paper-notebook-container {
+  background-color: #181614;
+  background-image: linear-gradient(rgba(217, 119, 6, 0.15) 1px, transparent 1px);
+  background-size: 100% 2.2rem;
+  border-left: 3px solid #991B1B;
+}
+
 .perspective-1000 {
   perspective: 1000px;
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { WordItem } from '../types/dataset';
 import { WordCard } from './WordCard';
-import { BookOpen, Headphones, Pause, Flame, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, Headphones, Pause, ChevronLeft, ChevronRight, PenTool, Sparkles } from 'lucide-react';
 import { speakWord } from '../lib/datasetLoader';
 
 interface PageViewProps {
@@ -40,7 +40,18 @@ export const PageView: React.FC<PageViewProps> = ({
   const [isPlayingAudiobook, setIsPlayingAudiobook] = useState(false);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [openWordId, setOpenWordId] = useState<string | null>(null);
+  
+  // Reading Theme Mode: 'standard' | 'paper'
+  const [readingTheme, setReadingTheme] = useState<'standard' | 'paper'>(() => {
+    return (localStorage.getItem('lexora_reading_theme') as 'standard' | 'paper') || 'standard';
+  });
+
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const toggleReadingTheme = (theme: 'standard' | 'paper') => {
+    setReadingTheme(theme);
+    localStorage.setItem('lexora_reading_theme', theme);
+  };
 
   const filteredWords = useMemo(
     () => words.filter((word) => {
@@ -85,6 +96,7 @@ export const PageView: React.FC<PageViewProps> = ({
 
   const classNum = selectedClass.replace('class_', '');
   const subjectLabel = selectedSubject.replace('_', ' ').toUpperCase();
+  const isPaper = readingTheme === 'paper';
 
   if (isLoading) {
     return (
@@ -100,7 +112,7 @@ export const PageView: React.FC<PageViewProps> = ({
   return (
     <div className="vocab-deck-screen max-w-2xl mx-auto px-4 sm:px-6 py-6 space-y-6">
       
-      {/* Top Bar (vocab-deck-1.html style) */}
+      {/* Top Bar */}
       <div className="flex items-center justify-between gap-4 pb-3 border-b border-slate-200 dark:border-slate-800 font-sans">
         <button
           onClick={onOpenDeckModal}
@@ -109,20 +121,51 @@ export const PageView: React.FC<PageViewProps> = ({
           &larr; Change chapter
         </button>
 
-        <div className="flex items-center gap-2">
-          <span className="class-tag text-xs font-bold px-3 py-1 rounded-full bg-[#FFEAF2] dark:bg-pink-950/60 text-[#8A4A63] dark:text-pink-300 border border-[#F3C6D6] dark:border-pink-900/60">
-            Class {classNum}
-          </span>
+        {/* Theme Switcher Toggle (Standard vs Paper Handwriting Notebook) */}
+        <div className="flex items-center gap-1 bg-slate-200/70 dark:bg-slate-800 p-1 rounded-xl border border-slate-300 dark:border-slate-700">
+          <button
+            onClick={() => toggleReadingTheme('standard')}
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+              readingTheme === 'standard'
+                ? 'bg-white dark:bg-slate-700 text-[#C2185B] dark:text-pink-300 shadow-sm'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+            title="Standard Theme"
+          >
+            <Sparkles className="w-3 h-3" />
+            <span className="hidden sm:inline">Standard</span>
+          </button>
+
+          <button
+            onClick={() => toggleReadingTheme('paper')}
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+              readingTheme === 'paper'
+                ? 'bg-[#FFF9C4] dark:bg-amber-950 text-[#1E3A8A] dark:text-amber-300 shadow-sm'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+            title="Handwriting Paper Theme"
+          >
+            <PenTool className="w-3 h-3 text-amber-600" />
+            <span>Paper Notes</span>
+          </button>
         </div>
       </div>
 
       {/* Main Heading Section */}
       <div className="text-center space-y-1 py-1">
-        <h1 className="list-title text-2xl sm:text-3xl font-serif font-bold text-[#7A0F35] dark:text-white">
+        <h1 className={`list-title ${
+          isPaper
+            ? 'font-handwriting text-3xl sm:text-4xl font-bold text-[#1E3A8A] dark:text-amber-300'
+            : 'font-serif text-2xl sm:text-3xl font-bold text-[#7A0F35] dark:text-white'
+        }`}>
           {filteredWords.length} Vocabulary Words
         </h1>
-        <p className="sub text-xs sm:text-sm font-sans text-slate-500 dark:text-slate-400">
-          {subjectLabel} — {chapterTitle || 'Chapter Words'} — <span className="text-[#888] font-normal">click a word to see more.</span>
+        <p className={`sub text-xs sm:text-sm ${
+          isPaper
+            ? 'font-handwriting text-lg sm:text-xl text-[#475569] dark:text-amber-200/80'
+            : 'font-sans text-slate-500 dark:text-slate-400'
+        }`}>
+          {subjectLabel} — {chapterTitle || 'Chapter Words'} — <span className={isPaper ? 'text-[#1E3A8A] font-bold' : 'text-[#888] font-normal'}>click a word to expand notes.</span>
         </p>
 
         <div className="pt-2 flex justify-center">
@@ -132,6 +175,8 @@ export const PageView: React.FC<PageViewProps> = ({
             className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-sans font-bold transition-all ${
               isPlayingAudiobook
                 ? 'bg-rose-500 text-white animate-pulse'
+                : isPaper
+                ? 'bg-[#1E3A8A] text-white hover:bg-blue-900 shadow-sm'
                 : 'bg-[#C2185B] hover:bg-[#A31257] text-white shadow-sm'
             }`}
           >
@@ -141,9 +186,13 @@ export const PageView: React.FC<PageViewProps> = ({
         </div>
       </div>
 
-      {/* Connected Word List Container (Accordion: Only 1 open at a time) */}
+      {/* Connected Word List Container */}
       {filteredWords.length > 0 ? (
-        <div className="list max-w-xl mx-auto border-t border-slate-200 dark:border-slate-800">
+        <div className={`list max-w-xl mx-auto rounded-2xl p-4 sm:p-6 transition-all duration-300 ${
+          isPaper
+            ? 'paper-notebook-container shadow-md border-t border-b border-amber-200 dark:border-amber-900'
+            : 'border-t border-slate-200 dark:border-slate-800'
+        }`}>
           {filteredWords.map((word, index) => {
             const isThisOpen = openWordId === word.id;
 
@@ -157,6 +206,7 @@ export const PageView: React.FC<PageViewProps> = ({
                 onToggleOpen={() => setOpenWordId(isThisOpen ? null : word.id)}
                 isBookmarked={bookmarkedIds.includes(word.id)}
                 onToggleBookmark={onToggleBookmark}
+                readingTheme={readingTheme}
               />
             );
           })}
@@ -169,7 +219,7 @@ export const PageView: React.FC<PageViewProps> = ({
         </div>
       )}
 
-      {/* Pagination & Jump Row (vocab-deck-1.html style) */}
+      {/* Pagination & Jump Row */}
       {availablePages.length > 0 && onPageChange && (
         <div className="pagination-container pt-6 border-t border-slate-200 dark:border-slate-800 space-y-4 font-sans">
           
