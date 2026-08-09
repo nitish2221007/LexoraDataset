@@ -74,7 +74,7 @@ export const WordCard: React.FC<WordCardProps> = ({
       onClick={handleCardClick}
       className={`word-item-connected cursor-pointer transition-all duration-300 ${
         effectiveIsOpen
-          ? 'bg-emerald-600 dark:bg-emerald-700 text-white rounded-2xl p-4 my-2.5 shadow-xl shadow-emerald-500/20 border border-emerald-500 ring-2 ring-emerald-400/30'
+          ? 'bg-[#1F3A30] text-white rounded-3xl p-5 sm:p-6 my-3 shadow-2xl border border-[#2B4E41] ring-1 ring-emerald-500/20'
           : 'py-4 px-3 sm:px-4 border-b border-slate-200 dark:border-slate-800/80 hover:bg-slate-100/60 dark:hover:bg-slate-850/50'
       }`}
     >
@@ -83,18 +83,18 @@ export const WordCard: React.FC<WordCardProps> = ({
         <div className="flex items-baseline gap-2 flex-wrap min-w-0">
           <h3 className={`text-xl sm:text-2xl font-serif font-bold tracking-tight transition-colors ${
             effectiveIsOpen
-              ? 'text-white'
+              ? 'text-white font-extrabold'
               : 'bg-gradient-to-r from-[#A31257] via-[#C2185B] to-[#E0729B] dark:from-pink-400 dark:via-rose-300 dark:to-purple-300 bg-clip-text text-transparent'
           }`}>
             {word.word}
           </h3>
 
-          <span className={`text-xs font-sans italic ${effectiveIsOpen ? 'text-emerald-100' : 'text-slate-400 dark:text-slate-400'}`}>
+          <span className={`text-xs font-sans italic ${effectiveIsOpen ? 'text-[#A7C4B8]' : 'text-slate-400 dark:text-slate-400'}`}>
             {getPartOfSpeech()}
           </span>
 
           {medium?.pronunciation && (
-            <span className={`text-xs font-sans font-medium ${effectiveIsOpen ? 'text-emerald-200' : 'text-[#C2185B] dark:text-pink-400'}`}>
+            <span className={`text-xs font-sans font-medium ${effectiveIsOpen ? 'text-[#C2E0D4]' : 'text-[#C2185B] dark:text-pink-400'}`}>
               /{medium.pronunciation}/
             </span>
           )}
@@ -105,8 +105,8 @@ export const WordCard: React.FC<WordCardProps> = ({
           <button
             type="button"
             onClick={handleAudio}
-            className={`p-1.5 rounded-lg transition-all ${
-              effectiveIsOpen ? 'text-emerald-100 hover:bg-emerald-500/60 hover:text-white' : 'text-slate-400 hover:text-[#C2185B]'
+            className={`p-1.5 rounded-xl transition-all ${
+              effectiveIsOpen ? 'text-[#A7C4B8] hover:bg-white/10 hover:text-white' : 'text-slate-400 hover:text-[#C2185B]'
             } ${isPlayingAudio ? 'animate-pulse text-amber-300' : ''}`}
             title="Listen Audio"
           >
@@ -116,22 +116,22 @@ export const WordCard: React.FC<WordCardProps> = ({
           <button
             type="button"
             onClick={handleCopy}
-            className={`p-1.5 rounded-lg transition-all ${
-              effectiveIsOpen ? 'text-emerald-100 hover:bg-emerald-500/60 hover:text-white' : 'text-slate-400 hover:text-slate-700'
+            className={`p-1.5 rounded-xl transition-all ${
+              effectiveIsOpen ? 'text-[#A7C4B8] hover:bg-white/10 hover:text-white' : 'text-slate-400 hover:text-slate-700'
             }`}
             title="Copy word"
           >
-            {copied ? <Check className="w-4 h-4 text-amber-300 font-bold" /> : <Copy className="w-4 h-4" />}
+            {copied ? <Check className="w-4 h-4 text-emerald-400 font-bold" /> : <Copy className="w-4 h-4" />}
           </button>
 
           <button
             type="button"
             onClick={handleBookmarkToggle}
-            className={`p-1.5 rounded-lg transition-all ${
+            className={`p-1.5 rounded-xl transition-all ${
               isBookmarked
-                ? 'text-amber-300'
+                ? 'text-amber-400'
                 : effectiveIsOpen
-                ? 'text-emerald-100 hover:text-amber-300 hover:bg-emerald-500/60'
+                ? 'text-[#A7C4B8] hover:text-amber-300 hover:bg-white/10'
                 : 'text-slate-400 hover:text-amber-500'
             }`}
             title={isBookmarked ? 'Saved' : 'Save word'}
@@ -142,45 +142,45 @@ export const WordCard: React.FC<WordCardProps> = ({
       </div>
 
       {/* Primary Meaning */}
-      <p className={`mt-1 text-sm sm:text-base font-sans leading-relaxed ${
-        effectiveIsOpen ? 'text-emerald-50 font-semibold' : 'text-slate-800 dark:text-slate-200'
+      <p className={`mt-2 text-sm sm:text-base font-sans leading-relaxed ${
+        effectiveIsOpen ? 'text-[#F0F7F4] font-medium text-base sm:text-lg' : 'text-slate-800 dark:text-slate-200'
       }`}>
         {word.meaning}
       </p>
 
       {/* Expandable Extra Info Detail Section (Accordion) */}
       {effectiveIsOpen && (
-        <div className="mt-3 pt-3 border-t border-dashed border-emerald-400/40 space-y-2.5 font-sans text-xs sm:text-sm text-emerald-50 animate-slide-down">
+        <div className="mt-4 pt-3.5 border-t border-dashed border-[#2D5244] space-y-3 font-sans text-xs sm:text-sm text-[#F0F7F4] animate-slide-down">
           
           {medium?.examples && medium.examples.length > 0 && (
-            <p className="text-emerald-100">
+            <p className="text-[#D3E5DD]">
               <span className="font-bold text-white">Example: </span>
               “{medium.examples[0].text}”
             </p>
           )}
 
           {medium?.synonyms && medium.synonyms.length > 0 && (
-            <p className="text-emerald-100">
+            <p className="text-[#D3E5DD]">
               <span className="font-bold text-white">Similar words: </span>
               {medium.synonyms.join(', ')}
             </p>
           )}
 
           {medium?.simple_explanation && (
-            <div className="flex items-start gap-2 bg-emerald-700/70 dark:bg-emerald-800/80 p-2.5 rounded-xl border border-emerald-400/30 text-white">
-              <Lightbulb className="w-4 h-4 text-amber-300 shrink-0 mt-0.5" />
+            <div className="flex items-start gap-2.5 bg-[#162A23] p-3 rounded-2xl border border-[#26473B] text-[#E2F0EA]">
+              <Lightbulb className="w-4 h-4 text-[#82D6B3] shrink-0 mt-0.5" />
               <div>
-                <span className="font-bold">Simple: </span>
+                <span className="font-bold text-white">Simple: </span>
                 <span>{medium.simple_explanation}</span>
               </div>
             </div>
           )}
 
           {medium?.funny_explanation && (
-            <div className="flex items-start gap-2 bg-purple-950/70 p-2.5 rounded-xl border border-purple-400/30 text-purple-100">
-              <Smile className="w-4 h-4 text-purple-300 shrink-0 mt-0.5" />
+            <div className="flex items-start gap-2.5 bg-[#25294A] p-3 rounded-2xl border border-[#3A4072] text-[#EAE8F8]">
+              <Smile className="w-4 h-4 text-[#B6B0F2] shrink-0 mt-0.5" />
               <div>
-                <span className="font-bold">Funny Trick: </span>
+                <span className="font-bold text-white">Funny Trick: </span>
                 <span>{medium.funny_explanation}</span>
               </div>
             </div>
