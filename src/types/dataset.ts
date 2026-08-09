@@ -68,4 +68,4 @@ export interface DatasetManifest {
   allWordsIndex: IndexedWord[];
 }
 
-export type ViewMode = 'page' | 'flashcard' | 'quiz' | 'bookmarks' | 'search';
+export type ViewMode = 'page' | 'reel' | 'flashcard' | 'quiz' | 'bookmarks' | 'search';

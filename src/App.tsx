@@ -9,9 +9,10 @@ import { QuizView } from './components/QuizView';
 import { SearchView } from './components/SearchView';
 import { BookmarksView } from './components/BookmarksView';
 import { MobileBottomNav } from './components/MobileBottomNav';
+import { StorySwipeView } from './components/StorySwipeView';
+import { DeckSelectionView } from './components/DeckSelectionView';
 
 export const App: React.FC = () => {
-
   const [manifest, setManifest] = useState<DatasetManifest | null>(null);
   const [selectedClass, setSelectedClass] = useState<string>('class_10');
   const [selectedSubject, setSelectedSubject] = useState<string>('history');
@@ -25,9 +26,28 @@ export const App: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [difficultyFilter, setDifficultyFilter] = useState<string>('All');
   
-  const [darkMode, setDarkMode] = useState<boolean>(true);
+  const [darkMode, setDarkMode] = useState<boolean>(false);
   const [bookmarkedIds, setBookmarkedIds] = useState<string[]>([]);
   const [bookmarkedWordsCache, setBookmarkedWordsCache] = useState<{ word: WordItem; pageNo?: number }[]>([]);
+  
+  // Selection Flow Step: 'class' | 'subject' | 'chapter' | 'words'
+  const [selectionStep, setSelectionStep] = useState<'class' | 'subject' | 'chapter' | 'words'>('class');
+
+  // Gamification: XP & Streak
+  const [xp, setXp] = useState<number>(() => {
+    return Number(localStorage.getItem('lexora_xp') || '50');
+  });
+  const [streak, setStreak] = useState<number>(() => {
+    return Number(localStorage.getItem('lexora_streak') || '1');
+  });
+
+  const handleAddXp = (amount: number) => {
+    setXp(prev => {
+      const next = prev + amount;
+      localStorage.setItem('lexora_xp', next.toString());
+      return next;
+    });
+  };
 
   // Apply dark mode class to html element
   useEffect(() => {
@@ -38,7 +58,7 @@ export const App: React.FC = () => {
     }
   }, [darkMode]);
 
-  // 1. Parse initial URL query parameters for SEO Deep Linking (e.g. ?c=10&s=history&ch=chapter_1&p=3)
+  // 1. Parse initial URL query parameters for SEO Deep Linking or pop open Class->Subject->Chapter selector
   useEffect(() => {
     getDatasetManifest().then((data) => {
       setManifest(data);
@@ -65,11 +85,17 @@ export const App: React.FC = () => {
         if (urlPage) {
           setCurrentPageNo(Number(urlPage));
         }
+
+        // Direct URL parameter passed -> open words view directly
+        setSelectionStep('words');
+      } else {
+        // No query parameters -> start on Screen 1: Choose Class!
+        setSelectionStep('class');
       }
     });
   }, []);
 
-  // 2. Sync URL search params and dynamic SEO metadata whenever navigation state changes
+  // 2. Sync URL search params and dynamic SEO metadata
   useEffect(() => {
     if (!manifest) return;
 
@@ -77,13 +103,11 @@ export const App: React.FC = () => {
     const chapterTitle = manifest.classes[selectedClass]?.subjects[selectedSubject]?.chapters[selectedChapterId]?.title || `Chapter ${selectedChapterId.replace('chapter_', '')}`;
     const subjectName = selectedSubject.replace('_', ' ').toUpperCase();
 
-    // Build SEO friendly Page Title & Description
     const pageTitle = `NCERT Class ${classNum} ${subjectName} ${chapterTitle} - Page ${currentPageNo} Word Meanings | Lexora`;
     const pageDesc = `Complete vocabulary, pronunciations, simple & funny explanations for NCERT Class ${classNum} ${subjectName} ${chapterTitle} Page ${currentPageNo}. Free page-wise word meaning explorer.`;
 
     document.title = pageTitle;
 
-    // Update Meta Description
     let metaDesc = document.querySelector('meta[name="description"]');
     if (!metaDesc) {
       metaDesc = document.createElement('meta');
@@ -92,11 +116,9 @@ export const App: React.FC = () => {
     }
     metaDesc.setAttribute('content', pageDesc);
 
-    // Sync URL without page reload for clean SEO links
     const newUrl = `${window.location.pathname}?c=${classNum}&s=${selectedSubject}&ch=${selectedChapterId}&p=${currentPageNo}`;
     window.history.replaceState(null, '', newUrl);
 
-    // Inject JSON-LD Educational Structured Data for Google Search
     let scriptTag = document.getElementById('json-ld-schema');
     if (!scriptTag) {
       scriptTag = document.createElement('script');
@@ -145,12 +167,12 @@ export const App: React.FC = () => {
   // Handle keyboard navigation for flipping pages
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Don't flip page if user is typing in search input
       if (['INPUT', 'TEXTAREA', 'SELECT'].includes((e.target as HTMLElement).tagName)) {
         return;
       }
 
       if (viewMode !== 'page' && viewMode !== 'flashcard') return;
+      if (selectionStep !== 'words') return;
 
       const availablePages = chapterPages.map((p) => p.page_no);
       const currentIndex = availablePages.indexOf(currentPageNo);
@@ -164,9 +186,8 @@ export const App: React.FC = () => {
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [chapterPages, currentPageNo, viewMode]);
+  }, [chapterPages, currentPageNo, viewMode, selectionStep]);
 
-  // Bookmarking toggle handler
   const handleToggleBookmark = (wordId: string) => {
     const updatedIds = toggleBookmark(wordId);
     setBookmarkedIds(updatedIds);
@@ -177,20 +198,16 @@ export const App: React.FC = () => {
     setBookmarkedIds([]);
   };
 
-  // Find active page data
   const activePageData = chapterPages.find((p) => p.page_no === currentPageNo);
   const wordsOnCurrentPage = activePageData?.words || [];
   const availablePages = chapterPages.map((p) => p.page_no);
 
-  // Active chapter title for display
   const currentChapterTitle = manifest?.classes[selectedClass]?.subjects[selectedSubject]?.chapters[selectedChapterId]?.title;
 
-  // Build cache of bookmarked words when bookmarkedIds change
   useEffect(() => {
     if (!manifest) return;
     const result: { word: WordItem; pageNo?: number }[] = [];
 
-    // Check words in loaded chapter pages first
     chapterPages.forEach((pg) => {
       pg.words.forEach((w) => {
         if (bookmarkedIds.includes(w.id)) {
@@ -199,7 +216,6 @@ export const App: React.FC = () => {
       });
     });
 
-    // Also check light index for remaining bookmarked items not currently loaded
     bookmarkedIds.forEach((id) => {
       if (!result.some((r) => r.word.id === id)) {
         const indexed = manifest.allWordsIndex.find((iw) => iw.id === id);
@@ -220,33 +236,40 @@ export const App: React.FC = () => {
     setBookmarkedWordsCache(result);
   }, [bookmarkedIds, chapterPages, manifest]);
 
-  // Navigate to exact page from Search View
   const handleNavigateToWord = (classId: string, subjectId: string, chapterId: string, pageNo: number) => {
     setSelectedClass(classId);
     setSelectedSubject(subjectId);
     setSelectedChapterId(chapterId);
     setCurrentPageNo(pageNo);
+    setSelectionStep('words');
     setViewMode('page');
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors duration-200 selection:bg-indigo-500 selection:text-white">
+    <div className="lexora-app min-h-screen bg-[#FFF5F8] dark:bg-slate-950 text-slate-900 dark:text-slate-100 flex flex-col font-sans transition-colors duration-200 selection:bg-pink-500 selection:text-white">
       
       {/* Header Bar */}
       <Header
         viewMode={viewMode}
-        setViewMode={setViewMode}
+        setViewMode={(v) => {
+          setViewMode(v);
+          if (v === 'page' && selectionStep !== 'words') {
+            setSelectionStep('words');
+          }
+        }}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
         darkMode={darkMode}
         setDarkMode={setDarkMode}
         bookmarkCount={bookmarkedIds.length}
         totalWords={manifest?.allWordsIndex.length || 12441}
+        xp={xp}
       />
 
-      {/* Page Navigator (Active in Page, Flashcard, and Quiz modes) */}
-      {(viewMode === 'page' || viewMode === 'flashcard' || viewMode === 'quiz') && (
+      {/* Page Navigator (Active when viewing words) */}
+      {(viewMode === 'page' || viewMode === 'reel' || viewMode === 'flashcard' || viewMode === 'quiz') && selectionStep === 'words' && (
         <PageNavigator
+          viewMode={viewMode}
           manifest={manifest}
           selectedClass={selectedClass}
           setSelectedClass={setSelectedClass}
@@ -260,12 +283,28 @@ export const App: React.FC = () => {
           wordsOnCurrentPage={wordsOnCurrentPage.length}
           difficultyFilter={difficultyFilter}
           setDifficultyFilter={setDifficultyFilter}
+          onOpenDeckModal={() => setSelectionStep('chapter')}
         />
       )}
 
-      {/* View Switcher Container */}
-      <main className="flex-1 pb-16">
-        {viewMode === 'page' && (
+      {/* Main View Container */}
+      <main className="lexora-main flex-1 pb-16">
+        {viewMode === 'page' && selectionStep !== 'words' && (
+          <DeckSelectionView
+            step={selectionStep}
+            setStep={setSelectionStep}
+            manifest={manifest}
+            selectedClass={selectedClass}
+            setSelectedClass={setSelectedClass}
+            selectedSubject={selectedSubject}
+            setSelectedSubject={setSelectedSubject}
+            selectedChapterId={selectedChapterId}
+            setSelectedChapterId={setSelectedChapterId}
+            setCurrentPageNo={setCurrentPageNo}
+          />
+        )}
+
+        {viewMode === 'page' && selectionStep === 'words' && (
           <PageView
             currentPageNo={currentPageNo}
             words={wordsOnCurrentPage}
@@ -274,11 +313,30 @@ export const App: React.FC = () => {
             difficultyFilter={difficultyFilter}
             isLoading={isLoadingPages}
             chapterTitle={currentChapterTitle}
+            xp={xp}
+            streak={streak}
+            availablePages={availablePages}
+            onPageChange={setCurrentPageNo}
+            onOpenDeckModal={() => setSelectionStep('chapter')}
+            selectedClass={selectedClass}
+            selectedSubject={selectedSubject}
+          />
+        )}
+
+        {viewMode === 'reel' && (
+          <StorySwipeView
+            key={`${selectedClass}-${selectedSubject}-${selectedChapterId}-${currentPageNo}-reel`}
+            words={wordsOnCurrentPage}
+            currentPageNo={currentPageNo}
+            onAddXp={handleAddXp}
+            bookmarkedIds={bookmarkedIds}
+            onToggleBookmark={handleToggleBookmark}
           />
         )}
 
         {viewMode === 'flashcard' && (
           <FlashcardView
+            key={`${selectedClass}-${selectedSubject}-${selectedChapterId}-${currentPageNo}-cards`}
             words={wordsOnCurrentPage}
             currentPageNo={currentPageNo}
             bookmarkedIds={bookmarkedIds}
@@ -288,6 +346,7 @@ export const App: React.FC = () => {
 
         {viewMode === 'quiz' && (
           <QuizView
+            key={`${selectedClass}-${selectedSubject}-${selectedChapterId}-${currentPageNo}-quiz`}
             words={wordsOnCurrentPage}
             currentPageNo={currentPageNo}
           />
@@ -314,17 +373,22 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 mb-16 md:mb-0 text-center text-xs text-slate-500 dark:text-slate-400">
+      <footer className="lexora-footer border-t border-[#F3C6D6] dark:border-slate-800 bg-white dark:bg-slate-900 py-6 mb-16 md:mb-0 text-center text-xs text-slate-500 dark:text-slate-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>© {new Date().getFullYear()} Lexora • Page-Wise Word Meaning Explorer</p>
-          <p>Class 10 History & Political Science Dataset • 12,441 Words • 225 Pages</p>
+          <p>© {new Date().getFullYear()} Lexora Vocabulary Builder • Page-Wise Explorer</p>
+          <p>Class 1 to 12 Dataset • 12,441 Words</p>
         </div>
       </footer>
 
       {/* Mobile Sticky Bottom Navigation Bar */}
       <MobileBottomNav
         viewMode={viewMode}
-        setViewMode={setViewMode}
+        setViewMode={(v) => {
+          setViewMode(v);
+          if (v === 'page' && selectionStep !== 'words') {
+            setSelectionStep('words');
+          }
+        }}
         bookmarkCount={bookmarkedIds.length}
       />
 

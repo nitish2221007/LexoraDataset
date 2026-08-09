@@ -12,6 +12,7 @@ public/dataset
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
 # IDE / OS
 .DS_Store

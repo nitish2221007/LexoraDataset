@@ -23,7 +23,7 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
 
   if (!words || words.length === 0) {
     return (
-      <div className="max-w-xl mx-auto px-4 py-16 text-center space-y-3">
+      <div className="flashcard-view max-w-xl mx-auto px-4 py-16 text-center space-y-3">
         <h3 className="text-lg font-bold text-slate-900 dark:text-white">No words available for flashcards on Page {currentPageNo}</h3>
       </div>
     );
@@ -59,10 +59,10 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
   };
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-8 space-y-6">
+    <div className="flashcard-view max-w-2xl mx-auto px-4 py-8 space-y-6">
       
       {/* Top Flashcard Header */}
-      <div className="flex items-center justify-between">
+      <div className="flashcard-header flex items-center justify-between">
         <div>
           <h2 className="text-xl font-black text-slate-900 dark:text-white">
             Flashcards • Page {currentPageNo}
@@ -73,7 +73,7 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
         </div>
 
         {/* Progress bar */}
-        <div className="w-32 bg-slate-200 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
+        <div className="flashcard-progress w-32 bg-slate-200 dark:bg-slate-800 h-2.5 rounded-full overflow-hidden">
           <div
             className="bg-indigo-600 h-full transition-all duration-300"
             style={{ width: `${((currentIndex + 1) / words.length) * 100}%` }}
@@ -84,11 +84,11 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
       {/* 3D Flip Card Container */}
       <div 
         onClick={() => setIsFlipped(!isFlipped)}
-        className="relative min-h-[320px] sm:min-h-[360px] w-full cursor-pointer perspective-1000 group"
+        className="flashcard-stage relative min-h-[320px] sm:min-h-[360px] w-full cursor-pointer perspective-1000 group"
       >
-        <div className={`w-full h-full min-h-[320px] sm:min-h-[360px] rounded-3xl p-8 border border-slate-200 dark:border-slate-800 shadow-xl transition-all duration-500 transform-gpu flex flex-col justify-between ${
+        <div className={`flashcard-card w-full h-full min-h-[320px] sm:min-h-[360px] rounded-3xl p-8 border border-slate-200 dark:border-slate-800 shadow-xl transition-all duration-500 transform-gpu flex flex-col justify-between ${
           isFlipped
-            ? 'bg-indigo-900 text-white border-indigo-700'
+            ? 'is-flipped bg-indigo-900 text-white border-indigo-700'
             : 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white hover:border-indigo-400'
         }`}>
 
@@ -137,7 +137,7 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
                 )}
                 <p className="text-xs text-slate-400 dark:text-slate-500 mt-4 flex items-center justify-center gap-1">
                   <RotateCw className="w-3.5 h-3.5" />
-                  <span>Click card to reveal meaning & explanations</span>
+                  <span>Tap the card to reveal the meaning</span>
                 </p>
               </div>
             ) : (
@@ -188,7 +188,7 @@ export const FlashcardView: React.FC<FlashcardViewProps> = ({
       </div>
 
       {/* Navigation Buttons */}
-      <div className="flex items-center justify-between gap-4">
+      <div className="flashcard-nav flex items-center justify-between gap-4">
         <button
           onClick={handlePrev}
           disabled={currentIndex === 0}

@@ -1,5 +1,16 @@
 import React from 'react';
-import { BookOpen, Layers, HelpCircle, Bookmark, Search, Sun, Moon, Sparkles } from 'lucide-react';
+import {
+  BookOpen,
+  Zap,
+  Layers,
+  HelpCircle,
+  Bookmark,
+  Search,
+  Sun,
+  Moon,
+  Flame,
+  X
+} from 'lucide-react';
 import { ViewMode } from '../types/dataset';
 
 interface HeaderProps {
@@ -11,6 +22,7 @@ interface HeaderProps {
   setDarkMode: (val: boolean) => void;
   bookmarkCount: number;
   totalWords: number;
+  xp: number;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -21,97 +33,163 @@ export const Header: React.FC<HeaderProps> = ({
   darkMode,
   setDarkMode,
   bookmarkCount,
-  totalWords
+  totalWords,
+  xp
 }) => {
-  return (
-    <header className="sticky top-0 z-40 backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 transition-colors">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
-        {/* Brand Logo */}
-        <div 
-          onClick={() => setViewMode('page')}
-          className="flex items-center gap-3 cursor-pointer group shrink-0"
-        >
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 via-indigo-500 to-purple-500 flex items-center justify-center text-white shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition-transform">
-            <BookOpen className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex items-center gap-1.5">
-              <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-                Lexora
-              </span>
-              <span className="text-[10px] font-bold tracking-widest px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 uppercase">
-                Page-Wise
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-500 dark:text-slate-400 font-medium hidden sm:block">
-              Textbook Vocabulary Dataset • {totalWords.toLocaleString()} Words
-            </p>
-          </div>
-        </div>
+  const closeMobileSearch = () => {
+    setSearchQuery('');
+    setViewMode('page');
+  };
 
-        {/* Global Search Bar */}
+  return (
+    <header className="lexora-header sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 transition-colors">
+      {/* Mobile header */}
+      <div className="mobile-header md:hidden">
+        <button
+          type="button"
+          onClick={() => setViewMode('page')}
+          className="mobile-brand"
+          aria-label="Open Lexora reader"
+        >
+          <span className="mobile-brand-mark" aria-hidden="true">
+            <BookOpen />
+          </span>
+          <span className="mobile-brand-copy">
+            <span className="mobile-brand-name">Lexora<span>.</span></span>
+            <span className="mobile-brand-note">NCERT words, made simple</span>
+          </span>
+        </button>
+
+        <div className="mobile-header-actions">
+          <span className="mobile-xp" aria-label={`${xp} experience points`}>
+            <Flame aria-hidden="true" />
+            <strong>{xp}</strong>
+            <span>XP</span>
+          </span>
+
+          <button
+            type="button"
+            onClick={() => setViewMode('search')}
+            className={`mobile-icon-button ${viewMode === 'search' ? 'is-active' : ''}`}
+            aria-label="Search all words"
+          >
+            <Search aria-hidden="true" />
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setDarkMode(!darkMode)}
+            className="mobile-icon-button"
+            aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {darkMode ? <Sun aria-hidden="true" /> : <Moon aria-hidden="true" />}
+          </button>
+        </div>
+      </div>
+
+      {viewMode === 'search' && (
+        <div className="mobile-search-row md:hidden">
+          <Search aria-hidden="true" />
+          <input
+            type="search"
+            value={searchQuery}
+            onChange={(event) => setSearchQuery(event.target.value)}
+            placeholder="Search a word or meaning"
+            aria-label="Search a word or meaning"
+            autoFocus
+          />
+          <button type="button" onClick={closeMobileSearch} aria-label="Close search">
+            <X aria-hidden="true" />
+          </button>
+        </div>
+      )}
+
+      {/* Existing desktop header */}
+      <div className="hidden md:flex max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 items-center justify-between gap-3">
+        <button
+          type="button"
+          onClick={() => setViewMode('page')}
+          className="flex items-center gap-2.5 cursor-pointer shrink-0 text-left"
+        >
+          <span className="w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center font-black shadow-md shadow-amber-500/20">
+            <BookOpen className="w-5 h-5" />
+          </span>
+          <span>
+            <span className="block font-black text-lg tracking-tight text-slate-900 dark:text-white">
+              Lexora <span className="text-xs font-bold text-amber-600 dark:text-amber-400">NCERT</span>
+            </span>
+            <span className="block text-[10px] text-slate-500 font-medium">
+              {totalWords.toLocaleString()} Words • Page Wise
+            </span>
+          </span>
+        </button>
+
         <div className="flex-1 max-w-md relative hidden md:block">
           <div className="relative flex items-center">
-            <Search className="w-4 h-4 absolute left-3.5 text-slate-400 dark:text-slate-500" />
+            <Search className="w-4 h-4 absolute left-3.5 text-slate-400" />
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => {
-                setSearchQuery(e.target.value);
-                if (e.target.value.trim() && viewMode !== 'search') {
+              onChange={(event) => {
+                setSearchQuery(event.target.value);
+                if (event.target.value.trim() && viewMode !== 'search') {
                   setViewMode('search');
                 }
               }}
-              placeholder="Search words, meanings across all pages..."
-              className="w-full pl-10 pr-4 py-2 text-sm rounded-full bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-indigo-400 transition-all text-slate-900 dark:text-slate-100 placeholder-slate-400 dark:placeholder-slate-500"
+              placeholder="Search NCERT words, meanings..."
+              className="w-full pl-10 pr-4 py-1.5 text-xs font-medium rounded-full bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-amber-500 text-slate-900 dark:text-slate-100"
             />
-            {searchQuery && (
-              <button
-                onClick={() => {
-                  setSearchQuery('');
-                  if (viewMode === 'search') setViewMode('page');
-                }}
-                className="absolute right-3 text-xs font-semibold text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
-              >
-                Clear
-              </button>
-            )}
           </div>
         </div>
 
-        {/* Navigation Modes */}
-        <div className="flex items-center gap-1.5 sm:gap-2">
-          <nav className="flex items-center bg-slate-100 dark:bg-slate-800/80 p-1 rounded-xl border border-slate-200 dark:border-slate-700">
+        <div className="flex items-center gap-2">
+          <nav className="flex items-center bg-slate-100 dark:bg-slate-800/80 p-1 rounded-xl border border-slate-200 dark:border-slate-700 text-xs font-bold">
             <button
+              type="button"
               onClick={() => setViewMode('page')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${
                 viewMode === 'page'
-                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                  ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Page Reader</span>
+              <span className="hidden sm:inline">Reader</span>
             </button>
 
             <button
+              type="button"
+              onClick={() => setViewMode('reel')}
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${
+                viewMode === 'reel'
+                  ? 'bg-amber-500 text-white shadow-sm font-extrabold'
+                  : 'text-amber-600 dark:text-amber-400 hover:text-amber-700'
+              }`}
+            >
+              <Zap className="w-3.5 h-3.5 fill-current" />
+              <span className="hidden sm:inline">1-Min Reel</span>
+            </button>
+
+            <button
+              type="button"
               onClick={() => setViewMode('flashcard')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${
                 viewMode === 'flashcard'
-                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                  ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
             >
               <Layers className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">Flashcards</span>
+              <span className="hidden sm:inline">Cards</span>
             </button>
 
             <button
+              type="button"
               onClick={() => setViewMode('quiz')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all ${
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all ${
                 viewMode === 'quiz'
-                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                  ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
             >
               <HelpCircle className="w-3.5 h-3.5" />
@@ -119,50 +197,32 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <button
+              type="button"
               onClick={() => setViewMode('bookmarks')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all relative ${
+              className={`flex items-center gap-1 px-3 py-1.5 rounded-lg transition-all relative ${
                 viewMode === 'bookmarks'
-                  ? 'bg-white dark:bg-slate-700 text-indigo-600 dark:text-indigo-300 shadow-sm'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                  ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm'
+                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
               }`}
             >
               <Bookmark className="w-3.5 h-3.5" />
               <span className="hidden sm:inline">Saved</span>
               {bookmarkCount > 0 && (
-                <span className="ml-0.5 px-1.5 py-0.2 rounded-full text-[10px] bg-indigo-600 text-white font-bold">
+                <span className="px-1.5 py-0.2 rounded-full text-[10px] bg-amber-500 text-white font-extrabold">
                   {bookmarkCount}
                 </span>
               )}
             </button>
           </nav>
 
-          {/* Theme Toggle */}
           <button
+            type="button"
             onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 border border-transparent hover:border-slate-200 dark:hover:border-slate-700 transition-all"
-            title={darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
+            className="p-2 rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
+            aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
           >
             {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-slate-600" />}
           </button>
-        </div>
-      </div>
-
-      {/* Mobile Search Bar */}
-      <div className="px-4 pb-3 md:hidden">
-        <div className="relative flex items-center">
-          <Search className="w-4 h-4 absolute left-3.5 text-slate-400 dark:text-slate-500" />
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={(e) => {
-              setSearchQuery(e.target.value);
-              if (e.target.value.trim() && viewMode !== 'search') {
-                setViewMode('search');
-              }
-            }}
-            placeholder="Search words, meanings..."
-            className="w-full pl-10 pr-4 py-2 text-sm rounded-full bg-slate-100 dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-slate-900 dark:text-slate-100"
-          />
         </div>
       </div>
     </header>
