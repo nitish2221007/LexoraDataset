@@ -1,0 +1,3371 @@
+[
+  {
+    "page_no": 11,
+    "words": [
+      {
+        "id": "c01_p11_w001",
+        "word": "ancient",
+        "difficulty": "Medium",
+        "meaning": "Very old or from a long time ago.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "ayn-shunt",
+          "simple_explanation": "Belonging to a time very long ago in history.",
+          "funny_explanation": "Basically anything that existed before the internet was invented, or perhaps just your grandfather's favorite pair of shoes.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Archaeologists study ancient ruins to learn about how people lived thousands of years ago."
+            },
+            {
+              "type": "funny",
+              "text": "This sandwich at the back of my locker has become an ancient artifact from a past era."
+            }
+          ],
+          "synonyms": [
+            "Old"
+          ],
+          "antonyms": [
+            "Modern"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w002",
+        "word": "civilisations",
+        "difficulty": "Hard",
+        "meaning": "Advanced human societies with developed culture and laws.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To describe India's long history as one of the oldest organized societies in the world.",
+          "pronunciation": "si-vi-li-zay-shuns",
+          "simple_explanation": "Advanced societies with developed social, cultural, and political systems.",
+          "funny_explanation": "A group of people who finally decided to stop living in caves and agreed that using forks is better than eating with hands.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Indus Valley is one of the world's earliest known civilisations."
+            },
+            {
+              "type": "funny",
+              "text": "Sometimes I think my messy bedroom is a civilisation that time forgot."
+            }
+          ],
+          "synonyms": [
+            "Society"
+          ],
+          "antonyms": [
+            "Barbarism"
+          ],
+          "real_world_analogy": "A high-tech city with laws and schools versus a wild jungle where everyone just fights for food."
+        }
+      },
+      {
+        "id": "c01_p11_w003",
+        "word": "multi-faceted",
+        "difficulty": "Hard",
+        "meaning": "Having many different parts, sides, or aspects.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To highlight that India's progress has happened in many different areas like economy, social life, and industry.",
+          "pronunciation": "mul-tee-fa-si-tid",
+          "simple_explanation": "Having many different aspects or features.",
+          "funny_explanation": "Like a Swiss Army knife that can cut, screw, open bottles, and probably even file your nails.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The government launched a multi-faceted plan to improve the education system."
+            },
+            {
+              "type": "funny",
+              "text": "My talent is multi-faceted; I can sleep, eat, and procrastinate all at the same time."
+            }
+          ],
+          "synonyms": [
+            "Versatile"
+          ],
+          "antonyms": [
+            "One-sided"
+          ],
+          "real_world_analogy": "A diamond that has many different flat surfaces that all catch the light differently."
+        }
+      },
+      {
+        "id": "c01_p11_w004",
+        "word": "socioeconomic",
+        "difficulty": "Medium",
+        "meaning": "Related to both social and economic factors.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "so-shee-oh-ek-uh-nom-ik",
+          "simple_explanation": "Related to the combination of social factors (people) and economic factors (money).",
+          "funny_explanation": "A fancy, ten-dollar word used to describe how your neighborhood's vibe and your wallet affect each other.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The government launched a new plan to improve the socioeconomic conditions of the village."
+            },
+            {
+              "type": "funny",
+              "text": "My current socioeconomic status only allows for generic brand cereal, not the one with the cool prize inside."
+            }
+          ],
+          "synonyms": [
+            "Social-economic"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p11_w005",
+        "word": "progress",
+        "difficulty": "Easy",
+        "meaning": "Improvement or movement toward a goal.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w006",
+        "word": "decades",
+        "difficulty": "Medium",
+        "meaning": "Periods of ten years.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "deh-kaydz",
+          "simple_explanation": "Periods of ten years.",
+          "funny_explanation": "The amount of time it takes for your parents to realize that their 'cool' dance moves are actually embarrassing.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India has seen many technological changes over the last few decades."
+            },
+            {
+              "type": "funny",
+              "text": "It feels like it has been decades since the teacher said we could have a break."
+            }
+          ],
+          "synonyms": [
+            "Ten-year periods"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p11_w007",
+        "word": "remarkable",
+        "difficulty": "Medium",
+        "meaning": "Unusual or surprising in a way that causes notice.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "re-mark-uh-bul",
+          "simple_explanation": "Something very impressive, unusual, or worth noticing.",
+          "funny_explanation": "Something so cool that you'd actually look up from your phone to say 'Whoa.'",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The student showed remarkable progress in her math scores this semester."
+            },
+            {
+              "type": "funny",
+              "text": "It is remarkable how my cat can hear a tuna can opening from three miles away."
+            }
+          ],
+          "synonyms": [
+            "Amazing"
+          ],
+          "antonyms": [
+            "Ordinary"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w008",
+        "word": "agriculture",
+        "difficulty": "Easy",
+        "meaning": "The science or practice of farming.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w009",
+        "word": "industry",
+        "difficulty": "Easy",
+        "meaning": "Making goods in factories.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w010",
+        "word": "technology",
+        "difficulty": "Easy",
+        "meaning": "Using science to solve problems or make things.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w011",
+        "word": "overall",
+        "difficulty": "Easy",
+        "meaning": "Including everything; total.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w012",
+        "word": "economic",
+        "difficulty": "Easy",
+        "meaning": "Relating to trade, industry, and money.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w013",
+        "word": "development",
+        "difficulty": "Easy",
+        "meaning": "The process of growing or becoming better.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w014",
+        "word": "contributed",
+        "difficulty": "Medium",
+        "meaning": "Gave something to help reach a goal.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "kun-trib-yoo-ted",
+          "simple_explanation": "Helped to cause something or gave something to a common goal.",
+          "funny_explanation": "Like when you 'contributed' to the group project by writing your name on the cover page.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Every student contributed a small amount of money to buy a gift for the teacher."
+            },
+            {
+              "type": "funny",
+              "text": "I contributed to the family dinner by staying out of the kitchen and not burning anything."
+            }
+          ],
+          "synonyms": [
+            "Helped"
+          ],
+          "antonyms": [
+            "Withheld"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w015",
+        "word": "significantly",
+        "difficulty": "Medium",
+        "meaning": "In a way that is important or large.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "sig-nif-ih-kunt-lee",
+          "simple_explanation": "In a way that is large or important enough to be noticed.",
+          "funny_explanation": "The way your stress levels go up significantly when the teacher says, 'Clear your desks for a pop quiz.'",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The new irrigation system significantly increased the crop yield this year."
+            },
+            {
+              "type": "funny",
+              "text": "Adding extra cheese significantly improves my mood and my pizza."
+            }
+          ],
+          "synonyms": [
+            "Greatly"
+          ],
+          "antonyms": [
+            "Slightly"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w016",
+        "word": "history",
+        "difficulty": "Easy",
+        "meaning": "The study of past events.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w017",
+        "word": "LOCATION",
+        "difficulty": "Easy",
+        "meaning": "A particular place or position.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w018",
+        "word": "vast",
+        "difficulty": "Medium",
+        "meaning": "Very great in size or amount.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "vahst",
+          "simple_explanation": "Extremely big in size or area.",
+          "funny_explanation": "So huge that if you lost your keys in it, you might as well just move to a new house.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The desert is a vast area of sand and very little water."
+            },
+            {
+              "type": "funny",
+              "text": "There is a vast difference between my mom's 'five minutes' and an actual five minutes."
+            }
+          ],
+          "synonyms": [
+            "Huge"
+          ],
+          "antonyms": [
+            "Tiny"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w019",
+        "word": "entirely",
+        "difficulty": "Medium",
+        "meaning": "Completely or totally.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "en-ty-er-lee",
+          "simple_explanation": "Completely; with nothing missing or left out.",
+          "funny_explanation": "When you tell your mom you 'entirely' finished your homework, but you're actually hiding a comic book behind your textbook.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The movie was filmed entirely on location in the mountains."
+            },
+            {
+              "type": "funny",
+              "text": "I am entirely convinced that my dog thinks he is a human."
+            }
+          ],
+          "synonyms": [
+            "Completely"
+          ],
+          "antonyms": [
+            "Partially"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w020",
+        "word": "hemisphere",
+        "difficulty": "Hard",
+        "meaning": "One half of the Earth.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To specify that India is located in the northern half of the Earth.",
+          "pronunciation": "heh-mi-sf-eer",
+          "simple_explanation": "One half of the Earth, usually divided by the equator.",
+          "funny_explanation": "The Earth is like a giant orange, and a hemisphere is what you get when you slice it perfectly through the middle.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India lies entirely in the Northern hemisphere."
+            },
+            {
+              "type": "funny",
+              "text": "In the Southern hemisphere, people are technically walking upside down relative to us, but don't tell them that."
+            }
+          ],
+          "synonyms": [
+            "Half-globe"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "A bowl that forms half of a complete plastic ball."
+        }
+      },
+      {
+        "id": "c01_p11_w021",
+        "word": "extends",
+        "difficulty": "Medium",
+        "meaning": "Stretches out or covers a certain area.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "ek-stendz",
+          "simple_explanation": "Reaches out or stretches across a certain distance or space.",
+          "funny_explanation": "Like how your weekend 'extends' into Monday morning when you refuse to get out of bed.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The hiking trail extends from the base of the mountain to the very peak."
+            },
+            {
+              "type": "funny",
+              "text": "My list of reasons why I need a new phone extends all the way to the floor."
+            }
+          ],
+          "synonyms": [
+            "Stretches"
+          ],
+          "antonyms": [
+            "Shrinks"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w022",
+        "word": "latitudes",
+        "difficulty": "Hard",
+        "meaning": "Imaginary lines measuring distance north or south.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To give the exact horizontal coordinates that show where India is located on the globe.",
+          "pronunciation": "la-ti-tyoodz",
+          "simple_explanation": "Imaginary horizontal lines that measure distance north or south of the equator.",
+          "funny_explanation": "The 'fat' lines on the globe that go around the Earth's belly like an invisible belt.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The main land of India extends between specific latitudes."
+            },
+            {
+              "type": "funny",
+              "text": "Latitude is like the rungs of a ladder; it helps you climb up or down the map."
+            }
+          ],
+          "synonyms": [
+            "Parallels"
+          ],
+          "antonyms": [
+            "Longitudes"
+          ],
+          "real_world_analogy": "The horizontal steps on a ladder."
+        }
+      },
+      {
+        "id": "c01_p11_w023",
+        "word": "longitudes",
+        "difficulty": "Hard",
+        "meaning": "Imaginary lines measuring distance east or west.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To provide the vertical coordinates used to pinpoint India's location.",
+          "pronunciation": "lon-ji-tyoodz",
+          "simple_explanation": "Imaginary vertical lines that measure distance east or west of the Prime Meridian.",
+          "funny_explanation": "The 'long' lines that run from the North Pole to the South Pole, looking like slices of a giant chocolate orange.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India's longitudes determine the time difference across the country."
+            },
+            {
+              "type": "funny",
+              "text": "If you follow a longitude line long enough, you'll end up freezing at one of the poles."
+            }
+          ],
+          "synonyms": [
+            "Meridians"
+          ],
+          "antonyms": [
+            "Latitudes"
+          ],
+          "real_world_analogy": "The vertical seams on a basketball."
+        }
+      },
+      {
+        "id": "c01_p11_w024",
+        "word": "divides",
+        "difficulty": "Easy",
+        "meaning": "Separates something into parts.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w025",
+        "word": "respectively",
+        "difficulty": "Medium",
+        "meaning": "In the order already mentioned.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "re-spek-tiv-lee",
+          "simple_explanation": "In the same order as the things just mentioned.",
+          "funny_explanation": "The GPS for your sentences so people don't get the names and the facts mixed up.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The blue and red boxes contain books and toys, respectively."
+            },
+            {
+              "type": "funny",
+              "text": "My left and right shoes are on my feet and under the bed, respectively."
+            }
+          ],
+          "synonyms": [
+            "Sequentially"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p11_w026",
+        "word": "extent",
+        "difficulty": "Medium",
+        "meaning": "The area or distance covered by something.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "ek-stent",
+          "simple_explanation": "The area, length, or scale to which something reaches.",
+          "funny_explanation": "The measurable distance of how far your laundry has spread across your bedroom floor.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "We need to determine the full extent of the damage before we can fix the car."
+            },
+            {
+              "type": "funny",
+              "text": "I didn't realize the extent of my hunger until I ordered the entire menu."
+            }
+          ],
+          "synonyms": [
+            "Scale"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p11_w027",
+        "word": "atlas",
+        "difficulty": "Easy",
+        "meaning": "A book of maps.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w028",
+        "word": "southernmost",
+        "difficulty": "Medium",
+        "meaning": "Furthest towards the south.",
+        "page": 11,
+        "medium": {
+          "pronunciation": "suth-ern-mohst",
+          "simple_explanation": "The point that is further south than any other part.",
+          "funny_explanation": "The absolute bottom of the map—if you go any further, you'll be hanging out with penguins.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Indira Point was the southernmost tip of the Indian Union before the tsunami."
+            },
+            {
+              "type": "funny",
+              "text": "My southernmost toe is currently poking out of a hole in my sock."
+            }
+          ],
+          "synonyms": [
+            "Lowest"
+          ],
+          "antonyms": [
+            "Northernmost"
+          ]
+        }
+      },
+      {
+        "id": "c01_p11_w029",
+        "word": "submerged",
+        "difficulty": "Hard",
+        "meaning": "Went under the surface of water.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To explain what happened to 'Indira Point' after the 2004 Tsunami.",
+          "pronunciation": "sub-merjd",
+          "simple_explanation": "Completely covered by water or another liquid.",
+          "funny_explanation": "Like a biscuit that you dunk in tea for too long and it disappears into the dark abyss.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The island was submerged after the sea level rose significantly."
+            },
+            {
+              "type": "funny",
+              "text": "I think my phone is permanently submerged in my backpack's crumb collection."
+            }
+          ],
+          "synonyms": [
+            "Immersed"
+          ],
+          "antonyms": [
+            "Surfaced"
+          ],
+          "real_world_analogy": "A submarine diving deep under the ocean waves."
+        }
+      },
+      {
+        "id": "c01_p11_w030",
+        "word": "Tsunami",
+        "difficulty": "Hard",
+        "meaning": "A huge ocean wave caused by an earthquake.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To mention the natural disaster that caused geographical changes in India's southernmost point.",
+          "pronunciation": "tsoo-nah-mee",
+          "simple_explanation": "A giant, powerful sea wave caused by an earthquake or underwater explosion.",
+          "funny_explanation": "The ocean’s way of doing a massive, terrifying belly flop that pushes water onto the land.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The 2004 Tsunami caused massive destruction along the Indian coastline."
+            },
+            {
+              "type": "funny",
+              "text": "A Tsunami is much bigger than the waves you make when you jump into a swimming pool."
+            }
+          ],
+          "synonyms": [
+            "Tidal wave"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "Filling a bathtub to the brim and then dropping a heavy brick in it, causing water to splash everywhere."
+        }
+      },
+      {
+        "id": "c01_p11_w031",
+        "word": "mass",
+        "difficulty": "Easy",
+        "meaning": "A large amount of matter or land.",
+        "page": 11
+      },
+      {
+        "id": "c01_p11_w032",
+        "word": "geographical",
+        "difficulty": "Hard",
+        "meaning": "Relating to the Earth's physical features.",
+        "page": 11,
+        "hard": {
+          "why_it_is_given_in_book": "To relate India's land size to the total area of the Earth's surface.",
+          "pronunciation": "jee-oh-graf-i-kuhl",
+          "simple_explanation": "Relating to the physical features of the Earth and its atmosphere.",
+          "funny_explanation": "Anything that has to do with maps, mountains, and why some places are hotter than your toaster.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The geographical features of India include mountains, plains, and deserts."
+            },
+            {
+              "type": "funny",
+              "text": "My sense of geographical direction is so bad I could get lost in my own bathroom."
+            }
+          ],
+          "synonyms": [
+            "Spatial"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "A blueprint for a house, but the house is the entire planet Earth."
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 12,
+    "words": [
+      {
+        "id": "c01_p12_w001",
+        "word": "area",
+        "difficulty": "Easy",
+        "meaning": "The size of a surface or space.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w002",
+        "word": "boundary",
+        "difficulty": "Medium",
+        "meaning": "A line that marks the edge of something.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "BOWN-duh-ree",
+          "simple_explanation": "A line that marks the limits or edge of an area.",
+          "funny_explanation": "The invisible line your sibling draws down the middle of the car seat that you aren't allowed to cross.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India has a land boundary of about 15,200 km shared with its neighbors."
+            },
+            {
+              "type": "funny",
+              "text": "The dog thinks the kitchen doorway is a boundary he can only cross if he hears a cheese wrapper."
+            }
+          ],
+          "synonyms": [
+            "border"
+          ],
+          "antonyms": [
+            "center"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w003",
+        "word": "coastline",
+        "difficulty": "Medium",
+        "meaning": "The land along the edge of an ocean.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "KOHST-line",
+          "simple_explanation": "The place where the land meets the sea or ocean.",
+          "funny_explanation": "The world's longest sandbox where the ocean is constantly trying to steal your flip-flops.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India's coastline includes the mainland as well as beautiful island groups."
+            },
+            {
+              "type": "funny",
+              "text": "I tried to measure the coastline with a ruler, but a wave decided my ruler belonged to the fish."
+            }
+          ],
+          "synonyms": [
+            "shore"
+          ],
+          "antonyms": [
+            "inland"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w004",
+        "word": "mainland",
+        "difficulty": "Medium",
+        "meaning": "The primary land of a country, excluding islands.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "MAYN-land",
+          "simple_explanation": "The primary part of a country or continent, not including its islands.",
+          "funny_explanation": "The 'Mother Ship' of the country; the islands are like the little escape pods floating nearby.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The latitudinal extent of the mainland is about 30 degrees."
+            },
+            {
+              "type": "funny",
+              "text": "My pizza is the mainland, and these extra pepperoni slices are just tiny islands."
+            }
+          ],
+          "synonyms": [
+            "continent"
+          ],
+          "antonyms": [
+            "island"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w005",
+        "word": "bounded",
+        "difficulty": "Medium",
+        "meaning": "Surrounded or limited by a particular boundary.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "BOWN-ded",
+          "simple_explanation": "Having limits or being surrounded by something on its sides.",
+          "funny_explanation": "Like being stuck in the middle seat of a bus, bounded by people on both sides.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is bounded by young fold mountains in the north and northeast."
+            },
+            {
+              "type": "funny",
+              "text": "My bedroom floor is bounded by piles of laundry that I promise I will fold tomorrow."
+            }
+          ],
+          "synonyms": [
+            "enclosed"
+          ],
+          "antonyms": [
+            "free"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w006",
+        "word": "latitude",
+        "difficulty": "Medium",
+        "meaning": "The distance north or south of the equator.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "LAT-ih-tyood",
+          "simple_explanation": "Imaginary horizontal lines used to measure distance north or south of the Equator.",
+          "funny_explanation": "Remember 'Lat is Flat'—these are the rungs of the ladder on the world map.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The 22 degree north latitude is where India begins to narrow toward the south."
+            },
+            {
+              "type": "funny",
+              "text": "If I lived at a very high latitude, I’d need a lot more sweaters and a lot less ice cream."
+            }
+          ],
+          "synonyms": [
+            "parallel"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p12_w007",
+        "word": "taper",
+        "difficulty": "Medium",
+        "meaning": "To become gradually thinner toward one end.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "TAY-per",
+          "simple_explanation": "To gradually become thinner or narrower at one end.",
+          "funny_explanation": "Like a sharpened pencil or a very pointy slice of watermelon.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "South of 22 degrees latitude, the Indian landmass begins to taper towards the ocean."
+            },
+            {
+              "type": "funny",
+              "text": "My energy for doing homework usually starts to taper off after the first five minutes."
+            }
+          ],
+          "synonyms": [
+            "narrow"
+          ],
+          "antonyms": [
+            "widen"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w008",
+        "word": "extends",
+        "difficulty": "Easy",
+        "meaning": "Stretches out or reaches a certain point.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w009",
+        "word": "latitudinal",
+        "difficulty": "Hard",
+        "meaning": "Relating to the distance from the earth's equator.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Describes the north-south geographical extent of India's mainland.",
+          "pronunciation": "/ˌlæt.ɪˈtʃuː.dɪ.nəl/",
+          "simple_explanation": "Relating to lines that run horizontally around the Earth to measure distance north or south of the Equator.",
+          "funny_explanation": "Think of these as the 'rungs' on the world's ladder that tell you how close you are to getting a tan at the equator.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The latitudinal extent of India influences the duration of day and night."
+            },
+            {
+              "type": "funny",
+              "text": "My latitudinal position on the sofa is perfectly aligned with the TV remote."
+            }
+          ],
+          "synonyms": [
+            "Horizontal-coordinate"
+          ],
+          "antonyms": [
+            "longitudinal"
+          ],
+          "real_world_analogy": "The horizontal stripes on a striped t-shirt."
+        }
+      },
+      {
+        "id": "c01_p12_w010",
+        "word": "longitudinal",
+        "difficulty": "Hard",
+        "meaning": "Relating to the distance east or west of Greenwich.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Describes the east-west geographical extent of India's mainland.",
+          "pronunciation": "/ˌlɒŋ.ɡɪˈtjuː.dɪ.nəl/",
+          "simple_explanation": "Relating to lines that run vertically from the North Pole to the South Pole to measure distance east or west.",
+          "funny_explanation": "The 'long' lines on the globe that act like tall fences between different time zones.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The longitudinal difference between Gujarat and Arunachal Pradesh is about 30 degrees."
+            },
+            {
+              "type": "funny",
+              "text": "He has a longitudinal scar running right down the middle of his forehead like Harry Potter."
+            }
+          ],
+          "synonyms": [
+            "Vertical-coordinate"
+          ],
+          "antonyms": [
+            "latitudinal"
+          ],
+          "real_world_analogy": "The vertical segments of a peeled orange."
+        }
+      },
+      {
+        "id": "c01_p12_w011",
+        "word": "extent",
+        "difficulty": "Easy",
+        "meaning": "The area or distance that something covers.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w012",
+        "word": "despite",
+        "difficulty": "Easy",
+        "meaning": "Without being affected by the mentioned factor.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w013",
+        "word": "lag",
+        "difficulty": "Easy",
+        "meaning": "A delay or interval between two events.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w014",
+        "word": "meridian",
+        "difficulty": "Hard",
+        "meaning": "An imaginary line used to measure earth's positions.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the specific line of longitude (82°30'E) chosen to set India's Standard Time.",
+          "pronunciation": "/məˈrɪd.i.ən/",
+          "simple_explanation": "An imaginary circle or line of longitude passing through the North and South poles.",
+          "funny_explanation": "An invisible vertical 'zip-tie' that helps a whole country agree on when to eat lunch.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Standard Meridian of India passes through Mirzapur in Uttar Pradesh."
+            },
+            {
+              "type": "funny",
+              "text": "I wish there was a 'Bedtime Meridian' that made it 9 PM everywhere instantly."
+            }
+          ],
+          "synonyms": [
+            "Longitude line"
+          ],
+          "antonyms": [
+            "Parallel"
+          ],
+          "real_world_analogy": "The seams on a basketball that run from the top to the bottom."
+        }
+      },
+      {
+        "id": "c01_p12_w015",
+        "word": "influences",
+        "difficulty": "Easy",
+        "meaning": "Has an effect on the character or behavior.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w016",
+        "word": "duration",
+        "difficulty": "Medium",
+        "meaning": "The length of time that something continues.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "dyoo-RAY-shun",
+          "simple_explanation": "The length of time that something continues or lasts.",
+          "funny_explanation": "The painful amount of time between the lunch bell and the end of the school day.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The latitudinal extent influences the duration of day and night."
+            },
+            {
+              "type": "funny",
+              "text": "The duration of my cat’s nap is approximately twenty-three hours a day."
+            }
+          ],
+          "synonyms": [
+            "period"
+          ],
+          "antonyms": [
+            "instant"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w017",
+        "word": "selected",
+        "difficulty": "Easy",
+        "meaning": "Carefully chosen as being the best or most suitable.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w018",
+        "word": "difference",
+        "difficulty": "Easy",
+        "meaning": "A way in which things are not the same.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w019",
+        "word": "landmass",
+        "difficulty": "Medium",
+        "meaning": "A very large area of land like a continent.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "LAND-mass",
+          "simple_explanation": "A very large, continuous area of land.",
+          "funny_explanation": "A giant piece of Earth's crust that is far too big to fit into your backyard.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Indian landmass has a central location between East and West Asia."
+            },
+            {
+              "type": "funny",
+              "text": "By the end of the week, the pile of books on my desk looked like a new landmass."
+            }
+          ],
+          "synonyms": [
+            "continent"
+          ],
+          "antonyms": [
+            "ocean"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w020",
+        "word": "central",
+        "difficulty": "Easy",
+        "meaning": "Located in or near the center of something.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w021",
+        "word": "extension",
+        "difficulty": "Medium",
+        "meaning": "A part that is added to something.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "ek-STEN-shun",
+          "simple_explanation": "A part that is added to something or makes it longer.",
+          "funny_explanation": "Like getting an extra life in a video game or a longer cord for your phone charger.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India is a southward extension of the massive Asian continent."
+            },
+            {
+              "type": "funny",
+              "text": "I asked my mom for a bedtime extension, but she said my 'time-out' was the only thing getting extended."
+            }
+          ],
+          "synonyms": [
+            "addition"
+          ],
+          "antonyms": [
+            "reduction"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w022",
+        "word": "strategic",
+        "difficulty": "Hard",
+        "meaning": "Carefully planned to gain a specific advantage.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Describes India's advantageous central location for international trade routes.",
+          "pronunciation": "/strəˈtiː.dʒɪk/",
+          "simple_explanation": "Relating to a carefully thought-out plan to gain a specific advantage.",
+          "funny_explanation": "Sitting exactly in the middle of the classroom so you can see the board but still hide your snacks from the teacher.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India's location in the Indian Ocean is highly strategic for global trade."
+            },
+            {
+              "type": "funny",
+              "text": "My cat took a strategic position on the kitchen counter to intercept the ham."
+            }
+          ],
+          "synonyms": [
+            "Calculated"
+          ],
+          "antonyms": [
+            "Random"
+          ],
+          "real_world_analogy": "Choosing a seat at a wedding specifically because it is closest to the buffet table."
+        }
+      },
+      {
+        "id": "c01_p12_w023",
+        "word": "peninsula",
+        "difficulty": "Medium",
+        "meaning": "Land that is almost entirely surrounded by water.",
+        "page": 12,
+        "medium": {
+          "pronunciation": "puh-NIN-syuh-luh",
+          "simple_explanation": "A piece of land that is surrounded by water on three sides.",
+          "funny_explanation": "Land that is trying its best to be an island but just can't let go of the mainland.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Deccan Peninsula juts out into the Indian Ocean, helping with sea trade."
+            },
+            {
+              "type": "funny",
+              "text": "If I stand in a puddle with only one heel on dry ground, am I a peninsula?"
+            }
+          ],
+          "synonyms": [
+            "cape"
+          ],
+          "antonyms": [
+            "gulf"
+          ]
+        }
+      },
+      {
+        "id": "c01_p12_w024",
+        "word": "protrudes",
+        "difficulty": "Hard",
+        "meaning": "Sticks out from or through something.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Describes how the Deccan Peninsula sticks out into the Indian Ocean.",
+          "pronunciation": "/prəˈtruːdz/",
+          "simple_explanation": "To stick out or move outward from a surface.",
+          "funny_explanation": "When your stomach sticks out over your belt after a massive Diwali feast.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Deccan Peninsula protrudes deep into the Indian Ocean."
+            },
+            {
+              "type": "funny",
+              "text": "A single spring protrudes from the old sofa, poking everyone who sits there."
+            }
+          ],
+          "synonyms": [
+            "Juts out"
+          ],
+          "antonyms": [
+            "Recedes"
+          ],
+          "real_world_analogy": "A nose sticking out from a person's face."
+        }
+      },
+      {
+        "id": "c01_p12_w025",
+        "word": "establish",
+        "difficulty": "Easy",
+        "meaning": "To set up or create something lasting.",
+        "page": 12
+      },
+      {
+        "id": "c01_p12_w026",
+        "word": "eminent",
+        "difficulty": "Hard",
+        "meaning": "High in rank, importance, or reputation.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to India's prominent and superior position in the Indian Ocean region.",
+          "pronunciation": "/ˈem.ɪ.nənt/",
+          "simple_explanation": "Famous, respected, and important within a particular sphere.",
+          "funny_explanation": "Being the only person in a room full of beginners who actually knows how to fix the Wi-Fi.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India’s eminent position in the ocean justifies the naming of the Indian Ocean."
+            },
+            {
+              "type": "funny",
+              "text": "The eminent scientist was actually just three kids in a lab coat."
+            }
+          ],
+          "synonyms": [
+            "Distinguished"
+          ],
+          "antonyms": [
+            "Obscure"
+          ],
+          "real_world_analogy": "A tall skyscraper that stands out in a city of small houses."
+        }
+      },
+      {
+        "id": "c01_p12_w027",
+        "word": "justifies",
+        "difficulty": "Hard",
+        "meaning": "Shows or proves to be right or reasonable.",
+        "page": 12,
+        "hard": {
+          "why_it_is_given_in_book": "Explains why it is logical and right to name the ocean after India.",
+          "pronunciation": "/ˈdʒʌs.tɪ.faɪz/",
+          "simple_explanation": "To provide a good reason for something or to prove it is right.",
+          "funny_explanation": "The complicated logic you use to explain why you absolutely needed to buy that fifth pair of shoes.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The massive coastline justifies why the ocean is named after India."
+            },
+            {
+              "type": "funny",
+              "text": "I tried to justify my messy room as 'creative chaos' to my mom."
+            }
+          ],
+          "synonyms": [
+            "Validates"
+          ],
+          "antonyms": [
+            "Disproves"
+          ],
+          "real_world_analogy": "A receipt that proves you aren't stealing the items you're carrying out of a store."
+        }
+      },
+      {
+        "id": "c01_p12_w028",
+        "word": "reduced",
+        "difficulty": "Easy",
+        "meaning": "Made smaller or less in amount or size.",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "page_no": 13,
+    "words": [
+      {
+        "id": "c01_p13_w001",
+        "word": "Figure",
+        "difficulty": "Easy",
+        "meaning": "A picture, diagram, or map in a book.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w002",
+        "word": "Extent",
+        "difficulty": "Medium",
+        "meaning": "The area or distance that something covers.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Ek-stent",
+          "simple_explanation": "The total area, distance, or length that something covers from one point to another.",
+          "funny_explanation": "The 'extent' is how much space something takes up, like the distance your dirty laundry spreads across your room.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The north-south extent of India is 3,214 kilometers."
+            },
+            {
+              "type": "funny",
+              "text": "The extent of the cat's fur on the sofa was so large, the sofa changed color."
+            }
+          ],
+          "synonyms": [
+            "Range"
+          ],
+          "antonyms": [
+            "Limit"
+          ]
+        }
+      },
+      {
+        "id": "c01_p13_w003",
+        "word": "Standard",
+        "difficulty": "Medium",
+        "meaning": "Something used as a fixed rule or measure.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Stan-dard",
+          "simple_explanation": "An official rule or level of quality that everyone agrees to use or follow.",
+          "funny_explanation": "Think of it as the 'standard' rule that the person who finds the TV remote gets to pick the show.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Standard Meridian of India is used to keep time uniform across the whole country."
+            },
+            {
+              "type": "funny",
+              "text": "Eating pizza for breakfast is a high standard for a great weekend."
+            }
+          ],
+          "synonyms": [
+            "Uniform"
+          ],
+          "antonyms": [
+            "Unusual"
+          ]
+        }
+      },
+      {
+        "id": "c01_p13_w004",
+        "word": "Meridian",
+        "difficulty": "Hard",
+        "meaning": "An imaginary line on earth from north to south.",
+        "page": 13,
+        "hard": {
+          "why_it_is_given_in_book": "The book mentions the 'Standard Meridian' (82° 30' E) as the line used to determine India's official time.",
+          "pronunciation": "Muh-rid-ee-uhn",
+          "simple_explanation": "An imaginary vertical line that runs from the North Pole to the South Pole to help measure east-west locations.",
+          "funny_explanation": "Think of it as the Earth's vertical stripes that act like a giant stopwatch for the world.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Prime Meridian is the starting point for measuring longitude."
+            },
+            {
+              "type": "funny",
+              "text": "If I stand on the meridian, can I be in two different times at once like a time traveler?"
+            }
+          ],
+          "synonyms": [
+            "Longitude"
+          ],
+          "antonyms": [
+            "Parallel"
+          ],
+          "real_world_analogy": "The vertical seams on a leather basketball that go from the top to the bottom."
+        }
+      },
+      {
+        "id": "c01_p13_w005",
+        "word": "Coordinates",
+        "difficulty": "Hard",
+        "meaning": "Numbers used to show an exact position.",
+        "page": 13,
+        "hard": {
+          "why_it_is_given_in_book": "The map uses coordinates like 37° 6' N and 68° 7' E to describe India's exact position on Earth.",
+          "pronunciation": "Koh-or-din-its",
+          "simple_explanation": "A set of numbers used to find the exact location of a point on a map.",
+          "funny_explanation": "The 'digital address' that tells Google Maps exactly where you are hiding from your homework.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The rescue team asked for the GPS coordinates of the hikers."
+            },
+            {
+              "type": "funny",
+              "text": "I gave my friend the coordinates to the fridge so they wouldn't get lost in my kitchen."
+            }
+          ],
+          "synonyms": [
+            "Location"
+          ],
+          "antonyms": null,
+          "real_world_analogy": "The row and seat number on your cinema ticket that tells you exactly where to sit."
+        }
+      },
+      {
+        "id": "c01_p13_w006",
+        "word": "Limits",
+        "difficulty": "Easy",
+        "meaning": "The point where something ends or is allowed.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w007",
+        "word": "Northern",
+        "difficulty": "Easy",
+        "meaning": "Related to or located in the north.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w008",
+        "word": "Border",
+        "difficulty": "Medium",
+        "meaning": "The line that separates two different countries.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Bor-der",
+          "simple_explanation": "The line that separates two different countries, states, or areas.",
+          "funny_explanation": "The imaginary line in the backseat of a car that your sibling is absolutely not allowed to cross.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India shares a northern border with countries like China and Nepal."
+            },
+            {
+              "type": "funny",
+              "text": "I put a border of ketchup around my fries to keep the veggies away."
+            }
+          ],
+          "synonyms": [
+            "Boundary"
+          ],
+          "antonyms": [
+            "Center"
+          ]
+        }
+      },
+      {
+        "id": "c01_p13_w009",
+        "word": "Southern",
+        "difficulty": "Easy",
+        "meaning": "Related to or located in the south.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w010",
+        "word": "Mainland",
+        "difficulty": "Hard",
+        "meaning": "The main part of a country, excluding islands.",
+        "page": 13,
+        "hard": {
+          "why_it_is_given_in_book": "Used to distinguish the primary mass of India from its islands like Andaman and Nicobar.",
+          "pronunciation": "Mayn-land",
+          "simple_explanation": "The large, continuous part of a country or continent, not including its islands.",
+          "funny_explanation": "The 'main character' of the land, while islands are just the supporting cast.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The boat sailed from the island back to the mainland."
+            },
+            {
+              "type": "funny",
+              "text": "I forgot my phone on the mainland, and now I'm stuck on this island with only coconuts for entertainment."
+            }
+          ],
+          "synonyms": [
+            "Continent"
+          ],
+          "antonyms": [
+            "Island"
+          ],
+          "real_world_analogy": "The body of a car compared to the spare tire kept in the trunk."
+        }
+      },
+      {
+        "id": "c01_p13_w011",
+        "word": "Western",
+        "difficulty": "Easy",
+        "meaning": "Related to or located in the west.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w012",
+        "word": "Eastern",
+        "difficulty": "Easy",
+        "meaning": "Related to or located in the east.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w013",
+        "word": "Passes",
+        "difficulty": "Easy",
+        "meaning": "To move through or across a certain place.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w014",
+        "word": "Central",
+        "difficulty": "Easy",
+        "meaning": "In the middle of an area or place.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w015",
+        "word": "Distances",
+        "difficulty": "Easy",
+        "meaning": "The amount of space between two points.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w016",
+        "word": "Kilometre",
+        "difficulty": "Easy",
+        "meaning": "A unit of length equal to 1000 metres.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w017",
+        "word": "Neighboring",
+        "difficulty": "Medium",
+        "meaning": "Living or located very near to something.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Nay-bur-ing",
+          "simple_explanation": "Being located right next to or very close to another place or person.",
+          "funny_explanation": "The people next door who always seem to smell your mom's cooking from a mile away.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Sri Lanka and Myanmar are some of the neighboring countries of India."
+            },
+            {
+              "type": "funny",
+              "text": "My neighboring desk-mate at school has a very interesting collection of erasers."
+            }
+          ],
+          "synonyms": [
+            "Nearby"
+          ],
+          "antonyms": [
+            "Distant"
+          ]
+        }
+      },
+      {
+        "id": "c01_p13_w018",
+        "word": "Countries",
+        "difficulty": "Easy",
+        "meaning": "Nations with their own government and land.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w019",
+        "word": "Water Bodies",
+        "difficulty": "Medium",
+        "meaning": "Large areas of water like seas or oceans.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Waw-ter Bod-ees",
+          "simple_explanation": "Large areas of water such as oceans, seas, lakes, or rivers.",
+          "funny_explanation": "Basically any place where you can splash around, but your phone definitely shouldn't go for a swim.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Arabian Sea and the Bay of Bengal are the two major water bodies flanking the Indian peninsula."
+            },
+            {
+              "type": "funny",
+              "text": "The puddle in the driveway after a rainstorm is the smallest water body I know."
+            }
+          ],
+          "synonyms": [
+            "Aquatic areas"
+          ],
+          "antonyms": [
+            "Landmasses"
+          ]
+        }
+      },
+      {
+        "id": "c01_p13_w020",
+        "word": "Islands",
+        "difficulty": "Easy",
+        "meaning": "Pieces of land completely surrounded by water.",
+        "page": 13
+      },
+      {
+        "id": "c01_p13_w021",
+        "word": "Tropic",
+        "difficulty": "Hard",
+        "meaning": "A specific parallel line of latitude on Earth.",
+        "page": 13,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the 'Tropic of Cancer', a specific line of latitude that passes through India.",
+          "pronunciation": "Trop-ik",
+          "simple_explanation": "Regions of the Earth that are hot and humid, located near the equator.",
+          "funny_explanation": "The Earth's personal tanning bed where it's always summer and never sweater weather.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India’s climate is influenced by its position in the tropics."
+            },
+            {
+              "type": "funny",
+              "text": "In the tropics, the only 'ice' you see is in your cold drink."
+            }
+          ],
+          "synonyms": [
+            "Equatorial"
+          ],
+          "antonyms": [
+            "Polar"
+          ],
+          "real_world_analogy": "The 'center zone' of a pizza where most of the toppings (and heat) are concentrated."
+        }
+      },
+      {
+        "id": "c01_p13_w022",
+        "word": "Cancer",
+        "difficulty": "Hard",
+        "meaning": "The line of latitude north of the equator.",
+        "page": 13,
+        "hard": {
+          "why_it_is_given_in_book": "Specifically names the 'Tropic of Cancer', which divides India into roughly two halves.",
+          "pronunciation": "Kan-ser",
+          "simple_explanation": "In geography, it's the specific latitude line 23.5 degrees north of the equator.",
+          "funny_explanation": "Not a scary disease or a crab sign here; just a line that tells the sun 'Turn around now!'",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Tropic of Cancer passes through eight Indian states."
+            },
+            {
+              "type": "funny",
+              "text": "The sun reached the Tropic of Cancer and decided it was too hot to go any further north."
+            }
+          ],
+          "synonyms": [
+            "Latitude"
+          ],
+          "antonyms": [
+            "Capricorn"
+          ],
+          "real_world_analogy": "A 'Turn Back' sign on a road that limits how far a driver (the sun) can travel in one direction."
+        }
+      },
+      {
+        "id": "c01_p13_w023",
+        "word": "Scale",
+        "difficulty": "Medium",
+        "meaning": "The ratio between map distance and real distance.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Skayl",
+          "simple_explanation": "The relationship between the distance on a map and the actual distance on the ground.",
+          "funny_explanation": "The magic trick that lets you fit the entire country of India into a book small enough for your backpack.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "On this map, the scale shows that one centimeter represents 200 kilometers."
+            },
+            {
+              "type": "funny",
+              "text": "On a scale of one to 'I need a nap,' I am definitely at a ten right now."
+            }
+          ],
+          "synonyms": [
+            "Ratio"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p13_w024",
+        "word": "Location",
+        "difficulty": "Medium",
+        "meaning": "A particular place or position where something is.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Lo-kay-shun",
+          "simple_explanation": "The specific place or position where something is situated.",
+          "funny_explanation": "The very important thing you can never remember when you're looking for your car keys or socks.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India's location in Southern Asia makes it a hub for international trade."
+            },
+            {
+              "type": "funny",
+              "text": "The prime location for a nap is exactly where the sun hits the rug."
+            }
+          ],
+          "synonyms": [
+            "Position"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p13_w025",
+        "word": "Reprint",
+        "difficulty": "Medium",
+        "meaning": "To print a book or document again.",
+        "page": 13,
+        "medium": {
+          "pronunciation": "Ree-print",
+          "simple_explanation": "A new printing of a book or document, often used to make more copies or small updates.",
+          "funny_explanation": "When the teacher gives you a fresh copy of the worksheet you accidentally turned into a paper airplane.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "This textbook is a 2025-26 reprint, ensuring the data is current."
+            },
+            {
+              "type": "funny",
+              "text": "I wish I could get a reprint of my birthday cake because the first one disappeared too fast."
+            }
+          ],
+          "synonyms": [
+            "New edition"
+          ],
+          "antonyms": [
+            "Original"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 14,
+    "words": [
+      {
+        "id": "c01_p14_w001",
+        "word": "International",
+        "difficulty": "Medium",
+        "meaning": "Between different nations or countries.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "in-ter-nash-uh-nl",
+          "simple_explanation": "Relating to or involving two or more nations.",
+          "funny_explanation": "When you have a 'world-class' appetite and want to eat Italian pizza, Indian curry, and Mexican tacos all in one meal.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India plays a vital role on the international stage for trade and culture."
+            },
+            {
+              "type": "funny",
+              "text": "My cat has international fame because his funny video was watched in forty different countries."
+            }
+          ],
+          "synonyms": [
+            "Global"
+          ],
+          "antonyms": [
+            "Local"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w002",
+        "word": "Highway",
+        "difficulty": "Easy",
+        "meaning": "A main road for traveling or transport.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w003",
+        "word": "Trade",
+        "difficulty": "Easy",
+        "meaning": "Buying and selling goods and services.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w004",
+        "word": "Commerce",
+        "difficulty": "Easy",
+        "meaning": "The activity of buying and selling on a large scale.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w005",
+        "word": "Maritime",
+        "difficulty": "Medium",
+        "meaning": "Connected with the sea or sea transport.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "ma-ruh-time",
+          "simple_explanation": "Connected with the sea, especially in relation to seafaring commercial or military activity.",
+          "funny_explanation": "Basically, any business where you might accidentally high-five a dolphin or get splashed by a whale.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Ancient India's maritime trade flourished through ports on the western and eastern coasts."
+            },
+            {
+              "type": "funny",
+              "text": "If you trade your sandwich for a seashell while swimming, is that a maritime transaction?"
+            }
+          ],
+          "synonyms": [
+            "Nautical"
+          ],
+          "antonyms": [
+            "Land-based"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w006",
+        "word": "Ancient",
+        "difficulty": "Easy",
+        "meaning": "Belonging to the very distant past.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w007",
+        "word": "Travellers",
+        "difficulty": "Easy",
+        "meaning": "People who go from one place to another.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w008",
+        "word": "Restricted",
+        "difficulty": "Medium",
+        "meaning": "Limited or kept within certain bounds.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "ri-strik-tid",
+          "simple_explanation": "Limited in extent, number, scope, or action.",
+          "funny_explanation": "Like when your parents put a lock on the snack cupboard—your access to cookies is now strictly limited.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "In ancient times, the vast oceans restricted travel compared to the land routes."
+            },
+            {
+              "type": "funny",
+              "text": "I felt restricted when my dog decided to sit on my lap while I was trying to do homework."
+            }
+          ],
+          "synonyms": [
+            "Limited"
+          ],
+          "antonyms": [
+            "Free"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w009",
+        "word": "Interaction",
+        "difficulty": "Medium",
+        "meaning": "Communication or direct involvement between people.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "in-ter-ak-shun",
+          "simple_explanation": "Reciprocal action or influence between two or more people or things.",
+          "funny_explanation": "The chaotic conversation that happens when you and your friends all try to tell a joke at the same time.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Trade routes allowed for constant interaction between different ancient civilizations."
+            },
+            {
+              "type": "funny",
+              "text": "The interaction between my cat and the laser pointer usually ends in a wall crash."
+            }
+          ],
+          "synonyms": [
+            "Communication"
+          ],
+          "antonyms": [
+            "Isolation"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w010",
+        "word": "Exchange",
+        "difficulty": "Medium",
+        "meaning": "Giving and receiving things at the same time.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "iks-cheynj",
+          "simple_explanation": "An act of giving one thing and receiving another in return.",
+          "funny_explanation": "Trading your boring apple for your friend's chocolate chip cookie—the best deal ever.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The exchange of ideas helped spread the Indian decimal system across the globe."
+            },
+            {
+              "type": "funny",
+              "text": "I tried to exchange my homework for a 'Get Out of Jail Free' card, but the teacher didn't buy it."
+            }
+          ],
+          "synonyms": [
+            "Swap"
+          ],
+          "antonyms": [
+            "Keep"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w011",
+        "word": "Commodities",
+        "difficulty": "Medium",
+        "meaning": "Raw materials or products that can be bought.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "kuh-mod-i-teez",
+          "simple_explanation": "Raw materials or primary agricultural products that can be bought and sold, such as copper or coffee.",
+          "funny_explanation": "The 'stuff' that traders move around in big boxes to make money.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India was famous for exporting commodities like spices and fine muslin cloth."
+            },
+            {
+              "type": "funny",
+              "text": "In our house, the most valuable commodities are the Wi-Fi password and the last slice of pizza."
+            }
+          ],
+          "synonyms": [
+            "Goods"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p14_w012",
+        "word": "Stories",
+        "difficulty": "Easy",
+        "meaning": "Descriptions of imaginary or real events.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w013",
+        "word": "Spices",
+        "difficulty": "Easy",
+        "meaning": "Plant substances used to flavor food.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w014",
+        "word": "Muslin",
+        "difficulty": "Hard",
+        "meaning": "Lightweight cotton cloth in a plain weave.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "It is mentioned as a key commodity that was exported from ancient India to different parts of the world.",
+          "pronunciation": "/MUZ-lin/",
+          "simple_explanation": "A type of finely-woven, breathable cotton fabric that was highly prized in ancient trade.",
+          "funny_explanation": "The ultimate 'breathable' fabric from ancient times; basically the ancestor of your favorite soft cotton T-shirt, but much fancier.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Ancient Indian traders exported high-quality muslin to European markets."
+            },
+            {
+              "type": "funny",
+              "text": "If you wore muslin in the summer, you were basically the coolest (literally) person in the Roman Empire."
+            }
+          ],
+          "synonyms": [
+            "Cotton cloth"
+          ],
+          "antonyms": [
+            "Burlap"
+          ],
+          "real_world_analogy": "It's like the premium silk of the cotton world—soft, light, and everyone wanted to buy it."
+        }
+      },
+      {
+        "id": "c01_p14_w015",
+        "word": "Merchandise",
+        "difficulty": "Medium",
+        "meaning": "Goods that are bought and sold in business.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "mur-chuhn-dahyz",
+          "simple_explanation": "Goods that are bought and sold in business.",
+          "funny_explanation": "All the cool stuff you see in a shop window that makes you wish you had a giant wallet.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Indian merchandise was highly valued in European markets during the ancient times."
+            },
+            {
+              "type": "funny",
+              "text": "The band's merchandise was so popular that even the security guards were wearing their t-shirts."
+            }
+          ],
+          "synonyms": [
+            "Products"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p14_w016",
+        "word": "Influence",
+        "difficulty": "Medium",
+        "meaning": "The power to affect someone or something.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "in-floo-uhns",
+          "simple_explanation": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+          "funny_explanation": "When your cool older cousin starts wearing neon socks and suddenly you think you need neon socks too.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The influence of Greek sculpture can still be seen in many Indian historical monuments."
+            },
+            {
+              "type": "funny",
+              "text": "My dog has a bad influence on me; he always convinces me to take a nap instead of studying."
+            }
+          ],
+          "synonyms": [
+            "Impact"
+          ],
+          "antonyms": [
+            "Unimportance"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w017",
+        "word": "Architectural",
+        "difficulty": "Hard",
+        "meaning": "Relating to the design and construction of buildings.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "The book refers to the 'architectural styles' of domes and minarets that influenced Indian buildings.",
+          "pronunciation": "/ar-ki-TEK-chu-rul/",
+          "simple_explanation": "Relating to the design and construction of buildings.",
+          "funny_explanation": "The fancy way of saying how a building was put together so it doesn't look like a giant cardboard box.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Taj Mahal is an architectural masterpiece of the Mughal era."
+            },
+            {
+              "type": "funny",
+              "text": "My architectural style for my LEGO house is 'randomly colorful and prone to collapsing'."
+            }
+          ],
+          "synonyms": [
+            "Structural"
+          ],
+          "antonyms": [
+            null
+          ],
+          "real_world_analogy": "It's like the 'outfit' and 'skeleton' of a building combined."
+        }
+      },
+      {
+        "id": "c01_p14_w018",
+        "word": "Minarets",
+        "difficulty": "Hard",
+        "meaning": "Tall slender towers, typically part of a mosque.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "Used to describe the tall, slender towers influenced by West Asian architecture seen in India.",
+          "pronunciation": "/min-uh-RETS/",
+          "simple_explanation": "Tall, thin towers usually attached to a mosque, often with a balcony.",
+          "funny_explanation": "The elegant, skinny skyscrapers of the ancient world that were built long before elevators existed.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The four minarets surrounding the main dome give the monument a balanced look."
+            },
+            {
+              "type": "funny",
+              "text": "Climbing a minaret back then was the equivalent of a 30-minute cardio session."
+            }
+          ],
+          "synonyms": [
+            "Turrets"
+          ],
+          "antonyms": [
+            null
+          ],
+          "real_world_analogy": "They are like the high-reaching fingers of a building pointing toward the sky."
+        }
+      },
+      {
+        "id": "c01_p14_w019",
+        "word": "Smallest",
+        "difficulty": "Easy",
+        "meaning": "The tiniest in size compared to others.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w020",
+        "word": "Largest",
+        "difficulty": "Easy",
+        "meaning": "The biggest in size compared to others.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w021",
+        "word": "States",
+        "difficulty": "Easy",
+        "meaning": "Regions that form part of a country.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w022",
+        "word": "Border",
+        "difficulty": "Easy",
+        "meaning": "A line separating two different areas.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w023",
+        "word": "Frontiers",
+        "difficulty": "Hard",
+        "meaning": "The extreme limit of settled land or a border.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "The text asks students to classify states based on common 'frontiers' or borders with neighboring countries.",
+          "pronunciation": "/frun-TEERZ/",
+          "simple_explanation": "The line or border separating two countries.",
+          "funny_explanation": "The 'do not cross' line on a global scale where one country ends and another begins.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India shares its northern frontiers with China, Nepal, and Bhutan."
+            },
+            {
+              "type": "funny",
+              "text": "A frontier is where you realize your mobile data plan is about to get very expensive."
+            }
+          ],
+          "synonyms": [
+            "Boundaries"
+          ],
+          "antonyms": [
+            "Interior"
+          ],
+          "real_world_analogy": "Like the fence between your house and your neighbor's backyard."
+        }
+      },
+      {
+        "id": "c01_p14_w024",
+        "word": "Strategic",
+        "difficulty": "Hard",
+        "meaning": "Carefully planned to achieve a specific goal.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "Describes India's location as having a 'strategic position' due to its central place in South Asia and trade routes.",
+          "pronunciation": "/stru-TEE-jik/",
+          "simple_explanation": "Relating to a long-term plan or a highly advantageous position.",
+          "funny_explanation": "Picking the exact middle seat in a theater so you have the best view and easy access to snacks.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The island's strategic location made it a perfect hub for naval operations."
+            },
+            {
+              "type": "funny",
+              "text": "My strategic placement of the banana peel ensured my brother would slip as planned."
+            }
+          ],
+          "synonyms": [
+            "Calculated"
+          ],
+          "antonyms": [
+            "Random"
+          ],
+          "real_world_analogy": "Like the 'Queen' piece in chess; it can move anywhere and controls the board."
+        }
+      },
+      {
+        "id": "c01_p14_w025",
+        "word": "Boundaries",
+        "difficulty": "Medium",
+        "meaning": "Lines that mark the limits of an area.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "boun-duh-reez",
+          "simple_explanation": "Lines that mark the limit or extent of something, especially a country's territory.",
+          "funny_explanation": "The invisible line on the car seat that you and your sibling must never, ever cross.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India shares its land boundaries with several neighboring countries like Pakistan and China."
+            },
+            {
+              "type": "funny",
+              "text": "The cat believes the boundaries of the house extend to wherever the sun hits the floor."
+            }
+          ],
+          "synonyms": [
+            "Borders"
+          ],
+          "antonyms": [
+            "Center"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w026",
+        "word": "Neighbours",
+        "difficulty": "Easy",
+        "meaning": "People or countries living next to each other.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w027",
+        "word": "Island",
+        "difficulty": "Easy",
+        "meaning": "A piece of land surrounded by water.",
+        "page": 14
+      },
+      {
+        "id": "c01_p14_w028",
+        "word": "Provinces",
+        "difficulty": "Medium",
+        "meaning": "Principal administrative divisions of certain countries.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "prov-in-siz",
+          "simple_explanation": "The administrative divisions or units of a country or empire.",
+          "funny_explanation": "Think of them as the different 'levels' or 'zones' of a country where different bosses might be in charge.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Before independence, India was divided into provinces ruled directly by the British."
+            },
+            {
+              "type": "funny",
+              "text": "If my house were a country, the kitchen and the living room would definitely be the most popular provinces."
+            }
+          ],
+          "synonyms": [
+            "Regions"
+          ],
+          "antonyms": [
+            "Capital"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w029",
+        "word": "Appointed",
+        "difficulty": "Medium",
+        "meaning": "Chosen officially for a job or responsibility.",
+        "page": 14,
+        "medium": {
+          "pronunciation": "uh-point-id",
+          "simple_explanation": "Officially chosen for a job or responsibility.",
+          "funny_explanation": "When the teacher picks you to lead the line and you feel like the king of the hallway.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "British officials were appointed by the Viceroy to manage various Indian provinces."
+            },
+            {
+              "type": "funny",
+              "text": "I was appointed as the 'official snack tester' for my brother's birthday party."
+            }
+          ],
+          "synonyms": [
+            "Selected"
+          ],
+          "antonyms": [
+            "Dismissed"
+          ]
+        }
+      },
+      {
+        "id": "c01_p14_w030",
+        "word": "Hereditary",
+        "difficulty": "Hard",
+        "meaning": "Passed down from parents to children through birth.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the 'hereditary rulers' of the Princely states who inherited their power from their ancestors.",
+          "pronunciation": "/huh-RED-ih-ter-ee/",
+          "simple_explanation": "Passing from a parent to a child through birth or legal succession.",
+          "funny_explanation": "The reason you have your dad's nose and your grandpa's grumpy attitude.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "In the past, the position of the king was hereditary, passing from father to son."
+            },
+            {
+              "type": "funny",
+              "text": "Being 'hereditary' means I didn't choose to be this short; I can blame my parents for it."
+            }
+          ],
+          "synonyms": [
+            "Inherited"
+          ],
+          "antonyms": [
+            "Acquired"
+          ],
+          "real_world_analogy": "Like a family recipe that is passed down through generations."
+        }
+      },
+      {
+        "id": "c01_p14_w031",
+        "word": "Sovereignty",
+        "difficulty": "Hard",
+        "meaning": "Supreme power or authority over a state.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "Describes the relationship where Princely states acknowledged British 'sovereignty' or ultimate authority.",
+          "pronunciation": "/SOV-run-tee/",
+          "simple_explanation": "The supreme power or authority of a state to govern itself or another.",
+          "funny_explanation": "The political version of being the 'Boss of all Bosses' or the Principal of a school.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The nation fought hard to regain its sovereignty from colonial rule."
+            },
+            {
+              "type": "funny",
+              "text": "I have full sovereignty over my bedroom, at least until my mom says it’s time to clean it."
+            }
+          ],
+          "synonyms": [
+            "Authority"
+          ],
+          "antonyms": [
+            "Submission"
+          ],
+          "real_world_analogy": "Like the referee in a football match; what they say is the final law on the field."
+        }
+      },
+      {
+        "id": "c01_p14_w032",
+        "word": "Autonomy",
+        "difficulty": "Hard",
+        "meaning": "The right or condition of self-government.",
+        "page": 14,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the 'local autonomy' enjoyed by Princely states, meaning they had some freedom to manage their own affairs.",
+          "pronunciation": "/aw-TON-uh-mee/",
+          "simple_explanation": "The right or condition of self-government; independence in decision-making.",
+          "funny_explanation": "The freedom to choose your own toppings on a pizza even if someone else is paying for it.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The university was granted autonomy to design its own curriculum."
+            },
+            {
+              "type": "funny",
+              "text": "Adults think they have autonomy, but then they have to ask their boss for a day off."
+            }
+          ],
+          "synonyms": [
+            "Self-rule"
+          ],
+          "antonyms": [
+            "Dependence"
+          ],
+          "real_world_analogy": "A teenager getting a room key and being allowed to decorate it however they want."
+        }
+      }
+    ]
+  },
+  {
+    "page_no": 15,
+    "words": [
+      {
+        "id": "c01_p15_w001",
+        "word": "Adjacent",
+        "difficulty": "Hard",
+        "meaning": "Next to or joined to something else.",
+        "page": 15,
+        "hard": {
+          "why_it_is_given_in_book": "The term is used to describe the countries located right next to India, such as Pakistan and Nepal.",
+          "pronunciation": "uh-JAY-suhnt",
+          "simple_explanation": "Being next to or very near to something else.",
+          "funny_explanation": "It's like having a neighbor who is so close you can hear them sneezing through the wall.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The map shows India and its adjacent countries like Bhutan and Bangladesh."
+            },
+            {
+              "type": "funny",
+              "text": "My desk is adjacent to the teacher's, which means zero chance of secret snacking."
+            }
+          ],
+          "synonyms": [
+            "Neighboring"
+          ],
+          "antonyms": [
+            "Distant"
+          ],
+          "real_world_analogy": "Two houses sharing a single boundary fence."
+        }
+      },
+      {
+        "id": "c01_p15_w002",
+        "word": "Boundary",
+        "difficulty": "Easy",
+        "meaning": "A line that marks the limit of an area.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w003",
+        "word": "Separated",
+        "difficulty": "Easy",
+        "meaning": "Set apart or kept in different places.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w004",
+        "word": "Narrow",
+        "difficulty": "Easy",
+        "meaning": "Measuring a small distance from side to side.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w005",
+        "word": "Channel",
+        "difficulty": "Medium",
+        "meaning": "A wide passage of water between two land areas.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "CHAN-uhl",
+          "simple_explanation": "A narrow stretch of water that connects two larger bodies of water.",
+          "funny_explanation": "Think of it as a watery hallway that fish use to travel from one big ocean room to another.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The English Channel separates England from the rest of Europe."
+            },
+            {
+              "type": "funny",
+              "text": "If you were a giant, you could probably step right over that narrow water channel."
+            }
+          ],
+          "synonyms": [
+            "Passage"
+          ],
+          "antonyms": [
+            "Landmass"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w006",
+        "word": "Strait",
+        "difficulty": "Hard",
+        "meaning": "A narrow passage of water connecting two large seas.",
+        "page": 15,
+        "hard": {
+          "why_it_is_given_in_book": "It identifies the Palk Strait, the narrow body of water that separates India from Sri Lanka.",
+          "pronunciation": "strayt",
+          "simple_explanation": "A narrow passage of water that connects two larger seas or oceans.",
+          "funny_explanation": "A skinny water bridge that's trying its best to keep two giant pieces of land from touching.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Ships must pass through the narrow strait to reach the other side of the ocean."
+            },
+            {
+              "type": "funny",
+              "text": "The strait is so narrow, I bet a giant could use it as a footbath."
+            }
+          ],
+          "synonyms": [
+            "Channel"
+          ],
+          "antonyms": [
+            "Isthmus"
+          ],
+          "real_world_analogy": "A narrow hallway connecting two huge living rooms."
+        }
+      },
+      {
+        "id": "c01_p15_w007",
+        "word": "Gulf",
+        "difficulty": "Medium",
+        "meaning": "A part of an ocean almost surrounded by land.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "GUHLF",
+          "simple_explanation": "A large area of ocean that is partly surrounded by land.",
+          "funny_explanation": "It’s like the ocean is trying to give the land a giant, watery hug.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Gulf of Mannar is a beautiful area located between India and Sri Lanka."
+            },
+            {
+              "type": "funny",
+              "text": "If the ocean had pockets, a gulf would be where it hides all the cool shells."
+            }
+          ],
+          "synonyms": [
+            "Bay"
+          ],
+          "antonyms": [
+            "Peninsula"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w008",
+        "word": "Situated",
+        "difficulty": "Medium",
+        "meaning": "Fixed or located in a specific place.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "SIT-choo-ay-tid",
+          "simple_explanation": "To be located or placed in a particular spot.",
+          "funny_explanation": "Where something has decided to park its bottom and stay for a while.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Maldives Islands are situated to the south of India."
+            },
+            {
+              "type": "funny",
+              "text": "My cat is usually situated directly on top of my homework whenever I try to study."
+            }
+          ],
+          "synonyms": [
+            "Located"
+          ],
+          "antonyms": [
+            "Displaced"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w009",
+        "word": "Geographical",
+        "difficulty": "Hard",
+        "meaning": "Relating to the physical features of the Earth.",
+        "page": 15,
+        "hard": {
+          "why_it_is_given_in_book": "It describes the physical and spatial connections India has with its neighbors.",
+          "pronunciation": "jee-oh-GRAF-ih-kuhl",
+          "simple_explanation": "Relating to the natural features of the earth, like mountains, rivers, and locations.",
+          "funny_explanation": "The fancy scientific way of saying 'where things are on the giant blue marble we live on.'",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The geographical location of India makes it a major power in South Asia."
+            },
+            {
+              "type": "funny",
+              "text": "My geographical sense is so bad, I need a GPS to find my own kitchen."
+            }
+          ],
+          "synonyms": [
+            "Physical"
+          ],
+          "antonyms": [
+            "Conceptual"
+          ],
+          "real_world_analogy": "A 3D model showing the exact placement of every building and tree in your city."
+        }
+      },
+      {
+        "id": "c01_p15_w010",
+        "word": "Historical",
+        "difficulty": "Easy",
+        "meaning": "Belonging to or representing events of the past.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w011",
+        "word": "Neighbours",
+        "difficulty": "Easy",
+        "meaning": "Countries or people living next to each other.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w012",
+        "word": "Physical",
+        "difficulty": "Easy",
+        "meaning": "Relating to things that can be touched or seen.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w013",
+        "word": "Atlas",
+        "difficulty": "Easy",
+        "meaning": "A book that contains many different maps.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w014",
+        "word": "Apart",
+        "difficulty": "Easy",
+        "meaning": "At a distance from each other in space.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w015",
+        "word": "Portal",
+        "difficulty": "Medium",
+        "meaning": "A website that acts as a gateway to information.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "POR-tuhl",
+          "simple_explanation": "A website or entrance that serves as a gateway to other information or places.",
+          "funny_explanation": "A magical internet door that teleports you to your grades instead of a fantasy world.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "School Bhuvan is a portal that helps students explore maps of India."
+            },
+            {
+              "type": "funny",
+              "text": "I wish there was a portal in my closet that led straight to the school cafeteria."
+            }
+          ],
+          "synonyms": [
+            "Gateway"
+          ],
+          "antonyms": [
+            "Exit"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w016",
+        "word": "Awareness",
+        "difficulty": "Medium",
+        "meaning": "Having knowledge or understanding of a subject.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "uh-WAIR-ness",
+          "simple_explanation": "Knowledge or perception of a situation or fact.",
+          "funny_explanation": "That 'Aha!' moment when you realize you've been talking for ten minutes with spinach in your teeth.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The project aims to bring awareness to the importance of natural resources."
+            },
+            {
+              "type": "funny",
+              "text": "My awareness of the time only happens when the teacher says there are two minutes left in the exam."
+            }
+          ],
+          "synonyms": [
+            "Knowledge"
+          ],
+          "antonyms": [
+            "Ignorance"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w017",
+        "word": "Natural",
+        "difficulty": "Easy",
+        "meaning": "Found in nature and not made by people.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w018",
+        "word": "Resources",
+        "difficulty": "Easy",
+        "meaning": "Materials that can be used to help people.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w019",
+        "word": "Environment",
+        "difficulty": "Easy",
+        "meaning": "The natural world or surroundings we live in.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w020",
+        "word": "Sustainable",
+        "difficulty": "Hard",
+        "meaning": "Using resources without damaging them for the future.",
+        "page": 15,
+        "hard": {
+          "why_it_is_given_in_book": "The School Bhuvan portal aims to teach students about development that doesn't harm the future.",
+          "pronunciation": "suh-STAY-nuh-buhl",
+          "simple_explanation": "Using resources in a way that they don't run out and can last for a long time.",
+          "funny_explanation": "Eating your candies one per day so they last all week, instead of eating them all in one go and crying later.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Solar energy is a sustainable way to power our homes without hurting the planet."
+            },
+            {
+              "type": "funny",
+              "text": "Trying to stay awake for 48 hours is definitely not a sustainable lifestyle for a human."
+            }
+          ],
+          "synonyms": [
+            "Maintainable"
+          ],
+          "antonyms": [
+            "Wasteful"
+          ],
+          "real_world_analogy": "A library where everyone returns books on time so there's always something for the next person to read."
+        }
+      },
+      {
+        "id": "c01_p15_w021",
+        "word": "Development",
+        "difficulty": "Easy",
+        "meaning": "The process of growth or becoming more advanced.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w022",
+        "word": "Initiative",
+        "difficulty": "Hard",
+        "meaning": "A new plan or process to achieve a goal.",
+        "page": 15,
+        "hard": {
+          "why_it_is_given_in_book": "It refers to the new program or project started by NRSC/ISRO for students.",
+          "pronunciation": "ih-NISH-uh-tiv",
+          "simple_explanation": "The first step or a new plan taken to solve a problem or start something important.",
+          "funny_explanation": "Being the brave soul who finally asks 'What's for lunch?' when everyone else is too shy to speak.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The government took the initiative to plant more trees across the city."
+            },
+            {
+              "type": "funny",
+              "text": "I took the initiative to wash the dishes, mostly because we ran out of clean plates."
+            }
+          ],
+          "synonyms": [
+            "Plan"
+          ],
+          "antonyms": [
+            "Inaction"
+          ],
+          "real_world_analogy": "The person who starts the first 'clap' at the end of a performance, leading everyone else to follow."
+        }
+      },
+      {
+        "id": "c01_p15_w023",
+        "word": "Syllabus",
+        "difficulty": "Medium",
+        "meaning": "A list of topics covered in a course.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "SIL-uh-buhs",
+          "simple_explanation": "An outline or summary of the topics to be covered in a course of study.",
+          "funny_explanation": "The 'survival guide' your teacher gives you that tells you exactly how much work you have to do this year.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The geography syllabus includes learning about India's neighboring countries."
+            },
+            {
+              "type": "funny",
+              "text": "I checked the syllabus and discovered that 'Professional Napping' is sadly not a topic we study."
+            }
+          ],
+          "synonyms": [
+            "Curriculum"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p15_w024",
+        "word": "Explore",
+        "difficulty": "Easy",
+        "meaning": "To travel around a place to learn things.",
+        "page": 15
+      },
+      {
+        "id": "c01_p15_w025",
+        "word": "Various",
+        "difficulty": "Medium",
+        "meaning": "Of several different kinds or types.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "VAIR-ee-uhs",
+          "simple_explanation": "Many different types or examples of something.",
+          "funny_explanation": "Like a giant box of mixed chocolates where you never know which one you’ll get next.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "You can explore various maps of India on the Bhuvan website."
+            },
+            {
+              "type": "funny",
+              "text": "I have various reasons for being late, but 'a dragon blocked the road' is my favorite."
+            }
+          ],
+          "synonyms": [
+            "Different"
+          ],
+          "antonyms": [
+            "Same"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w026",
+        "word": "Secondary",
+        "difficulty": "Medium",
+        "meaning": "The level of schooling after primary or middle.",
+        "page": 15,
+        "medium": {
+          "pronunciation": "SEK-uhn-dair-ee",
+          "simple_explanation": "The stage of education that follows primary school, typically for teenagers.",
+          "funny_explanation": "The level of school where the books get heavier and the lockers become your second home.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The website provides resources specifically for the secondary stage of education."
+            },
+            {
+              "type": "funny",
+              "text": "In secondary school, you feel like a grown-up until you see a 12th grader who looks like a giant."
+            }
+          ],
+          "synonyms": [
+            "High school"
+          ],
+          "antonyms": [
+            "Primary"
+          ]
+        }
+      },
+      {
+        "id": "c01_p15_w027",
+        "word": "Location",
+        "difficulty": "Easy",
+        "meaning": "A specific place or position on Earth.",
+        "page": 15
+      }
+    ]
+  },
+  {
+    "page_no": 16,
+    "words": [
+      {
+        "id": "c01_p16_w001",
+        "word": "alternatives",
+        "difficulty": "Medium",
+        "meaning": "Choice between two or more possibilities.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "al-TUR-nuh-tivz",
+          "simple_explanation": "A set of choices or different options you can pick from.",
+          "funny_explanation": "Like when you want pizza but your mom says the only other choices are broccoli or air.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The test question asks you to choose from four alternatives."
+            },
+            {
+              "type": "funny",
+              "text": "My alternatives for the weekend are doing homework or pretending I am a potato."
+            }
+          ],
+          "synonyms": [
+            "choices"
+          ],
+          "antonyms": [
+            "obligations"
+          ]
+        }
+      },
+      {
+        "id": "c01_p16_w002",
+        "word": "Tropic",
+        "difficulty": "Medium",
+        "meaning": "Parallel of latitude north or south of equator.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "TROP-ik",
+          "simple_explanation": "Special imaginary lines circling the Earth that mark specific geographic zones.",
+          "funny_explanation": "Earth's favorite invisible belts that help us figure out where it's super hot or just okay.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Tropic of Cancer passes through several Indian states."
+            },
+            {
+              "type": "funny",
+              "text": "I tried to find the Tropic line on the ground, but I think someone took the belt off."
+            }
+          ],
+          "synonyms": [
+            "parallel"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p16_w003",
+        "word": "longitude",
+        "difficulty": "Medium",
+        "meaning": "Vertical lines measuring distance east or west.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "LON-ji-tood",
+          "simple_explanation": "Imaginary vertical lines on a map that tell you how far east or west you are.",
+          "funny_explanation": "The 'tall' lines on the globe that make the Earth look like a giant sliced orange.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The easternmost longitude of India is 97 degrees 25 minutes East."
+            },
+            {
+              "type": "funny",
+              "text": "If you follow a longitude line long enough, you'll eventually bump into a penguin at the South Pole."
+            }
+          ],
+          "synonyms": [
+            "meridian"
+          ],
+          "antonyms": [
+            "latitude"
+          ]
+        }
+      },
+      {
+        "id": "c01_p16_w004",
+        "word": "frontiers",
+        "difficulty": "Hard",
+        "meaning": "Borders between two different countries or regions.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "The term is used to describe the shared borders between India's states and neighboring countries like Nepal.",
+          "pronunciation": "/frʌnˈtɪərz/",
+          "simple_explanation": "The border or boundary separating two different countries or territories.",
+          "funny_explanation": "The official 'no-touching' line where your passport gets more attention than your face.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Uttarakhand and Sikkim have common frontiers with Nepal."
+            },
+            {
+              "type": "funny",
+              "text": "My brother and I drew a frontier in the middle of our bedroom using masking tape to stop the toy wars."
+            }
+          ],
+          "synonyms": [
+            "Boundaries"
+          ],
+          "antonyms": [
+            "Center"
+          ],
+          "real_world_analogy": "Like the fence between your house and your neighbor's garden."
+        }
+      },
+      {
+        "id": "c01_p16_w005",
+        "word": "intend",
+        "difficulty": "Easy",
+        "meaning": "To have a plan in mind.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w006",
+        "word": "vacations",
+        "difficulty": "Easy",
+        "meaning": "Periods of time spent away from work.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w007",
+        "word": "Territories",
+        "difficulty": "Medium",
+        "meaning": "Geographic areas belonging to a specific country.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "TER-ih-tor-eez",
+          "simple_explanation": "Specific areas of land that are under the control of a particular government.",
+          "funny_explanation": "The 'junior' versions of states that are still part of the big country family.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Lakshadweep is one of the smallest Union Territories of India."
+            },
+            {
+              "type": "funny",
+              "text": "My bedroom and the snack cupboard are the only territories I truly rule over."
+            }
+          ],
+          "synonyms": [
+            "regions"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p16_w008",
+        "word": "hails",
+        "difficulty": "Medium",
+        "meaning": "Comes from or originates from somewhere.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "hay-ulz",
+          "simple_explanation": "To come from or have been born in a specific place.",
+          "funny_explanation": "A fancy way of saying where you were 'originality shipped' from.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "My friend hails from a country that is north of the Himalayas."
+            },
+            {
+              "type": "funny",
+              "text": "I hail from the land of 'Sleepyville', also known as my bed."
+            }
+          ],
+          "synonyms": [
+            "originates"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p16_w009",
+        "word": "boundary",
+        "difficulty": "Easy",
+        "meaning": "A line that marks a limit.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w010",
+        "word": "Identify",
+        "difficulty": "Easy",
+        "meaning": "Point out or recognize something specific.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w011",
+        "word": "briefly",
+        "difficulty": "Easy",
+        "meaning": "Using only a few words.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w012",
+        "word": "islands",
+        "difficulty": "Easy",
+        "meaning": "Pieces of land surrounded by water.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w013",
+        "word": "neighbours",
+        "difficulty": "Easy",
+        "meaning": "People or places located next to another.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w014",
+        "word": "compared",
+        "difficulty": "Easy",
+        "meaning": "Noted the similarities and differences.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w015",
+        "word": "central",
+        "difficulty": "Easy",
+        "meaning": "Being in the middle of something.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w016",
+        "word": "location",
+        "difficulty": "Easy",
+        "meaning": "A particular place or position.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w017",
+        "word": "significance",
+        "difficulty": "Hard",
+        "meaning": "The quality of being important or meaningful.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "Used to highlight why India's central position in the Indian Ocean is very important.",
+          "pronunciation": "/sɪɡˈnɪf.ɪ.kəns/",
+          "simple_explanation": "The quality of being worthy of attention or being extremely important.",
+          "funny_explanation": "The 'Big Deal' factor that makes a teacher highlight a sentence in bright yellow.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The central location of India is of great significance for international trade."
+            },
+            {
+              "type": "funny",
+              "text": "The significance of finding a forgotten 500-rupee note in an old jacket is life-changing."
+            }
+          ],
+          "synonyms": [
+            "Importance"
+          ],
+          "antonyms": [
+            "Triviality"
+          ],
+          "real_world_analogy": "Like the importance of a Wi-Fi router in a modern home—without it, everything stops working."
+        }
+      },
+      {
+        "id": "c01_p16_w018",
+        "word": "latitudinal",
+        "difficulty": "Hard",
+        "meaning": "Related to horizontal lines on a map.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the measurement of how far north or south a state is located on the map.",
+          "pronunciation": "/ˌlæt.ɪˈtʃuː.dɪ.nəl/",
+          "simple_explanation": "Relating to the horizontal lines on a map that measure distance from the equator.",
+          "funny_explanation": "The 'horizontal belt' lines on the Earth that help us figure out how close we are to the sun's grill.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Students were asked to find the latitudinal extent of their home state."
+            },
+            {
+              "type": "funny",
+              "text": "My latitudinal position on the couch never changes when a cricket match is on TV."
+            }
+          ],
+          "synonyms": [
+            "Horizontal position"
+          ],
+          "antonyms": [
+            "Longitudinal"
+          ],
+          "real_world_analogy": "The rungs of a ladder when it is standing upright."
+        }
+      },
+      {
+        "id": "c01_p16_w019",
+        "word": "extent",
+        "difficulty": "Medium",
+        "meaning": "The size or scale of something.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "ek-STENT",
+          "simple_explanation": "The area, distance, or range that something covers.",
+          "funny_explanation": "The 'how big is it?' factor—from a tiny crumb to a massive continent.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The longitudinal extent of India affects the time difference between East and West."
+            },
+            {
+              "type": "funny",
+              "text": "The extent of my hunger could probably swallow a whole buffet."
+            }
+          ],
+          "synonyms": [
+            "range"
+          ],
+          "antonyms": [
+            "limit"
+          ]
+        }
+      },
+      {
+        "id": "c01_p16_w020",
+        "word": "developments",
+        "difficulty": "Easy",
+        "meaning": "Changes or growth in a specific area.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w021",
+        "word": "communication",
+        "difficulty": "Easy",
+        "meaning": "Sending or receiving information.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w022",
+        "word": "regions",
+        "difficulty": "Medium",
+        "meaning": "Large areas with specific characteristics.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "REE-junz",
+          "simple_explanation": "Particular parts of a country or the world that have specific characteristics.",
+          "funny_explanation": "Different neighborhoods of the world, like the 'Hot Neighborhood' or the 'High Altitude Neighborhood'.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "New communication routes are being built in regions of high altitude."
+            },
+            {
+              "type": "funny",
+              "text": "In the region of my backpack, there is a mysterious lost world of old pens."
+            }
+          ],
+          "synonyms": [
+            "areas"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p16_w023",
+        "word": "altitude",
+        "difficulty": "Hard",
+        "meaning": "The height of a place above sea.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the high-up mountainous regions where communication routes are being improved.",
+          "pronunciation": "/ˈæl.tɪ.tʃuːd/",
+          "simple_explanation": "The height of an object or point in relation to sea level or ground level.",
+          "funny_explanation": "The height where your ears go 'pop' and the air starts getting thin and shy.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "It is difficult to build roads in regions of high altitude due to the steep terrain."
+            },
+            {
+              "type": "funny",
+              "text": "He climbed to such a high altitude on the top bunk that he felt like a mountain goat."
+            }
+          ],
+          "synonyms": [
+            "Height"
+          ],
+          "antonyms": [
+            "Depth"
+          ],
+          "real_world_analogy": "The floor number of a skyscraper; the higher the floor, the higher the altitude."
+        }
+      },
+      {
+        "id": "c01_p16_w024",
+        "word": "constituting",
+        "difficulty": "Hard",
+        "meaning": "Being the parts that form something.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "Refers to the various countries that come together to make up the Indian subcontinent.",
+          "pronunciation": "/ˈkɒn.stɪ.tʃuː.tɪŋ/",
+          "simple_explanation": "To be the parts that combine to form a whole.",
+          "funny_explanation": "The ingredients in a recipe that come together to make the final dish.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The countries constituting the Indian subcontinent share a long history."
+            },
+            {
+              "type": "funny",
+              "text": "Potatoes and spices are the main parts constituting my favorite samosas."
+            }
+          ],
+          "synonyms": [
+            "Forming"
+          ],
+          "antonyms": [
+            "Dismantling"
+          ],
+          "real_world_analogy": "The individual LEGO bricks that come together to form a castle."
+        }
+      },
+      {
+        "id": "c01_p16_w025",
+        "word": "subcontinent",
+        "difficulty": "Medium",
+        "meaning": "A large, distinct part of a continent.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "sub-KON-tih-nent",
+          "simple_explanation": "A large, distinguishable part of a continent, like North America or India.",
+          "funny_explanation": "A landmass that is too big to just be called a country but too small to be its own planet.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "India and its neighbors form what is known as the Indian subcontinent."
+            },
+            {
+              "type": "funny",
+              "text": "Calling India a subcontinent is like calling a giant pizza a 'snack'."
+            }
+          ],
+          "synonyms": [
+            "landmass"
+          ],
+          "antonyms": null
+        }
+      },
+      {
+        "id": "c01_p16_w026",
+        "word": "mainland",
+        "difficulty": "Medium",
+        "meaning": "The main part of a country's land.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "MAYN-land",
+          "simple_explanation": "The main part of a country or continent, not including the islands around it.",
+          "funny_explanation": "The big piece of bread, while the islands are just the crumbs falling off the side.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Kanyakumari is at the southernmost tip of the Indian mainland."
+            },
+            {
+              "type": "funny",
+              "text": "The island felt lonely, so it waved at the mainland across the ocean."
+            }
+          ],
+          "synonyms": [
+            "continent"
+          ],
+          "antonyms": [
+            "island"
+          ]
+        }
+      },
+      {
+        "id": "c01_p16_w027",
+        "word": "situated",
+        "difficulty": "Medium",
+        "meaning": "Placed in a specific location.",
+        "page": 16,
+        "medium": {
+          "pronunciation": "SICH-oo-ay-tid",
+          "simple_explanation": "Being in a particular place or position.",
+          "funny_explanation": "A fancy way of saying 'sitting right there'.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "Identify the place situated on the meeting point of three seas."
+            },
+            {
+              "type": "funny",
+              "text": "My cat is currently situated directly on top of my homework."
+            }
+          ],
+          "synonyms": [
+            "located"
+          ],
+          "antonyms": [
+            "displaced"
+          ]
+        }
+      },
+      {
+        "id": "c01_p16_w028",
+        "word": "strait",
+        "difficulty": "Hard",
+        "meaning": "A narrow body of water joining seas.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "Describes the narrow body of water (Palk Strait) that separates India and Sri Lanka.",
+          "pronunciation": "/streɪt/",
+          "simple_explanation": "A narrow passage of water connecting two larger bodies of water.",
+          "funny_explanation": "A watery 'bottleneck' or a skinny shortcut that forces ships to go single file.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The Palk Strait is the narrow sea passage between India and Sri Lanka."
+            },
+            {
+              "type": "funny",
+              "text": "The hallway between the kitchen and the living room is a strait through which the cat zooms at night."
+            }
+          ],
+          "synonyms": [
+            "Channel"
+          ],
+          "antonyms": [
+            "Isthmus"
+          ],
+          "real_world_analogy": "A narrow corridor connecting two huge auditoriums."
+        }
+      },
+      {
+        "id": "c01_p16_w029",
+        "word": "separating",
+        "difficulty": "Easy",
+        "meaning": "Dividing things from each other.",
+        "page": 16
+      },
+      {
+        "id": "c01_p16_w030",
+        "word": "Contemporary",
+        "difficulty": "Hard",
+        "meaning": "Modern or belonging to the present time.",
+        "page": 16,
+        "hard": {
+          "why_it_is_given_in_book": "This is part of the book's title, referring to the modern-day state of India.",
+          "pronunciation": "/kənˈtem.pər.ər.i/",
+          "simple_explanation": "Belonging to or occurring in the present time.",
+          "funny_explanation": "The 'Now' version of things, right before they become old news or boring history.",
+          "examples": [
+            {
+              "type": "normal",
+              "text": "The book 'Contemporary India' focuses on the country's current geography and society."
+            },
+            {
+              "type": "funny",
+              "text": "My grandad thinks contemporary music sounds like a blender full of angry bees."
+            }
+          ],
+          "synonyms": [
+            "Modern"
+          ],
+          "antonyms": [
+            "Ancient"
+          ],
+          "real_world_analogy": "The latest software update on your phone compared to the very first version."
+        }
+      }
+    ]
+  }
+]
