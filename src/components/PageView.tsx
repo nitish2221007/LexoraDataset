@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { WordItem } from '../types/dataset';
 import { WordCard } from './WordCard';
-import { BookOpen, Headphones, Pause, ChevronLeft, ChevronRight, PenTool, Sparkles } from 'lucide-react';
+import { TextbookTableView } from './TextbookTableView';
+import { BookOpen, Headphones, Pause, ChevronLeft, ChevronRight, PenTool, Sparkles, Table } from 'lucide-react';
 import { speakWord } from '../lib/datasetLoader';
 
 interface PageViewProps {
@@ -41,14 +42,14 @@ export const PageView: React.FC<PageViewProps> = ({
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [openWordId, setOpenWordId] = useState<string | null>(null);
   
-  // Reading Theme Mode: 'standard' | 'paper'
-  const [readingTheme, setReadingTheme] = useState<'standard' | 'paper'>(() => {
-    return (localStorage.getItem('lexora_reading_theme') as 'standard' | 'paper') || 'standard';
+  // Reading Layout Mode: 'table' (NCERT Textbook Table) | 'standard' | 'paper'
+  const [readingTheme, setReadingTheme] = useState<'table' | 'standard' | 'paper'>(() => {
+    return (localStorage.getItem('lexora_reading_theme') as 'table' | 'standard' | 'paper') || 'table';
   });
 
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const toggleReadingTheme = (theme: 'standard' | 'paper') => {
+  const toggleReadingTheme = (theme: 'table' | 'standard' | 'paper') => {
     setReadingTheme(theme);
     localStorage.setItem('lexora_reading_theme', theme);
   };
@@ -121,8 +122,21 @@ export const PageView: React.FC<PageViewProps> = ({
           &larr; Change chapter
         </button>
 
-        {/* Theme Switcher Toggle (Standard vs Paper Handwriting Notebook) */}
+        {/* Theme & Layout Switcher Toggle */}
         <div className="flex items-center gap-1 bg-slate-200/70 dark:bg-slate-800 p-1 rounded-xl border border-slate-300 dark:border-slate-700">
+          <button
+            onClick={() => toggleReadingTheme('table')}
+            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+              readingTheme === 'table'
+                ? 'bg-[#C2185B] text-white shadow-sm'
+                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
+            }`}
+            title="NCERT Textbook Table Layout"
+          >
+            <Table className="w-3 h-3" />
+            <span>Table View</span>
+          </button>
+
           <button
             onClick={() => toggleReadingTheme('standard')}
             className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
@@ -130,10 +144,10 @@ export const PageView: React.FC<PageViewProps> = ({
                 ? 'bg-white dark:bg-slate-700 text-[#C2185B] dark:text-pink-300 shadow-sm'
                 : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
             }`}
-            title="Standard Theme"
+            title="Standard Cards"
           >
             <Sparkles className="w-3 h-3" />
-            <span className="hidden sm:inline">Standard</span>
+            <span className="hidden sm:inline">Cards</span>
           </button>
 
           <button
@@ -146,7 +160,7 @@ export const PageView: React.FC<PageViewProps> = ({
             title="Handwriting Paper Theme"
           >
             <PenTool className="w-3 h-3 text-amber-600" />
-            <span>Paper Notes</span>
+            <span className="hidden sm:inline">Paper</span>
           </button>
         </div>
       </div>
@@ -165,7 +179,7 @@ export const PageView: React.FC<PageViewProps> = ({
             ? 'font-handwriting text-lg sm:text-xl text-[#475569] dark:text-amber-200/80'
             : 'font-sans text-slate-500 dark:text-slate-400'
         }`}>
-          {subjectLabel} — {chapterTitle || 'Chapter Words'} — <span className={isPaper ? 'text-[#1E3A8A] font-bold' : 'text-[#888] font-normal'}>click a word to expand notes.</span>
+          {subjectLabel} — {chapterTitle || 'Chapter Words'}
         </p>
 
         <div className="pt-2 flex justify-center">
@@ -175,8 +189,6 @@ export const PageView: React.FC<PageViewProps> = ({
             className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-sans font-bold transition-all ${
               isPlayingAudiobook
                 ? 'bg-rose-500 text-white animate-pulse'
-                : isPaper
-                ? 'bg-[#1E3A8A] text-white hover:bg-blue-900 shadow-sm'
                 : 'bg-[#C2185B] hover:bg-[#A31257] text-white shadow-sm'
             }`}
           >
@@ -186,31 +198,40 @@ export const PageView: React.FC<PageViewProps> = ({
         </div>
       </div>
 
-      {/* Connected Word List Container */}
+      {/* Main Content View (Table / Cards) */}
       {filteredWords.length > 0 ? (
-        <div className={`list max-w-xl mx-auto rounded-2xl p-4 sm:p-6 transition-all duration-300 ${
-          isPaper
-            ? 'paper-notebook-container shadow-md border-t border-b border-amber-200 dark:border-amber-900'
-            : 'border-t border-slate-200 dark:border-slate-800'
-        }`}>
-          {filteredWords.map((word, index) => {
-            const isThisOpen = openWordId === word.id;
+        readingTheme === 'table' ? (
+          <TextbookTableView
+            words={filteredWords}
+            bookmarkedIds={bookmarkedIds}
+            onToggleBookmark={onToggleBookmark}
+            pageNo={currentPageNo}
+          />
+        ) : (
+          <div className={`list max-w-xl mx-auto rounded-2xl p-4 sm:p-6 transition-all duration-300 ${
+            isPaper
+              ? 'paper-notebook-container shadow-md border-t border-b border-amber-200 dark:border-amber-900'
+              : 'border-t border-slate-200 dark:border-slate-800'
+          }`}>
+            {filteredWords.map((word, index) => {
+              const isThisOpen = openWordId === word.id;
 
-            return (
-              <WordCard
-                key={word.id}
-                word={word}
-                index={index}
-                pageNo={currentPageNo}
-                isOpen={isThisOpen}
-                onToggleOpen={() => setOpenWordId(isThisOpen ? null : word.id)}
-                isBookmarked={bookmarkedIds.includes(word.id)}
-                onToggleBookmark={onToggleBookmark}
-                readingTheme={readingTheme}
-              />
-            );
-          })}
-        </div>
+              return (
+                <WordCard
+                  key={word.id}
+                  word={word}
+                  index={index}
+                  pageNo={currentPageNo}
+                  isOpen={isThisOpen}
+                  onToggleOpen={() => setOpenWordId(isThisOpen ? null : word.id)}
+                  isBookmarked={bookmarkedIds.includes(word.id)}
+                  onToggleBookmark={onToggleBookmark}
+                  readingTheme={readingTheme === 'paper' ? 'paper' : 'standard'}
+                />
+              );
+            })}
+          </div>
+        )
       ) : (
         <div className="bg-white dark:bg-slate-900 p-12 rounded-xl text-center border border-slate-200 dark:border-slate-800 space-y-2">
           <p className="text-sm font-sans text-slate-600 dark:text-slate-400">
