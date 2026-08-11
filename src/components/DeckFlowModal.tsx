@@ -53,21 +53,50 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
   const activeSubjectObj = activeClassObj?.subjects[tempSubject];
   const availableChapters = activeSubjectObj ? Object.values(activeSubjectObj.chapters) : [];
 
+  const isClassActive = (cId: string) => {
+    const classObj = manifest.classes[cId];
+    if (!classObj?.subjects) return false;
+    let totalChaps = 0;
+    Object.values(classObj.subjects).forEach((s) => {
+      totalChaps += Object.keys(s.chapters || {}).length;
+    });
+    return totalChaps > 0;
+  };
+
+  const isSubjectActive = (cId: string, sId: string) => {
+    const subjObj = manifest.classes[cId]?.subjects[sId];
+    if (!subjObj) return false;
+    return Object.keys(subjObj.chapters || {}).length > 0;
+  };
+
+  const [modalNotice, setModalNotice] = useState<string | null>(null);
+
   const handleSelectClass = (cId: string) => {
+    if (!isClassActive(cId)) {
+      const num = cId.replace('class_', '');
+      setModalNotice(`🔒 Class ${num} dataset is Coming Soon! Class 10 (History & Civics) dataset is currently live with 12,441+ words.`);
+      return;
+    }
     setTempClass(cId);
     setSelectedClass(cId);
     
-    // Auto-select first available subject
-    const subjKeys = Object.keys(manifest.classes[cId]?.subjects || {});
-    const firstSubj = subjKeys[0] || 'history';
-    setTempSubject(firstSubj);
-    setSelectedSubject(firstSubj);
+    // Auto-select first active subject
+    const subjObj = manifest.classes[cId]?.subjects || {};
+    const activeSubjKey = Object.keys(subjObj).find(s => Object.keys(subjObj[s].chapters || {}).length > 0) || 'history';
+    setTempSubject(activeSubjKey);
+    setSelectedSubject(activeSubjKey);
     
     // Advance to Step 2 (Choose Subject)
     setStep(2);
   };
 
   const handleSelectSubject = (sId: string) => {
+    if (!isSubjectActive(tempClass, sId)) {
+      const subjName = getSubjectName(sId);
+      const num = tempClass.replace('class_', '');
+      setModalNotice(`🔒 ${subjName} for Class ${num} is Coming Soon! Please choose an active subject like History or Civics.`);
+      return;
+    }
     setTempSubject(sId);
     setSelectedSubject(sId);
     
@@ -102,6 +131,38 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-950/70 backdrop-blur-md animate-fade-in">
       <div className="relative w-full max-w-xl bg-[#FFF5F8] dark:bg-slate-900 rounded-3xl border-2 border-[#F3C6D6] dark:border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[90vh]">
         
+        {/* Coming Soon Notice Modal Inside Step Modal */}
+        {modalNotice && (
+          <div className="absolute inset-0 z-30 bg-black/70 backdrop-blur-xs flex items-center justify-center p-6 animate-fade-in">
+            <div className="bg-white dark:bg-slate-900 rounded-2xl p-6 text-center space-y-4 max-w-sm border border-amber-200 dark:border-amber-900 shadow-2xl">
+              <div className="text-4xl">🔒</div>
+              <h3 className="font-serif font-bold text-lg text-slate-900 dark:text-white">Dataset Coming Soon!</h3>
+              <p className="font-sans text-xs text-slate-600 dark:text-slate-300 leading-relaxed">{modalNotice}</p>
+              <div className="pt-2 flex gap-2">
+                <button
+                  onClick={() => {
+                    setModalNotice(null);
+                    setTempClass('class_10');
+                    setSelectedClass('class_10');
+                    setTempSubject('history');
+                    setSelectedSubject('history');
+                    setStep(2);
+                  }}
+                  className="flex-1 py-2 px-3 rounded-xl bg-[#C2185B] text-white font-sans text-xs font-bold shadow-md cursor-pointer"
+                >
+                  Go to Class 10 (Live)
+                </button>
+                <button
+                  onClick={() => setModalNotice(null)}
+                  className="py-2 px-3 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-sans text-xs font-bold cursor-pointer"
+                >
+                  OK
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Header */}
         <div className="px-6 py-4 border-b border-[#F3C6D6] dark:border-slate-800 flex items-center justify-between bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm sticky top-0 z-10">
           <div className="flex items-center gap-2">
@@ -140,7 +201,7 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
                   Choose Your Class
                 </h1>
                 <p className="text-sm font-sans text-[#8A4A63] dark:text-slate-400">
-                  Select a class from 1 to 12 to begin exploring page-wise vocabulary.
+                  Class 10 & Class 9 datasets live. Other classes coming soon!
                 </p>
               </div>
 
@@ -148,29 +209,30 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
                 {allClasses.map((cId) => {
                   const num = cId.replace('class_', '');
                   const isSelected = tempClass === cId;
-                  const classObj = manifest.classes[cId];
-                  let totalChapters = 0;
-                  if (classObj?.subjects) {
-                    Object.values(classObj.subjects).forEach((s) => {
-                      totalChapters += Object.keys(s.chapters || {}).length;
-                    });
-                  }
+                  const active = isClassActive(cId);
 
                   return (
                     <button
                       key={cId}
                       onClick={() => handleSelectClass(cId)}
-                      className={`group p-4 rounded-2xl border-2 text-center transition-all duration-200 ${
-                        isSelected
+                      className={`relative group p-3.5 sm:p-4 rounded-2xl border-2 text-center transition-all duration-200 cursor-pointer ${
+                        isSelected && active
                           ? 'bg-[#C2185B] text-white border-[#C2185B] shadow-lg shadow-pink-500/30 scale-105'
-                          : 'bg-white dark:bg-slate-800 border-[#F3C6D6] dark:border-slate-700 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-750'
+                          : active
+                          ? 'bg-white dark:bg-slate-800 border-[#F3C6D6] dark:border-slate-700 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-750'
+                          : 'bg-slate-100 dark:bg-slate-900/60 border-slate-200 dark:border-slate-800 opacity-75 hover:opacity-100'
                       }`}
                     >
-                      <span className={`block text-2xl font-bold font-serif ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400 group-hover:scale-110 transition-transform'}`}>
+                      {!active && (
+                        <span className="absolute top-1.5 right-1.5 text-[10px]" title="Coming Soon">
+                          🔒
+                        </span>
+                      )}
+                      <span className={`block text-2xl font-bold font-serif ${isSelected && active ? 'text-white' : active ? 'text-[#C2185B] dark:text-pink-400' : 'text-slate-400 dark:text-slate-500'}`}>
                         {num}
                       </span>
-                      <span className={`block text-[11px] font-sans font-bold uppercase tracking-wider mt-1 ${isSelected ? 'text-pink-100' : 'text-[#8A4A63] dark:text-slate-400'}`}>
-                        Class {totalChapters > 0 ? '' : '•'}
+                      <span className={`block text-[9px] font-sans font-bold uppercase tracking-wider mt-0.5 ${isSelected && active ? 'text-pink-100' : active ? 'text-[#8A4A63] dark:text-slate-400' : 'text-amber-600 dark:text-amber-400'}`}>
+                        {active ? `Class ${num}` : 'SOON'}
                       </span>
                     </button>
                   );
@@ -195,6 +257,7 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
                 {availableSubjects.map((sKey) => {
                   const isSelected = tempSubject === sKey;
                   const subjName = getSubjectName(sKey);
+                  const active = isSubjectActive(tempClass, sKey);
                   const chapterCount = activeClassObj?.subjects[sKey]
                     ? Object.keys(activeClassObj.subjects[sKey].chapters).length
                     : 0;
@@ -203,21 +266,30 @@ export const DeckFlowModal: React.FC<DeckFlowModalProps> = ({
                     <button
                       key={sKey}
                       onClick={() => handleSelectSubject(sKey)}
-                      className={`w-full p-4 rounded-2xl border-2 flex items-center justify-between text-left transition-all ${
-                        isSelected
+                      className={`w-full p-4 rounded-2xl border-2 flex items-center justify-between text-left transition-all cursor-pointer ${
+                        isSelected && active
                           ? 'bg-[#C2185B] text-white border-[#C2185B] shadow-md'
-                          : 'bg-white dark:bg-slate-800 border-[#F3C6D6] dark:border-slate-700 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-750'
+                          : active
+                          ? 'bg-white dark:bg-slate-800 border-[#F3C6D6] dark:border-slate-700 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-750'
+                          : 'bg-slate-100 dark:bg-slate-900/60 border-slate-200 dark:border-slate-800 opacity-80 hover:opacity-100'
                       }`}
                     >
                       <div>
-                        <h3 className={`text-lg font-serif font-bold ${isSelected ? 'text-white' : 'text-[#7A0F35] dark:text-white'}`}>
+                        <h3 className={`text-base font-serif font-bold flex items-center gap-2 ${isSelected && active ? 'text-white' : active ? 'text-[#7A0F35] dark:text-white' : 'text-slate-500 dark:text-slate-400'}`}>
+                          {!active && <span>🔒</span>}
                           {subjName}
                         </h3>
-                        <p className={`text-xs font-sans font-medium ${isSelected ? 'text-pink-100' : 'text-[#8A4A63] dark:text-slate-400'}`}>
-                          {chapterCount > 0 ? `${chapterCount} Chapters available` : 'Content coming soon'}
+                        <p className={`text-xs font-sans font-medium ${isSelected && active ? 'text-pink-100' : active ? 'text-[#8A4A63] dark:text-slate-400' : 'text-amber-600 dark:text-amber-400'}`}>
+                          {active ? `${chapterCount} Chapters available` : '🔒 Coming Soon'}
                         </p>
                       </div>
-                      <ChevronRight className={`w-5 h-5 ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400'}`} />
+                      {active ? (
+                        <ChevronRight className={`w-5 h-5 ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400'}`} />
+                      ) : (
+                        <span className="font-sans text-[10px] font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full border border-amber-300 dark:border-amber-800">
+                          Coming Soon
+                        </span>
+                      )}
                     </button>
                   );
                 })}

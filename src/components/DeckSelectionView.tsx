@@ -42,18 +42,47 @@ export const DeckSelectionView: React.FC<DeckSelectionViewProps> = ({
   const activeSubjectObj = activeClassObj?.subjects[selectedSubject];
   const availableChapters = activeSubjectObj ? Object.values(activeSubjectObj.chapters) : [];
 
+  const isClassActive = (cId: string) => {
+    const classObj = manifest.classes[cId];
+    if (!classObj?.subjects) return false;
+    let totalChaps = 0;
+    Object.values(classObj.subjects).forEach((s) => {
+      totalChaps += Object.keys(s.chapters || {}).length;
+    });
+    return totalChaps > 0;
+  };
+
+  const isSubjectActive = (cId: string, sId: string) => {
+    const subjObj = manifest.classes[cId]?.subjects[sId];
+    if (!subjObj) return false;
+    return Object.keys(subjObj.chapters || {}).length > 0;
+  };
+
+  const [comingSoonNotice, setComingSoonNotice] = React.useState<string | null>(null);
+
   const handleSelectClass = (cId: string) => {
+    if (!isClassActive(cId)) {
+      const num = cId.replace('class_', '');
+      setComingSoonNotice(`🔒 Class ${num} dataset is Coming Soon! Currently, Class 10 (History & Civics) dataset is live with 12,441+ page-wise word meanings.`);
+      return;
+    }
     setSelectedClass(cId);
     
-    // Auto-select first available subject
-    const subjKeys = Object.keys(manifest.classes[cId]?.subjects || {});
-    const firstSubj = subjKeys[0] || 'history';
-    setSelectedSubject(firstSubj);
+    // Auto-select first active subject
+    const subjObj = manifest.classes[cId]?.subjects || {};
+    const activeSubjKey = Object.keys(subjObj).find(s => Object.keys(subjObj[s].chapters || {}).length > 0) || 'history';
+    setSelectedSubject(activeSubjKey);
     
     setStep('subject');
   };
 
   const handleSelectSubject = (sId: string) => {
+    if (!isSubjectActive(selectedClass, sId)) {
+      const subjName = getSubjectName(sId);
+      const num = selectedClass.replace('class_', '');
+      setComingSoonNotice(`🔒 ${subjName} for Class ${num} is Coming Soon! Please choose an active subject like History or Civics.`);
+      return;
+    }
     setSelectedSubject(sId);
     
     // Auto select first chapter if available
@@ -94,6 +123,44 @@ export const DeckSelectionView: React.FC<DeckSelectionViewProps> = ({
           VOCABULARY BUILDER
         </div>
 
+        {/* Coming Soon Alert Modal */}
+        {comingSoonNotice && (
+          <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 animate-fade-in">
+            <div className="bg-white dark:bg-slate-900 rounded-2xl max-w-md w-full p-6 space-y-4 border border-amber-200 dark:border-amber-900 shadow-2xl">
+              <div className="w-12 h-12 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400 flex items-center justify-center text-2xl mx-auto">
+                🔒
+              </div>
+              <h3 className="text-center text-xl font-bold font-serif text-slate-900 dark:text-white">
+                Dataset Coming Soon!
+              </h3>
+              <p className="text-center font-sans text-sm text-slate-600 dark:text-slate-300">
+                {comingSoonNotice}
+              </p>
+              <div className="flex gap-2 pt-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setComingSoonNotice(null);
+                    setSelectedClass('class_10');
+                    setSelectedSubject('history');
+                    setStep('subject');
+                  }}
+                  className="flex-1 py-2.5 px-4 rounded-xl bg-[#C2185B] text-white font-sans text-xs font-bold shadow-md cursor-pointer hover:bg-[#a0134a]"
+                >
+                  Open Class 10 History (Live)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setComingSoonNotice(null)}
+                  className="py-2.5 px-4 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 font-sans text-xs font-bold cursor-pointer"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* SCREEN 1: CHOOSE CLASS */}
         {step === 'class' && (
           <div className="space-y-8 animate-fade-in">
@@ -102,7 +169,7 @@ export const DeckSelectionView: React.FC<DeckSelectionViewProps> = ({
                 Choose Your Class
               </h1>
               <p className="font-sans text-base sm:text-lg text-[#8A4A63] dark:text-slate-400 max-w-md mx-auto">
-                Select a class from 1 to 12 to begin.
+                Class 10 (History & Civics) live. Other classes coming soon!
               </p>
             </div>
 
@@ -110,29 +177,31 @@ export const DeckSelectionView: React.FC<DeckSelectionViewProps> = ({
               {allClasses.map((cId) => {
                 const num = cId.replace('class_', '');
                 const isSelected = selectedClass === cId;
-                const classObj = manifest.classes[cId];
-                let totalChapters = 0;
-                if (classObj?.subjects) {
-                  Object.values(classObj.subjects).forEach((s) => {
-                    totalChapters += Object.keys(s.chapters || {}).length;
-                  });
-                }
+                const active = isClassActive(cId);
 
                 return (
                   <button
                     key={cId}
                     onClick={() => handleSelectClass(cId)}
-                    className={`p-6 sm:p-7 rounded-xl border-2 text-center transition-all duration-200 ${
-                      isSelected
+                    className={`relative p-5 sm:p-6 rounded-xl border-2 text-center transition-all duration-200 cursor-pointer ${
+                      isSelected && active
                         ? 'bg-[#C2185B] text-white border-[#C2185B] shadow-lg shadow-pink-500/25 scale-105'
-                        : 'bg-white dark:bg-slate-900 border-[#F3C6D6] dark:border-slate-800 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-850'
+                        : active
+                        ? 'bg-white dark:bg-slate-900 border-[#F3C6D6] dark:border-slate-800 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-850'
+                        : 'bg-slate-100 dark:bg-slate-900/60 border-slate-200 dark:border-slate-800 opacity-75 hover:opacity-100'
                     }`}
                   >
-                    <span className={`block text-3xl sm:text-4xl font-serif font-bold ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400'}`}>
+                    {!active && (
+                      <span className="absolute top-2 right-2 text-xs" title="Coming Soon">
+                        🔒
+                      </span>
+                    )}
+
+                    <span className={`block text-3xl sm:text-4xl font-serif font-bold ${isSelected && active ? 'text-white' : active ? 'text-[#C2185B] dark:text-pink-400' : 'text-slate-400 dark:text-slate-500'}`}>
                       {num}
                     </span>
-                    <span className={`block text-xs font-sans font-bold uppercase tracking-widest mt-1 ${isSelected ? 'text-pink-100' : 'text-[#8A4A63] dark:text-slate-400'}`}>
-                      CLASS {totalChapters > 0 ? '' : '•'}
+                    <span className={`block text-[10px] font-sans font-bold uppercase tracking-widest mt-1 ${isSelected && active ? 'text-pink-100' : active ? 'text-[#8A4A63] dark:text-slate-400' : 'text-amber-600 dark:text-amber-400'}`}>
+                      {active ? `CLASS ${num}` : 'COMING SOON'}
                     </span>
                   </button>
                 );
@@ -157,23 +226,33 @@ export const DeckSelectionView: React.FC<DeckSelectionViewProps> = ({
               {availableSubjects.map((sKey) => {
                 const isSelected = selectedSubject === sKey;
                 const subjName = getSubjectName(sKey);
+                const active = isSubjectActive(selectedClass, sKey);
 
                 return (
                   <button
                     key={sKey}
                     onClick={() => handleSelectSubject(sKey)}
-                    className={`w-full p-5 rounded-xl border-2 flex items-center justify-between text-left transition-all ${
-                      isSelected
+                    className={`w-full p-4 sm:p-5 rounded-xl border-2 flex items-center justify-between text-left transition-all cursor-pointer ${
+                      isSelected && active
                         ? 'bg-[#C2185B] text-white border-[#C2185B] shadow-md'
-                        : 'bg-white dark:bg-slate-900 border-[#F3C6D6] dark:border-slate-800 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-850'
+                        : active
+                        ? 'bg-white dark:bg-slate-900 border-[#F3C6D6] dark:border-slate-800 hover:border-[#C2185B] hover:bg-[#FFEAF2] dark:hover:bg-slate-850'
+                        : 'bg-slate-100 dark:bg-slate-900/60 border-slate-200 dark:border-slate-800 opacity-80 hover:opacity-100'
                     }`}
                   >
-                    <span className={`text-lg sm:text-xl font-serif font-bold ${isSelected ? 'text-white' : 'text-[#7A0F35] dark:text-white'}`}>
+                    <span className={`text-base sm:text-lg font-serif font-bold flex items-center gap-2 ${isSelected && active ? 'text-white' : active ? 'text-[#7A0F35] dark:text-white' : 'text-slate-500 dark:text-slate-400'}`}>
+                      {!active && <span>🔒</span>}
                       {subjName}
                     </span>
-                    <span className={`font-sans text-xl font-bold ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400'}`}>
-                      &rarr;
-                    </span>
+                    {active ? (
+                      <span className={`font-sans text-xl font-bold ${isSelected ? 'text-white' : 'text-[#C2185B] dark:text-pink-400'}`}>
+                        &rarr;
+                      </span>
+                    ) : (
+                      <span className="font-sans text-[10px] font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full border border-amber-300 dark:border-amber-800">
+                        Coming Soon
+                      </span>
+                    )}
                   </button>
                 );
               })}

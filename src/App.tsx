@@ -11,6 +11,7 @@ import { BookmarksView } from './components/BookmarksView';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { StorySwipeView } from './components/StorySwipeView';
 import { DeckSelectionView } from './components/DeckSelectionView';
+import { applySEO } from './lib/seo';
 
 export const App: React.FC = () => {
   const [manifest, setManifest] = useState<DatasetManifest | null>(null);
@@ -95,49 +96,26 @@ export const App: React.FC = () => {
     });
   }, []);
 
-  // 2. Sync URL search params and dynamic SEO metadata
+  // 2. Sync URL search params and dynamic SEO metadata with keyword permutations
   useEffect(() => {
     if (!manifest) return;
 
     const classNum = selectedClass.replace('class_', '');
-    const chapterTitle = manifest.classes[selectedClass]?.subjects[selectedSubject]?.chapters[selectedChapterId]?.title || `Chapter ${selectedChapterId.replace('chapter_', '')}`;
-    const subjectName = selectedSubject.replace('_', ' ').toUpperCase();
+    const subjObj = manifest.classes[selectedClass]?.subjects[selectedSubject];
+    const subjectName = subjObj?.name || selectedSubject.replace('_', ' ').toUpperCase();
+    const chapterTitle = subjObj?.chapters[selectedChapterId]?.title || `Chapter ${selectedChapterId.replace('chapter_', '')}`;
 
-    const pageTitle = `NCERT Class ${classNum} ${subjectName} ${chapterTitle} - Page ${currentPageNo} Word Meanings | Lexora`;
-    const pageDesc = `Complete vocabulary, pronunciations, simple & funny explanations for NCERT Class ${classNum} ${subjectName} ${chapterTitle} Page ${currentPageNo}. Free page-wise word meaning explorer.`;
-
-    document.title = pageTitle;
-
-    let metaDesc = document.querySelector('meta[name="description"]');
-    if (!metaDesc) {
-      metaDesc = document.createElement('meta');
-      metaDesc.setAttribute('name', 'description');
-      document.head.appendChild(metaDesc);
-    }
-    metaDesc.setAttribute('content', pageDesc);
+    applySEO({
+      classNum,
+      subjectId: selectedSubject,
+      subjectName,
+      chapterId: selectedChapterId,
+      chapterTitle,
+      pageNo: currentPageNo
+    });
 
     const newUrl = `${window.location.pathname}?c=${classNum}&s=${selectedSubject}&ch=${selectedChapterId}&p=${currentPageNo}`;
     window.history.replaceState(null, '', newUrl);
-
-    let scriptTag = document.getElementById('json-ld-schema');
-    if (!scriptTag) {
-      scriptTag = document.createElement('script');
-      scriptTag.id = 'json-ld-schema';
-      scriptTag.setAttribute('type', 'application/ld+json');
-      document.head.appendChild(scriptTag);
-    }
-
-    const schemaData = {
-      "@context": "https://schema.org",
-      "@type": "EducationalResource",
-      "name": pageTitle,
-      "description": pageDesc,
-      "educationalLevel": `Class ${classNum}`,
-      "learningResourceType": "Vocabulary Glossary",
-      "inLanguage": "en"
-    };
-
-    scriptTag.textContent = JSON.stringify(schemaData);
   }, [manifest, selectedClass, selectedSubject, selectedChapterId, currentPageNo]);
 
   // Fetch pages whenever selected chapter changes
@@ -375,7 +353,7 @@ export const App: React.FC = () => {
       {/* Footer */}
       <footer className="lexora-footer border-t border-[#F3C6D6] dark:border-slate-800 bg-white dark:bg-slate-900 py-6 mb-16 md:mb-0 text-center text-xs text-slate-500 dark:text-slate-400">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p>© {new Date().getFullYear()} Lexora Vocabulary Builder • Page-Wise Explorer</p>
+          <p>© {new Date().getFullYear()} NCERT Unofficial Vocab • Page-Wise Explorer</p>
           <p>Class 1 to 12 Dataset • 12,441 Words</p>
         </div>
       </footer>

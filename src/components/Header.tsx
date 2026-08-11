@@ -49,13 +49,13 @@ export const Header: React.FC<HeaderProps> = ({
           type="button"
           onClick={() => setViewMode('page')}
           className="mobile-brand"
-          aria-label="Open Lexora reader"
+          aria-label="Open NCERT Unofficial Vocab reader"
         >
           <span className="mobile-brand-mark" aria-hidden="true">
             <BookOpen />
           </span>
           <span className="mobile-brand-copy">
-            <span className="mobile-brand-name">Lexora<span>.</span></span>
+            <span className="mobile-brand-name">NCERT Unofficial Vocab</span>
             <span className="mobile-brand-note">NCERT words, made simple</span>
           </span>
         </button>
@@ -116,7 +116,7 @@ export const Header: React.FC<HeaderProps> = ({
           </span>
           <span>
             <span className="block font-black text-lg tracking-tight text-slate-900 dark:text-white">
-              Lexora <span className="text-xs font-bold text-amber-600 dark:text-amber-400">NCERT</span>
+              NCERT Unofficial Vocab
             </span>
             <span className="block text-[10px] text-slate-500 font-medium">
               {totalWords.toLocaleString()} Words • Page Wise

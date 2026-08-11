@@ -59,15 +59,43 @@ export const PageNavigator: React.FC<PageNavigatorProps> = ({
   const hasPrev = currentPageIndex > 0;
   const hasNext = currentPageIndex >= 0 && currentPageIndex < availablePages.length - 1;
 
+  const isClassActive = (cId: string) => {
+    const classObj = manifest.classes[cId];
+    if (!classObj?.subjects) return false;
+    let totalChaps = 0;
+    Object.values(classObj.subjects).forEach((s) => {
+      totalChaps += Object.keys(s.chapters || {}).length;
+    });
+    return totalChaps > 0;
+  };
+
+  const isSubjectActive = (cId: string, sId: string) => {
+    const subjObj = manifest.classes[cId]?.subjects[sId];
+    if (!subjObj) return false;
+    return Object.keys(subjObj.chapters || {}).length > 0;
+  };
+
   const handleClassChange = (newClass: string) => {
+    if (!isClassActive(newClass)) {
+      const num = newClass.replace('class_', '');
+      alert(`🔒 Class ${num} dataset is Coming Soon!\n\nCurrently Class 10 (History & Civics) and Class 9 datasets are live with 12,441+ page-wise word meanings.`);
+      return;
+    }
     setSelectedClass(newClass);
-    const firstSubject = Object.keys(manifest.classes[newClass]?.subjects || {})[0] || 'history';
-    setSelectedSubject(firstSubject);
-    const firstChapter = Object.keys(manifest.classes[newClass]?.subjects[firstSubject]?.chapters || {})[0] || '';
+    const subjObj = manifest.classes[newClass]?.subjects || {};
+    const firstActiveSubject = Object.keys(subjObj).find(s => Object.keys(subjObj[s].chapters || {}).length > 0) || 'history';
+    setSelectedSubject(firstActiveSubject);
+    const firstChapter = Object.keys(subjObj[firstActiveSubject]?.chapters || {})[0] || '';
     setSelectedChapterId(firstChapter);
   };
 
   const handleSubjectChange = (subjectId: string) => {
+    if (!isSubjectActive(selectedClass, subjectId)) {
+      const subjName = subjectLabel(subjectId);
+      const num = selectedClass.replace('class_', '');
+      alert(`🔒 ${subjName} for Class ${num} is Coming Soon!\n\nPlease choose an active subject like History or Civics.`);
+      return;
+    }
     setSelectedSubject(subjectId);
     const firstChapter = Object.keys(activeClassObj?.subjects[subjectId]?.chapters || {})[0] || '';
     setSelectedChapterId(firstChapter);
@@ -113,29 +141,36 @@ export const PageNavigator: React.FC<PageNavigatorProps> = ({
           <label className="mobile-class-select">
             <span>Class</span>
             <select value={selectedClass} onChange={(event) => handleClassChange(event.target.value)}>
-              {Object.keys(manifest.classes).map((classKey) => (
-                <option key={classKey} value={classKey}>
-                  {manifest.classes[classKey].name.replace(/^Class\s*/i, '')}
-                </option>
-              ))}
+              {Object.keys(manifest.classes).map((classKey) => {
+                const active = isClassActive(classKey);
+                const name = manifest.classes[classKey].name.replace(/^Class\s*/i, '');
+                return (
+                  <option key={classKey} value={classKey}>
+                    Class {name} {active ? '' : '🔒 (Coming Soon)'}
+                  </option>
+                );
+              })}
             </select>
             <ChevronDown aria-hidden="true" />
           </label>
 
           {activeClassObj && (
             <div className="mobile-subject-tabs" role="tablist" aria-label="Choose subject">
-              {Object.keys(activeClassObj.subjects).map((subjectKey) => (
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={selectedSubject === subjectKey}
-                  key={subjectKey}
-                  onClick={() => handleSubjectChange(subjectKey)}
-                  className={selectedSubject === subjectKey ? 'is-active' : ''}
-                >
-                  {subjectLabel(subjectKey)}
-                </button>
-              ))}
+              {Object.keys(activeClassObj.subjects).map((subjectKey) => {
+                const active = isSubjectActive(selectedClass, subjectKey);
+                return (
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={selectedSubject === subjectKey}
+                    key={subjectKey}
+                    onClick={() => handleSubjectChange(subjectKey)}
+                    className={`${selectedSubject === subjectKey ? 'is-active' : ''} ${!active ? 'opacity-60' : ''}`}
+                  >
+                    {!active && '🔒 '}{subjectLabel(subjectKey)}
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>
@@ -244,9 +279,14 @@ export const PageNavigator: React.FC<PageNavigatorProps> = ({
                 onChange={(event) => handleClassChange(event.target.value)}
                 className="bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 font-bold text-xs rounded-xl px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 cursor-pointer"
               >
-                {Object.keys(manifest.classes).map((classKey) => (
-                  <option key={classKey} value={classKey}>{manifest.classes[classKey].name}</option>
-                ))}
+                {Object.keys(manifest.classes).map((classKey) => {
+                  const active = isClassActive(classKey);
+                  return (
+                    <option key={classKey} value={classKey}>
+                      {manifest.classes[classKey].name} {active ? '' : '🔒 (Coming Soon)'}
+                    </option>
+                  );
+                })}
               </select>
 
               {activeClassObj && (
@@ -255,21 +295,29 @@ export const PageNavigator: React.FC<PageNavigatorProps> = ({
                     const subject = activeClassObj.subjects[subjectKey];
                     const isSelected = selectedSubject === subjectKey;
                     const chapterCount = Object.keys(subject.chapters).length;
+                    const active = isSubjectActive(selectedClass, subjectKey);
+
                     return (
                       <button
                         type="button"
                         key={subjectKey}
                         onClick={() => handleSubjectChange(subjectKey)}
-                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 ${
-                          isSelected
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer ${
+                          isSelected && active
                             ? 'bg-white dark:bg-slate-700 text-[#C2185B] dark:text-pink-300 shadow-sm'
-                            : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                            : active
+                            ? 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200'
+                            : 'text-slate-400 dark:text-slate-500 opacity-60'
                         }`}
                       >
-                        <span>{subjectKey.replace('_', ' ').toUpperCase()}</span>
-                        {chapterCount > 0 && (
+                        <span>{!active && '🔒 '}{subjectKey.replace('_', ' ').toUpperCase()}</span>
+                        {chapterCount > 0 ? (
                           <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-200 dark:bg-slate-600 text-slate-700 dark:text-slate-300 font-bold">
                             {chapterCount}
+                          </span>
+                        ) : (
+                          <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-amber-100 dark:bg-amber-950 text-amber-700 dark:text-amber-300 font-bold uppercase">
+                            Soon
                           </span>
                         )}
                       </button>

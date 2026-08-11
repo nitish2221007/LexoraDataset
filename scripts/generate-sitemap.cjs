@@ -4,8 +4,8 @@ const path = require('path');
 const manifestPath = path.join(__dirname, '..', 'public', 'dataset-manifest.json');
 const sitemapPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
 
-// Change this to your live domain when deployed (e.g., https://lexora.com)
-const BASE_URL = 'https://lexora.vercel.app'; 
+// Change this to your live domain when deployed
+const BASE_URL = process.env.SITE_URL || 'https://ncert-unofficial-vocab.vercel.app'; 
 
 function generateSitemap() {
   if (!fs.existsSync(manifestPath)) {
