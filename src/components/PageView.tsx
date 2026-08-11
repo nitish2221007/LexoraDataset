@@ -1,8 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { WordItem } from '../types/dataset';
-import { WordCard } from './WordCard';
 import { TextbookTableView } from './TextbookTableView';
-import { BookOpen, Headphones, Pause, ChevronLeft, ChevronRight, PenTool, Sparkles, Table } from 'lucide-react';
+import { BookOpen, Headphones, Pause, ChevronLeft, ChevronRight } from 'lucide-react';
 import { speakWord } from '../lib/datasetLoader';
 
 interface PageViewProps {
@@ -30,8 +29,6 @@ export const PageView: React.FC<PageViewProps> = ({
   difficultyFilter,
   isLoading,
   chapterTitle,
-  xp,
-  streak,
   availablePages = [],
   onPageChange,
   onOpenDeckModal,
@@ -40,19 +37,8 @@ export const PageView: React.FC<PageViewProps> = ({
 }) => {
   const [isPlayingAudiobook, setIsPlayingAudiobook] = useState(false);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
-  const [openWordId, setOpenWordId] = useState<string | null>(null);
-  
-  // Reading Layout Mode: 'table' (NCERT Textbook Table) | 'standard' | 'paper'
-  const [readingTheme, setReadingTheme] = useState<'table' | 'standard' | 'paper'>(() => {
-    return (localStorage.getItem('lexora_reading_theme') as 'table' | 'standard' | 'paper') || 'table';
-  });
 
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  const toggleReadingTheme = (theme: 'table' | 'standard' | 'paper') => {
-    setReadingTheme(theme);
-    localStorage.setItem('lexora_reading_theme', theme);
-  };
 
   const filteredWords = useMemo(
     () => words.filter((word) => {
@@ -95,9 +81,7 @@ export const PageView: React.FC<PageViewProps> = ({
   const hasPrev = currentPageIndex > 0;
   const hasNext = currentPageIndex >= 0 && currentPageIndex < availablePages.length - 1;
 
-  const classNum = selectedClass.replace('class_', '');
   const subjectLabel = selectedSubject.replace('_', ' ').toUpperCase();
-  const isPaper = readingTheme === 'paper';
 
   if (isLoading) {
     return (
@@ -111,74 +95,28 @@ export const PageView: React.FC<PageViewProps> = ({
   }
 
   return (
-    <div className="vocab-deck-screen max-w-2xl mx-auto px-4 sm:px-6 py-6 space-y-6">
+    <div className="vocab-deck-screen max-w-3xl mx-auto px-3 sm:px-6 py-6 space-y-6">
       
-      {/* Top Bar */}
+      {/* Top Navigation Row */}
       <div className="flex items-center justify-between gap-4 pb-3 border-b border-slate-200 dark:border-slate-800 font-sans">
         <button
           onClick={onOpenDeckModal}
-          className="back-btn text-[#C2185B] dark:text-pink-400 font-bold text-xs sm:text-sm bg-transparent border-0 cursor-pointer hover:underline"
+          className="back-btn text-[#C2185B] dark:text-pink-400 font-bold text-xs sm:text-sm bg-transparent border-0 cursor-pointer hover:underline flex items-center gap-1"
         >
           &larr; Change chapter
         </button>
 
-        {/* Theme & Layout Switcher Toggle */}
-        <div className="flex items-center gap-1 bg-slate-200/70 dark:bg-slate-800 p-1 rounded-xl border border-slate-300 dark:border-slate-700">
-          <button
-            onClick={() => toggleReadingTheme('table')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
-              readingTheme === 'table'
-                ? 'bg-[#C2185B] text-white shadow-sm'
-                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
-            }`}
-            title="NCERT Textbook Table Layout"
-          >
-            <Table className="w-3 h-3" />
-            <span>Table View</span>
-          </button>
-
-          <button
-            onClick={() => toggleReadingTheme('standard')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
-              readingTheme === 'standard'
-                ? 'bg-white dark:bg-slate-700 text-[#C2185B] dark:text-pink-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
-            }`}
-            title="Standard Cards"
-          >
-            <Sparkles className="w-3 h-3" />
-            <span className="hidden sm:inline">Cards</span>
-          </button>
-
-          <button
-            onClick={() => toggleReadingTheme('paper')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
-              readingTheme === 'paper'
-                ? 'bg-[#FFF9C4] dark:bg-amber-950 text-[#1E3A8A] dark:text-amber-300 shadow-sm'
-                : 'text-slate-600 dark:text-slate-400 hover:text-slate-900'
-            }`}
-            title="Handwriting Paper Theme"
-          >
-            <PenTool className="w-3 h-3 text-amber-600" />
-            <span className="hidden sm:inline">Paper</span>
-          </button>
-        </div>
+        <span className="text-xs font-bold text-[#C2185B] dark:text-pink-400 bg-pink-50 dark:bg-pink-950/60 px-3 py-1 rounded-full border border-pink-200 dark:border-pink-900">
+          NCERT Table View 📋
+        </span>
       </div>
 
       {/* Main Heading Section */}
       <div className="text-center space-y-1 py-1">
-        <h1 className={`list-title ${
-          isPaper
-            ? 'font-handwriting text-3xl sm:text-4xl font-bold text-[#1E3A8A] dark:text-amber-300'
-            : 'font-serif text-2xl sm:text-3xl font-bold text-[#7A0F35] dark:text-white'
-        }`}>
-          {filteredWords.length} Vocabulary Words
+        <h1 className="list-title font-serif text-2xl sm:text-3xl font-bold text-[#7A0F35] dark:text-white">
+          {filteredWords.length} Vocabulary Terms
         </h1>
-        <p className={`sub text-xs sm:text-sm ${
-          isPaper
-            ? 'font-handwriting text-lg sm:text-xl text-[#475569] dark:text-amber-200/80'
-            : 'font-sans text-slate-500 dark:text-slate-400'
-        }`}>
+        <p className="sub text-xs sm:text-sm font-sans text-slate-500 dark:text-slate-400">
           {subjectLabel} — {chapterTitle || 'Chapter Words'}
         </p>
 
@@ -186,7 +124,7 @@ export const PageView: React.FC<PageViewProps> = ({
           <button
             type="button"
             onClick={toggleAudiobook}
-            className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-sans font-bold transition-all ${
+            className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-sans font-bold transition-all cursor-pointer ${
               isPlayingAudiobook
                 ? 'bg-rose-500 text-white animate-pulse'
                 : 'bg-[#C2185B] hover:bg-[#A31257] text-white shadow-sm'
@@ -198,40 +136,14 @@ export const PageView: React.FC<PageViewProps> = ({
         </div>
       </div>
 
-      {/* Main Content View (Table / Cards) */}
+      {/* Pure NCERT Textbook Table View */}
       {filteredWords.length > 0 ? (
-        readingTheme === 'table' ? (
-          <TextbookTableView
-            words={filteredWords}
-            bookmarkedIds={bookmarkedIds}
-            onToggleBookmark={onToggleBookmark}
-            pageNo={currentPageNo}
-          />
-        ) : (
-          <div className={`list max-w-xl mx-auto rounded-2xl p-4 sm:p-6 transition-all duration-300 ${
-            isPaper
-              ? 'paper-notebook-container shadow-md border-t border-b border-amber-200 dark:border-amber-900'
-              : 'border-t border-slate-200 dark:border-slate-800'
-          }`}>
-            {filteredWords.map((word, index) => {
-              const isThisOpen = openWordId === word.id;
-
-              return (
-                <WordCard
-                  key={word.id}
-                  word={word}
-                  index={index}
-                  pageNo={currentPageNo}
-                  isOpen={isThisOpen}
-                  onToggleOpen={() => setOpenWordId(isThisOpen ? null : word.id)}
-                  isBookmarked={bookmarkedIds.includes(word.id)}
-                  onToggleBookmark={onToggleBookmark}
-                  readingTheme={readingTheme === 'paper' ? 'paper' : 'standard'}
-                />
-              );
-            })}
-          </div>
-        )
+        <TextbookTableView
+          words={filteredWords}
+          bookmarkedIds={bookmarkedIds}
+          onToggleBookmark={onToggleBookmark}
+          pageNo={currentPageNo}
+        />
       ) : (
         <div className="bg-white dark:bg-slate-900 p-12 rounded-xl text-center border border-slate-200 dark:border-slate-800 space-y-2">
           <p className="text-sm font-sans text-slate-600 dark:text-slate-400">
